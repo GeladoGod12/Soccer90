@@ -1,0 +1,2002 @@
+[
+  {
+    "title": "Jogo como referência",
+    "text": "O treino deve se parecer com o jogo: decisões, oposição e intensidade específicas do futebol.",
+    "tags": "principios"
+  },
+  {
+    "title": "Qualidade antes de quantidade",
+    "text": "Repetição só é útil se o gesto e a decisão forem corretos. Volume sem qualidade reforça erro.",
+    "tags": "principios"
+  },
+  {
+    "title": "Especificidade",
+    "text": "O corpo e o cérebro se adaptam ao que é treinado. Treine o que quer ver no domingo.",
+    "tags": "principios"
+  },
+  {
+    "title": "Progressão",
+    "text": "Aumente dificuldade aos poucos: espaço, oposição, velocidade e complexidade tática.",
+    "tags": "principios"
+  },
+  {
+    "title": "Variabilidade",
+    "text": "Variar estímulos evita estagnação e prepara o jogador para o caos do jogo.",
+    "tags": "principios"
+  },
+  {
+    "title": "Recuperação é treino",
+    "text": "Adaptação acontece no descanso. Sem recuperação, não há evolução — só fadiga.",
+    "tags": "recuperacao"
+  },
+  {
+    "title": "Individualização",
+    "text": "Mesmo plano coletivo precisa de ajustes por posição, idade, histórico de lesão e minutos.",
+    "tags": "principios"
+  },
+  {
+    "title": "Consistência",
+    "text": "Quinze minutos bem feitos vários dias na semana superam uma sessão longa e irregular.",
+    "tags": "principios"
+  },
+  {
+    "title": "Processo vs resultado",
+    "text": "Meta de processo (padrões de jogo, intensidade) sustenta resultados a médio prazo.",
+    "tags": "principios"
+  },
+  {
+    "title": "Coerência do coach",
+    "text": "O que se treina deve ser o que se cobra no jogo. Incoerência confunde o elenco.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Menos instruções",
+    "text": "1 a 3 correções por bloco de treino são mais eficazes do que 15 pontos de uma vez.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Perguntar desenvolve",
+    "text": "Perguntar o que o jogador viu desenvolve autonomia melhor do que só dar a resposta.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Ambiente de treino",
+    "text": "Cultura de pontualidade, intensidade e respeito sustenta qualquer modelo tático.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Erro como informação",
+    "text": "Erro bem tratado é aprendizado. Erro humilhado vira medo de tentar.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Intensidade com qualidade",
+    "text": "Alta intensidade só vale se a técnica e a decisão se mantêm.",
+    "tags": "principios"
+  },
+  {
+    "title": "Transferência",
+    "text": "O que não aparece sob pressão no treino raramente aparece no jogo.",
+    "tags": "principios"
+  },
+  {
+    "title": "Simplicidade no dia do jogo",
+    "text": "Plano de jogo cabe em poucos princípios. Complexidade excessiva morre no minuto 5.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Papéis claros",
+    "text": "Cada jogador precisa saber o que fazer em posse, sem posse e em transição.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Detalhes decidem",
+    "text": "Bola parada, segundo lance e concentração aos 90 minutos decidem campeonatos.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Longo prazo na base",
+    "text": "Na formação, priorize o jogador em 5 anos, não só o placar do fim de semana.",
+    "tags": "base"
+  },
+  {
+    "title": "Sono",
+    "text": "7 a 9 horas de sono são a principal ferramenta de recuperação para a maioria.",
+    "tags": "recuperacao"
+  },
+  {
+    "title": "Hidratação",
+    "text": "Desidratação reduz performance cognitiva e física antes da sede extrema aparecer.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Carga progressiva",
+    "text": "Picos bruscos de volume ou sprint elevam risco de lesão.",
+    "tags": "carga"
+  },
+  {
+    "title": "Dor aguda",
+    "text": "Dor aguda ou articular: pare o estímulo e avalie. Não ‘jogue por cima’.",
+    "tags": "saude"
+  },
+  {
+    "title": "Pé de apoio",
+    "text": "No chute e no corte, o pé de apoio estável é tão importante quanto a perna de ação.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Orientação corporal",
+    "text": "Muitos erros de passe nascem de má orientação antes de receber, não só de técnica de pé.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Escaneamento",
+    "text": "Olhar ao redor antes de receber a bola aumenta opções e reduz perdas.",
+    "tags": "percepcao"
+  },
+  {
+    "title": "Primeiro toque",
+    "text": "O primeiro toque prepara a próxima ação: passe, condução ou finalização.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Dois pés",
+    "text": "Treinar o pé não dominante com volume pequeno e diário traz ganho acumulado.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Comunicação em campo",
+    "text": "Comandos curtos e audíveis reduzem buracos e marcações duplicadas.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Compactação",
+    "text": "Manter distâncias curtas entre linhas reduz espaços para o adversário.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Amplitude",
+    "text": "Abrir o campo estica a defesa e cria corredores internos.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Profundidade",
+    "text": "Ataques às costas da linha punem blocos altos e defesas desorganizadas.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Transição",
+    "text": "Os primeiros 5 segundos após ganhar ou perder a bola decidem muitos gols.",
+    "tags": "transicao"
+  },
+  {
+    "title": "Counterpress",
+    "text": "Pressionar logo após a perda pode recuperar alto ou atrasar o contra-ataque.",
+    "tags": "transicao"
+  },
+  {
+    "title": "Gestão de ego",
+    "text": "Minutos e papéis claros reduzem atrito entre titulares e reservas.",
+    "tags": "gestao_elenco"
+  },
+  {
+    "title": "Viagem",
+    "text": "Em viagens, priorize sono, mobilidade e sessões curtas de qualidade.",
+    "tags": "recuperacao"
+  },
+  {
+    "title": "Campo ruim",
+    "text": "Em piso ruim, reduza giros agressivos e ajuste calçado. Segurança primeiro.",
+    "tags": "estrutura"
+  },
+  {
+    "title": "Calor",
+    "text": "No calor, aumente hidratação e ajuste séries contínuas longas.",
+    "tags": "ambiente"
+  },
+  {
+    "title": "Frio",
+    "text": "No frio, alongue o aquecimento e suba a intensidade de forma progressiva.",
+    "tags": "ambiente"
+  },
+  {
+    "title": "Goleiro — pés",
+    "text": "Goleiro moderno precisa sair jogando com qualidade e decidir quando alongar.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Goleiro — área",
+    "text": "Domínio de área em cruzamentos exige timing, coragem e comunicação.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Goleiro — 1x1",
+    "text": "No 1x1, reduzir ângulo e adiar o drible do atacante aumenta chances de defesa.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Goleiro — linha",
+    "text": "Integração com a linha defensiva evita espaços nas costas e offsides confusos.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Zagueiro — leitura",
+    "text": "Ler a profundidade e a linha de passe evita ser furado por bolas nas costas.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Zagueiro — construção",
+    "text": "Saída limpa sob pressão é tão importante quanto o desarme.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Zagueiro — cobertura",
+    "text": "Cobrir o parceiro quando ele sai no homem evita 1x1 nas costas.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Zagueiro — aéreo",
+    "text": "Jogo aéreo defensivo e ofensivo em bolas paradas é diferencial do central.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Lateral — ida e volta",
+    "text": "Lateral precisa de resistência específica para atacar e ainda voltar compacto.",
+    "tags": "lateral"
+  },
+  {
+    "title": "Lateral — cruzamento",
+    "text": "Cruzamento em movimento com destino claro (1º poste, 2º, rejeição).",
+    "tags": "lateral"
+  },
+  {
+    "title": "Lateral — 1x1",
+    "text": "Defender o corredor com distância correta e orientação para o lado menos perigoso.",
+    "tags": "lateral"
+  },
+  {
+    "title": "Lateral — cobertura",
+    "text": "Saber quem cobre a costa quando o lateral sobe evita contra-ataques fáceis.",
+    "tags": "lateral"
+  },
+  {
+    "title": "Volante âncora",
+    "text": "Primeiro volante protege a área, simplifica o passe e organiza a primeira linha.",
+    "tags": "volante"
+  },
+  {
+    "title": "Segundo volante",
+    "text": "Chega à área, busca verticalidade e participa da criação e finalização.",
+    "tags": "volante"
+  },
+  {
+    "title": "Volante — corpo",
+    "text": "Receber de frente para o jogo aumenta opções de passe.",
+    "tags": "volante"
+  },
+  {
+    "title": "Meia — entre linhas",
+    "text": "Ocupar o espaço entre defesa e meio adversário cria superioridades.",
+    "tags": "meia"
+  },
+  {
+    "title": "Meia — último passe",
+    "text": "Timing do passe filtrado vale mais do que força do chute.",
+    "tags": "meia"
+  },
+  {
+    "title": "Meia — mobilidade",
+    "text": "Mover-se para criar ângulos é tão importante quanto pedir a bola parado.",
+    "tags": "meia"
+  },
+  {
+    "title": "Ponta — amplitude",
+    "text": "Manter largura estica a defesa e abre o meio.",
+    "tags": "ponta"
+  },
+  {
+    "title": "Ponta — 1x1",
+    "text": "Decidir driblar, cruzar ou combinar define o último terço.",
+    "tags": "ponta"
+  },
+  {
+    "title": "Ponta — diagonal",
+    "text": "Cortar para dentro com o pé dominante gera finalizações e desequilíbrios.",
+    "tags": "ponta"
+  },
+  {
+    "title": "Centroavante — pivô",
+    "text": "Jogo de costas e proteção de bola ligam o meio ao ataque.",
+    "tags": "centroavante"
+  },
+  {
+    "title": "Centroavante — profundidade",
+    "text": "Corridas nas costas forçam a linha adversária a recuar.",
+    "tags": "centroavante"
+  },
+  {
+    "title": "Centroavante — finalização",
+    "text": "Variedade de finalizações (primeira, domínio, cabeça) aumenta eficiência.",
+    "tags": "centroavante"
+  },
+  {
+    "title": "Falso 9",
+    "text": "Descer para articular arrasta zagueiros e libera espaços aos pontas.",
+    "tags": "falso9"
+  },
+  {
+    "title": "Segundo atacante",
+    "text": "Mobilidade e chegada em diagonal complementam o 9 de área.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Universalidade na base",
+    "text": "Na base, evite prender o jogador cedo demais a uma única posição.",
+    "tags": "base"
+  },
+  {
+    "title": "Especialização gradual",
+    "text": "Especialização posicional cresce com a idade e o nível competitivo.",
+    "tags": "base"
+  },
+  {
+    "title": "Liderança do zagueiro",
+    "text": "Zagueiro central e goleiro costumam organizar a linha por visão de jogo.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Lateral invertido",
+    "text": "Em alguns modelos, lateral entra para dentro e vira meia na construção.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Ala no 3-5-2",
+    "text": "Ala combina atribuições de lateral e ponta; demanda física alta.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Meia de ligação",
+    "text": "Conecta setores e acelera a progressão com poucos toques.",
+    "tags": "meia"
+  },
+  {
+    "title": "Pivô no meio",
+    "text": "Volante que joga simples e segura a posse sob pressão.",
+    "tags": "volante"
+  },
+  {
+    "title": "Homem de área",
+    "text": "Atacante de referência no jogo aéreo e no pivô.",
+    "tags": "centroavante"
+  },
+  {
+    "title": "Explorador de espaços",
+    "text": "Atacante que vive de rupturas e timing, não só de força.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Marcador de ponta",
+    "text": "Lateral ou ala com foco em anular o extremo adversário.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Líbero moderno",
+    "text": "Zagueiro que sobe para construir e ocupa o meio na posse.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Goleiro-líbero",
+    "text": "Goleiro que joga alto e participa da primeira fase de construção.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Terceiro zagueiro",
+    "text": "No sistema com 3, o central organiza e os laterais cobrem a amplitude.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Meias livres",
+    "text": "Em posse, meias trocam de lado para dificultar a marcação.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Pontas invertidos",
+    "text": "Ponta destro na esquerda (e vice-versa) favorece corte para dentro.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Laterais simétricos",
+    "text": "Alguns times pedem os dois laterais altos ao mesmo tempo.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Laterais assimétricos",
+    "text": "Um lateral sobe mais; o outro equilibra. Depende do elenco.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Volante de chegada",
+    "text": "Chega de trás na área no segundo tempo de bola.",
+    "tags": "volante"
+  },
+  {
+    "title": "Meia box-to-box",
+    "text": "Cobre grande volume entre área e área; precisa de resistência.",
+    "tags": "meia"
+  },
+  {
+    "title": "Enganche",
+    "text": "Clássico 10 mais fixo entre linhas; menos comum em pressing alto.",
+    "tags": "meia"
+  },
+  {
+    "title": "Falso lateral",
+    "text": "Meia ou ponta que ocupa a lateral na posse para criar 3 no meio.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Atacante de pressão",
+    "text": "Primeiro a pressionar a saída adversária após perda.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Zagueiro de bola",
+    "text": "Confortável para progressão e passe longo sob pressão.",
+    "tags": "zagueiro"
+  },
+  {
+    "title": "Goleiro reativo",
+    "text": "Perfil clássico de reflexos e 1x1; complementa o construtor.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Sistema não é camisa de força",
+    "text": "O desenho é ponto de partida; os princípios sustentam o jogo.",
+    "tags": "tatica"
+  },
+  {
+    "title": "4-3-3",
+    "text": "Três atacantes, meio com âncora e laterais que dão amplitude.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "4-2-3-1",
+    "text": "Duas volantes dão equilíbrio; o 10 articula atrás do 9.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "4-4-2 clássico",
+    "text": "Duas linhas de quatro; clareza defensiva e par de atacantes.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "3-5-2",
+    "text": "Três zagueiros e alas; forte no pivô e no jogo interior.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "3-4-3",
+    "text": "Amplitude ofensiva com pontas; exige alas muito disciplinados.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "4-1-4-1",
+    "text": "Âncora único e linha de quatro no meio; boa para pressionar.",
+    "tags": "sistemas"
+  },
+  {
+    "title": "Bloco alto",
+    "text": "Defende perto da área adversária; risco nas costas se furado.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Bloco médio",
+    "text": "Equilíbrio entre pressão e proteção da profundidade.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Bloco baixo",
+    "text": "Protege a área; precisa de saída rápida em transição.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Marcação individual",
+    "text": "Responsabilidade homem a homem; risco se alguém for batido.",
+    "tags": "marcacao"
+  },
+  {
+    "title": "Marcação por zona",
+    "text": "Marca espaço; exige comunicação e cobertura.",
+    "tags": "marcacao"
+  },
+  {
+    "title": "Marcação mista",
+    "text": "Combina homem e zona conforme a situação.",
+    "tags": "marcacao"
+  },
+  {
+    "title": "Superioridade numérica",
+    "text": "Criar 2v1 ou 3v2 facilita progressão e finalização.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Inferioridade defensiva",
+    "text": "Treinar 4v5 ensina compactação e prioridade de cobertura.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Lado fraco",
+    "text": "Após circular para um lado, atacar o lado oposto com velocidade.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Terceiro homem",
+    "text": "Combinação em que o terceiro recebe no espaço criado pelos dois primeiros.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Fixar e soltar",
+    "text": "Atacante fixa o zagueiro e solta de primeira para quem chega.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Atrair e progressir",
+    "text": "Circular para atrair marcadores e depois jogar em profundidade.",
+    "tags": "posse"
+  },
+  {
+    "title": "Cobertura ofensiva",
+    "text": "Quando um sobe, outro equilibra para evitar contra-ataque.",
+    "tags": "equilibrio"
+  },
+  {
+    "title": "Altura da linha",
+    "text": "Linha alta comprime; linha baixa protege; deve ser coordenada.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Fora de jogo",
+    "text": "Linha coordenada usa a regra a favor; desatenção gera gols.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Bola parada ofensiva",
+    "text": "Ensaios e segundo lance são fonte constante de gols.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Bola parada defensiva",
+    "text": "Funções claras e reação ao rebote evitam gols evitáveis.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Pressão no portador",
+    "text": "Pressionar quem tem a bola reduz tempo de decisão.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Cobertura na pressão",
+    "text": "Quem não pressiona cobre o espaço nas costas de quem pressiona.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Gatilho de pressão",
+    "text": "Passe ruim, recepção de costas ou lateral podem iniciar pressão.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Saída a 3",
+    "text": "Construção com 3 na primeira linha (incluindo laterais ou volante).",
+    "tags": "construcao"
+  },
+  {
+    "title": "Saída a 4",
+    "text": "Linha de 4 na construção com laterais baixos.",
+    "tags": "construcao"
+  },
+  {
+    "title": "Jogo direto",
+    "text": "Passe longo e disputa de segunda bola; útil sob pressão alta.",
+    "tags": "construcao"
+  },
+  {
+    "title": "Jogo associado",
+    "text": "Passes curtos e apoio próximo para progressão controlada.",
+    "tags": "posse"
+  },
+  {
+    "title": "Mudança de flanco",
+    "text": "Troca rápida de lado desloca o bloco defensivo.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Ocupação de área",
+    "text": "Cruzamento precisa de gente no 1º poste, 2º e rejeição.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Segunda onda",
+    "text": "Chegada de meias/laterais após o primeiro movimento dos atacantes.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Transição 5 segundos",
+    "text": "Regra prática: os primeiros segundos valem mais que os 30 seguintes.",
+    "tags": "transicao"
+  },
+  {
+    "title": "Falta tática",
+    "text": "Falta para quebrar contra-ataque deve ser consciente e fora da zona perigosa.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Gestão de resultado",
+    "text": "Placar e relógio mudam o risco permitido com a bola.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Identidade de jogo",
+    "text": "Poucos princípios repetidos criam time reconhecível.",
+    "tags": "modelo"
+  },
+  {
+    "title": "Adaptação ao adversário",
+    "text": "Identidade não impede ajustes de altura de bloco e marcação.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Ultrapassagem da linha",
+    "text": "Atacante que parte no tempo certo fura a linha adversária.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Meio-espaço",
+    "text": "Canal entre lateral e zagueiro; zona rica para meias e pontas.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Pivô no meio-campo",
+    "text": "Volante fixo facilita a saída e a cobertura.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Dupla de volantes",
+    "text": "Pode escalonar: um sobe, outro fica.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Trio de meio",
+    "text": "Em 4-3-3, o trio define se o time é mais de posse ou de chegada.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Linha de 5",
+    "text": "Com alas recuados, a defesa ganha largura e números.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Reorganização",
+    "text": "Após ataque, voltar à estrutura antes de ser contra-atacado.",
+    "tags": "transicao"
+  },
+  {
+    "title": "Pressing mid-block",
+    "text": "Pressão inicia no meio-campo, não na área adversária.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Armadilha de lateral",
+    "text": "Pressionar o lateral adversário contra a linha lateral.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Superioridade posicional",
+    "text": "Ocupar zonas certas importa mais do que só ter mais gente perto da bola.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Igualdade numérica no meio",
+    "text": "Perder o meio-campo costuma perder o controle do ritmo.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Aceleração",
+    "text": "Os primeiros 5–15 metros decidem muitos duelos e contra-ataques.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Velocidade máxima",
+    "text": "Treinar em doses baixas, com recuperação completa entre sprints.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Desaceleração",
+    "text": "Frear bem protege joelhos e prepara o próximo corte.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Mudança de direção",
+    "text": "Cortes de 45–90° com técnica reduzem risco e melhoram o 1x1.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Potência",
+    "text": "Pliometria e arranques com qualidade, nunca em volume caótico.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Força útil",
+    "text": "Força no futebol serve a sprint, chute e duelo — não ao ego da academia.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Core",
+    "text": "Prancha, anti-rotação e estabilidade melhoram transmissão de força.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Isquiotibiais",
+    "text": "Fortalecimento excêntrico e gestão de sprints previnem lesões.",
+    "tags": "saude"
+  },
+  {
+    "title": "Adutores",
+    "text": "Trabalho de adutores ajuda a prevenir dores na virilha e pubalgia.",
+    "tags": "saude"
+  },
+  {
+    "title": "Panturrilha",
+    "text": "Força e elasticidade da panturrilha importam em sprints e saltos.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Mobilidade de quadril",
+    "text": "Quadril móvel melhora chute, mudança de direção e postura.",
+    "tags": "mobilidade"
+  },
+  {
+    "title": "Mobilidade de tornozelo",
+    "text": "Tornozelo limitado prejudica agachamento e aterrissagens.",
+    "tags": "mobilidade"
+  },
+  {
+    "title": "Aquecimento",
+    "text": "8–15 min progressivos reduzem lesão e preparam a atenção.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Volta à calma",
+    "text": "Baixar a intensidade e alongar leve ajuda a transição pós-treino.",
+    "tags": "sessao"
+  },
+  {
+    "title": "PSE",
+    "text": "Percepção de esforço de 1 a 10 ajuda a controlar carga sem GPS.",
+    "tags": "carga"
+  },
+  {
+    "title": "GPS",
+    "text": "Dados de distância e sprint informam, mas não substituem o olhar do coach.",
+    "tags": "carga"
+  },
+  {
+    "title": "Microciclo",
+    "text": "Organize a semana em função da data do jogo, não do hábito fixo.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Dois jogos na semana",
+    "text": "Com calendário cheio, priorize recuperação e ativação.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Pré-temporada",
+    "text": "Base progressiva com bola; evite só corrida longa isolada.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Meio de temporada",
+    "text": "Rotação e monitoramento de fadiga mantêm o nível.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Nordic curl",
+    "text": "Exercício excêntrico clássico para isquiotibiais, com progressão.",
+    "tags": "saude"
+  },
+  {
+    "title": "Copenhagen",
+    "text": "Exercício de adutores usado na prevenção de pubalgia.",
+    "tags": "saude"
+  },
+  {
+    "title": "Aterrissagem",
+    "text": "Aterrissar com controle reduz risco de lesão de joelho.",
+    "tags": "saude"
+  },
+  {
+    "title": "Assimetrias",
+    "text": "Diferenças grandes entre lados merecem atenção preventiva.",
+    "tags": "saude"
+  },
+  {
+    "title": "Retorno de lesão",
+    "text": "Critérios objetivos antes de minutos oficiais.",
+    "tags": "saude"
+  },
+  {
+    "title": "DOMS",
+    "text": "Dor muscular tardia leve é comum; dor aguda não é DOMS.",
+    "tags": "saude"
+  },
+  {
+    "title": "Canelite",
+    "text": "Aumento brusco de volume de corrida pode precipitar canelite.",
+    "tags": "saude"
+  },
+  {
+    "title": "Tendão patelar",
+    "text": "Impactos e saltos em excesso exigem gestão e força progressiva.",
+    "tags": "saude"
+  },
+  {
+    "title": "LCA feminino",
+    "text": "Programas preventivos de aterrissagem e força são especialmente relevantes.",
+    "tags": "saude"
+  },
+  {
+    "title": "Concussão",
+    "text": "Suspeita de concussão: saída imediata e protocolo médico.",
+    "tags": "saude"
+  },
+  {
+    "title": "Hidratação e suor",
+    "text": "Em apartamento o suor pode enganar; beba água mesmo assim.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Carboidrato",
+    "text": "Importante em torno de treinos intensos e jogos.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Proteína",
+    "text": "Distribuir proteína no dia ajuda recuperação muscular.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Cafeína",
+    "text": "Pode ajudar prontidão; teste antes de usar em jogo oficial.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Álcool",
+    "text": "Prejudica sono e recuperação; ruim perto de jogos.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Jejum e treino intenso",
+    "text": "Treino intenso em jejum aumenta risco de queda de rendimento.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Lanche pré-jogo",
+    "text": "Testado e leve; nada experimental no dia da partida.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Pós-jogo",
+    "text": "Reposição de líquidos, carboidrato e proteína nas horas seguintes.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Peso corporal",
+    "text": "Mudanças bruscas de peso devem ser acompanhadas por profissional.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Suplemento",
+    "text": "Não substitui comida; use com orientação quando necessário.",
+    "tags": "nutricao"
+  },
+  {
+    "title": "Intervalo de sprint",
+    "text": "Recuperação completa entre sprints máximos preserva qualidade.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Fadiga e técnica",
+    "text": "Sob fadiga extrema a técnica cai; treine isso de forma controlada.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Força unilateral",
+    "text": "Afundo e variantes corrigem desequilíbrios e transferem ao sprint.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Potência de salto",
+    "text": "Salto vertical e horizontal ajudam no jogo aéreo e nos arranques.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Resistência de repetição",
+    "text": "Capacidade de repetir sprints com pausa curta é específica do futebol.",
+    "tags": "fisico"
+  },
+  {
+    "title": "RSA",
+    "text": "Repeated Sprint Ability: treine com tiros e pausas incompletas.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Economia de corrida",
+    "text": "Técnica de corrida economiza energia ao longo de 90 minutos.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Carga mental",
+    "text": "Decisões sob pressão também cansam; treine percepção.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Férias",
+    "text": "Retorno de férias exige progressão cuidadosa de sprints.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Supercompensação",
+    "text": "Após estímulo e descanso adequado, o rendimento pode subir.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Passe curto",
+    "text": "Base da posse; precisão e timing sob pressão.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Passe longo",
+    "text": "Muda o flanco ou encontra profundidade; exige qualidade de batida.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Passe filtrado",
+    "text": "Entre linhas; quebra blocos densos.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Cruzamento rasteiro",
+    "text": "Difícil de interceptar; bom para primeiro poste.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Cruzamento alto",
+    "text": "Útil no segundo poste e no jogo aéreo.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Finalização de primeira",
+    "text": "Reduz tempo ao goleiro; exige timing.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Finalização colocada",
+    "text": "Mira nos cantos muitas vezes supera força bruta.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Chute de longe",
+    "text": "Ameaça força o bloco adversário a sair.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Domínio de peito",
+    "text": "Alivia bolas altas e prepara o próximo passe.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Domínio de sola",
+    "text": "Útil para proteger e girar em espaços curtos.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Condução",
+    "text": "Levar a bola com a cabeça erguida para ver opções.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Drible",
+    "text": "Criar vantagem numérica; não é fim em si.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Finta",
+    "text": "Enganar o marcador sem necessariamente tocar a bola.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Proteção de bola",
+    "text": "Corpo entre a bola e o adversário.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Interceptação",
+    "text": "Chegar na linha de passe antes do adversário.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Desarme limpo",
+    "text": "Timing e lateralidade; evitar falta desnecessária.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Cabeceio ofensivo",
+    "text": "Timing de salto e direção do golpe.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Cabeceio defensivo",
+    "text": "Rejeitar para longe da área de perigo.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Rondo",
+    "text": "Treina suporte, passe e pressão em espaço reduzido.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Jogo 4v4",
+    "text": "Alto número de contatos e decisões por minuto.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Jogo 7v7",
+    "text": "Ponte entre reduzido e o jogo formal.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Campo grande",
+    "text": "Favorece resistência e amplitude.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Campo pequeno",
+    "text": "Favorece velocidade de decisão e pressão.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Regra de 2 toques",
+    "text": "Acelera a circulação e o suporte.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Gol valendo mais de fora da área",
+    "text": "Estimula finalização e criação de espaço.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Superioridade 5v2",
+    "text": "Treina posse e pressão em inferioridade.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Situação de bola parada",
+    "text": "Ensaiar como se fosse o minuto 88.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Estações técnicas",
+    "text": "Circuito de qualidade com pouco tempo morto.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Treino integrado",
+    "text": "Une técnica, tática e físico no mesmo estímulo.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Treino analítico",
+    "text": "Isola o gesto; útil no começo do aprendizado.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Treino situacional",
+    "text": "Pedaço do jogo com regras e oposição.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Treino global",
+    "text": "Jogo mais livre com correção de princípios.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Feedback em 90 segundos",
+    "text": "Pausas curtas mantêm a intensidade da sessão.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Critério de sucesso",
+    "text": "Defina o que é ‘bom’ antes do exercício começar.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Material pronto",
+    "text": "Cones e coletes organizados evitam tempo morto.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Filas longas",
+    "text": "Fila longa mata intensidade; organize grupos menores.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Demonstração clara",
+    "text": "Mostre em 20 segundos o que quer; depois deixe executar.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Correção positiva",
+    "text": "Diga o que fazer, não só o que não fazer.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Gravação curta",
+    "text": "Vídeo de 10–20s ajuda a corrigir postura e decisão.",
+    "tags": "analise"
+  },
+  {
+    "title": "3 clipes de vídeo",
+    "text": "Poucos clipes bem escolhidos superam 40 minutos de reunião.",
+    "tags": "analise"
+  },
+  {
+    "title": "Placar no treino",
+    "text": "Pode motivar, mas não pode destruir o objetivo técnico.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Coletes e lados",
+    "text": "Cores claras reduzem confusão em jogos reduzidos.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Cronômetro",
+    "text": "Séries e pausas controladas melhoram a dose de carga.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Espaço marcado",
+    "text": "Limites claros aumentam a repetição do comportamento desejado.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Oposição passiva",
+    "text": "Marcador que não desarma no início do aprendizado.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Oposição ativa",
+    "text": "Marcador real após o gesto estar estável.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Dois lados do campo",
+    "text": "Treine padrões para a direita e para a esquerda.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Rotação de estações",
+    "text": "Mantém todos ativos e reduz espera.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Jogador extra (coringa)",
+    "text": "Coringa na posse facilita superioridade e fluidez.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Goleiros nos reduzidos",
+    "text": "Sempre que possível, inclua goleiros para realismo.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Finalização após esforço",
+    "text": "Chute após sprint simula o jogo real.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Passe após giro",
+    "text": "Receber, girar e passar sob pressão.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "1x1 em corredor",
+    "text": "Treina drible e contenção no espaço típico do jogo.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "2x1 ofensivo",
+    "text": "Decisão de driblar ou passar em superioridade.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "3x2 em profundidade",
+    "text": "Treina ruptura e último passe.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Jogo de linhas",
+    "text": "Campo dividido em zonas para ensinar altura e ocupação.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Pressão após 3 passes",
+    "text": "Regra que força o time sem bola a agir.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Gol só de cabeça",
+    "text": "Enfatiza cruzamento e ocupação de área.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Reposição rápida",
+    "text": "Mantém intensidade e treina transição.",
+    "tags": "metodologia"
+  },
+  {
+    "title": "Confiança",
+    "text": "Vem de preparação e de sucessos parciais no treino.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Ansiedade pré-jogo",
+    "text": "Rotina fixa e respiração ajudam a canalizar o nervosismo.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Concentração",
+    "text": "Rituais curtos a cada parada de bola ajudam a manter o foco.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Resiliência",
+    "text": "Treinar o ‘próximo lance’ após o erro.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Coesão",
+    "text": "Time que se protege em campo costuma treinar com mais entrega.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Motivação intrínseca",
+    "text": "Prazer pelo jogo sustenta a carreira mais que só pressão externa.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Pressão externa",
+    "text": "O coach protege o ambiente de treino quando possível.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Conversa individual",
+    "text": "10 minutos honestos resolvem o que 30 gritos não resolvem.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Critério de seleção",
+    "text": "Transparência de critérios reduz teorias de favoritismo.",
+    "tags": "gestao_elenco"
+  },
+  {
+    "title": "Banco de reservas",
+    "text": "Reservas que entendem o papel elevam o treino de todos.",
+    "tags": "gestao_elenco"
+  },
+  {
+    "title": "Capitão",
+    "text": "Liderança por exemplo e comunicação, não só pela braçadeira.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Vestiário",
+    "text": "Ambiente do vestiário reflete e alimenta a cultura do time.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Pontualidade",
+    "text": "Chegar no horário é o primeiro treino do dia.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Padrão de intensidade",
+    "text": "Cobrar o mesmo padrão de estrelas e jovens.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Pais na base",
+    "text": "Alinhar expectativas evita conflito e protege o atleta.",
+    "tags": "base"
+  },
+  {
+    "title": "Maturação biológica",
+    "text": "Idade cronológica não é idade biológica; cuidado com comparações.",
+    "tags": "base"
+  },
+  {
+    "title": "Especialização precoce",
+    "text": "Especializar demais cedo demais aumenta risco de burnout e lesão.",
+    "tags": "base"
+  },
+  {
+    "title": "Multilateralidade",
+    "text": "Variar esportes e estímulos na infância ajuda o desenvolvimento.",
+    "tags": "base"
+  },
+  {
+    "title": "Prazer em jogar",
+    "text": "Criança que se diverte treina mais e aprende mais.",
+    "tags": "base"
+  },
+  {
+    "title": "Campeonato vs formação",
+    "text": "Equilíbrio delicado; a base não é profissional em miniatura.",
+    "tags": "base"
+  },
+  {
+    "title": "Sub-15",
+    "text": "Introdução gradual de princípios táticos mais complexos.",
+    "tags": "base"
+  },
+  {
+    "title": "Sub-17",
+    "text": "Maior competitividade e cuidado com carga e crescimento.",
+    "tags": "base"
+  },
+  {
+    "title": "Sub-20",
+    "text": "Ponte para o profissional: rotina e responsabilidade.",
+    "tags": "base"
+  },
+  {
+    "title": "Scout de base",
+    "text": "Procure inteligência de jogo e personalidade, não só físico precoce.",
+    "tags": "base"
+  },
+  {
+    "title": "Soccer90 espaço",
+    "text": "Treinos sem bola cabem em cerca de 1,5 m × 1,5 m.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Soccer90 com bola",
+    "text": "Com bola, o ideal é cerca de 2 m × 2 m.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Soccer90 tipos",
+    "text": "Sem bola, com bola, tático, força, agilidade e descanso.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Soccer90 descanso",
+    "text": "Descanso ativo mantém o hábito sem carga alta.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Soccer90 consistência",
+    "text": "O app ajuda a manter sequência quando não há campo.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Campo + casa",
+    "text": "Campo para o coletivo; casa para mobilidade, core e hábito.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Apartamento",
+    "text": "Evite saltos altos se o piso incomodar vizinhos.",
+    "tags": "soccer90"
+  },
+  {
+    "title": "Sem equipamentos",
+    "text": "A maior parte do treino funcional de futebol não exige academia.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Tênis adequado",
+    "text": "Bom amortecimento e estabilidade para mudanças de direção.",
+    "tags": "equipamento"
+  },
+  {
+    "title": "Campo society",
+    "text": "Ajuste volume de giros; superfície muda a carga articular.",
+    "tags": "estrutura"
+  },
+  {
+    "title": "Grama sintética",
+    "text": "Pode aumentar carga em alguns movimentos; progressão é chave.",
+    "tags": "estrutura"
+  },
+  {
+    "title": "Areia",
+    "text": "Alto custo energético; útil com dose controlada.",
+    "tags": "estrutura"
+  },
+  {
+    "title": "Chuva",
+    "text": "Calçado e prudência em giros; adaptação faz parte.",
+    "tags": "ambiente"
+  },
+  {
+    "title": "Altitude",
+    "text": "Exige adaptação; não copie a mesma carga do nível do mar.",
+    "tags": "ambiente"
+  },
+  {
+    "title": "Jogos em sequência",
+    "text": "Três jogos em 8 dias mudam totalmente o microciclo.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Minutos acumulados",
+    "text": "Titular com 90 min repetidos precisa de gestão de carga.",
+    "tags": "carga"
+  },
+  {
+    "title": "Cartão amarelo",
+    "text": "Jogador pendurado exige plano tático e emocional.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Expulsão",
+    "text": "Com 10, compactar e priorizar estabilidade.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Intervalo",
+    "text": "Poucos pontos objetivos; hidratação e calma.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Substituição com função",
+    "text": "Cada entrada deve ter uma tarefa clara.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Tempo de compensação",
+    "text": "Concentração máxima; muitos gols acontecem ali.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Cantonera e escanteio",
+    "text": "Ensaios curtos e frequentes na semana.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Falta lateral",
+    "text": "Cobrança ensaiada e ocupação de área.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Pênalti",
+    "text": "Rotina do cobrador e preparação emocional.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Barreira",
+    "text": "Altura, número e reação ao rebote.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Segundo lance",
+    "text": "A maioria das defesas não termina no primeiro desvio.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Scouting 5 pontos",
+    "text": "Resuma o adversário em poucos pontos acionáveis.",
+    "tags": "analise"
+  },
+  {
+    "title": "Jogador-chave adversário",
+    "text": "Plano específico para anular ou pressionar o melhor.",
+    "tags": "analise"
+  },
+  {
+    "title": "Padrão de saída adversária",
+    "text": "Onde eles gostam de sair define onde pressionar.",
+    "tags": "analise"
+  },
+  {
+    "title": "Vídeo pós-jogo",
+    "text": "No dia seguinte a análise costuma ser mais racional.",
+    "tags": "analise"
+  },
+  {
+    "title": "Treino do dia seguinte",
+    "text": "Recuperação ativa e correções leves, não carga alta.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Dia de folga",
+    "text": "Folga também é ferramenta de performance.",
+    "tags": "recuperacao"
+  },
+  {
+    "title": "Massagem e gelo",
+    "text": "Recursos auxiliares; não substituem sono e carga bem dosada.",
+    "tags": "recuperacao"
+  },
+  {
+    "title": "Alongamento estático",
+    "text": "Melhor na volta à calma do que antes de sprints.",
+    "tags": "mobilidade"
+  },
+  {
+    "title": "Alongamento dinâmico",
+    "text": "Mais adequado no aquecimento.",
+    "tags": "mobilidade"
+  },
+  {
+    "title": "Respiração no esforço",
+    "text": "Expirar na fase de força ajuda estabilidade do core.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Olhos na bola no cabeceio",
+    "text": "Contato visual com a bola melhora precisão.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Apoio no chute",
+    "text": "Pé de apoio ao lado da bola, direção do alvo.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Tornozelo travado no passe",
+    "text": "Tornozelo firme aumenta precisão do passe rasteiro.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Cabeça erguida na condução",
+    "text": "Ver o campo antes de ser pressionado.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Disputa de ombro",
+    "text": "Usar o corpo legalmente para proteger a bola.",
+    "tags": "tecnica"
+  },
+  {
+    "title": "Antecipação",
+    "text": "Chegar antes na bola reduz falta e aumenta interceptações.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Paciência defensiva",
+    "text": "Adiar o drible adversário é virtude.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Agressividade controlada",
+    "text": "Competitividade sem perder a técnica do desarme.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Cobertura diagonal",
+    "text": "Zagueiro cobre o espaço quando o outro sai.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Linha de passe fechada",
+    "text": "Corpo na linha de passe reduz opções do adversário.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Pressão em curva",
+    "text": "Orientar o portador para onde o time quer.",
+    "tags": "pressao"
+  },
+  {
+    "title": "Profissionalismo",
+    "text": "Treinar bem quando ninguém está olhando define carreira.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Hábitos",
+    "text": "Sono, alimentação e pontualidade são performance.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Redes sociais",
+    "text": "Exposição emocional excessiva pode afetar foco e vestiário.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Crítica da imprensa",
+    "text": "Filtro emocional; foco no que o time controla.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Contrato e minutos",
+    "text": "Expectativa de minutos deve ser alinhada com honestidade.",
+    "tags": "gestao_elenco"
+  },
+  {
+    "title": "Multiculturalidade",
+    "text": "Elenco diverso exige comunicação ainda mais clara.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Idioma no vestiário",
+    "text": "Garantir que todos entendam instruções táticas.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Novatos",
+    "text": "Integração social acelera o rendimento em campo.",
+    "tags": "gestao_elenco"
+  },
+  {
+    "title": "Veteranos",
+    "text": "Exemplo de rotina vale mais que discurso.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Reabilitação social",
+    "text": "Lesionado deve continuar pertencendo ao grupo.",
+    "tags": "saude"
+  },
+  {
+    "title": "Testes físicos",
+    "text": "Úteis para monitorar, não para humilhar.",
+    "tags": "carga"
+  },
+  {
+    "title": "Yo-Yo e variantes",
+    "text": "Testes de capacidade intermitente comuns no futebol.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Sprint 30 m",
+    "text": "Indicador simples de velocidade; use com contexto.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Salto vertical",
+    "text": "Proxy de potência de membros inferiores.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Amplitude articular",
+    "text": "Avaliação de mobilidade previne compensações.",
+    "tags": "mobilidade"
+  },
+  {
+    "title": "Assimetria de força",
+    "text": "Diferenças grandes entre pernas merecem plano.",
+    "tags": "saude"
+  },
+  {
+    "title": "GPS high speed",
+    "text": "Metros em alta velocidade são marcador de exigência.",
+    "tags": "carga"
+  },
+  {
+    "title": "Acelerações GPS",
+    "text": "Número de acelerações reflete o caos do jogo.",
+    "tags": "carga"
+  },
+  {
+    "title": "Carga interna",
+    "text": "FC e PSE mostram como o atleta sentiu o treino.",
+    "tags": "carga"
+  },
+  {
+    "title": "Bem-estar diário",
+    "text": "Perguntas simples de sono e dor ajudam a decidir a dose.",
+    "tags": "carga"
+  },
+  {
+    "title": "Overreaching",
+    "text": "Carga alta temporária pode ser planejada; overtraining não.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Sintomas de excesso",
+    "text": "Queda de rendimento, insônia, irritação e lesões recorrentes.",
+    "tags": "saude"
+  },
+  {
+    "title": "Mulheres no futebol",
+    "text": "Mesmos princípios; ajuste de carga e contexto do elenco.",
+    "tags": "inclusao"
+  },
+  {
+    "title": "Futebol feminino — bolas paradas",
+    "text": "Tão decisivas quanto no masculino; ensaiar com seriedade.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Futebol de 7 e society",
+    "text": "Adapte espaços e princípios; não copie o 11x11 cegamente.",
+    "tags": "estrutura"
+  },
+  {
+    "title": "Futsal para campo",
+    "text": "Agiliza decisão e domínio em espaço curto.",
+    "tags": "base"
+  },
+  {
+    "title": "Beach soccer",
+    "text": "Estímulo complementar de estabilidade e força, com dose.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Treino em academia",
+    "text": "Complemento; o jogo continua sendo o eixo.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Isometria",
+    "text": "Útil em reabilitação e em estabilidade de core.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Excêntrico",
+    "text": "Forte papel na prevenção de lesões musculares.",
+    "tags": "saude"
+  },
+  {
+    "title": "Pliometria",
+    "text": "Alta qualidade, baixo volume, boa aterrissagem.",
+    "tags": "fisico"
+  },
+  {
+    "title": "Treino de força longe do jogo",
+    "text": "Permite cargas mais altas e adaptação.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Ativação no dia anterior",
+    "text": "Estímulo leve de velocidade e finalização.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Reconhecimento de campo",
+    "text": "Útil em viagens; não precisa ser treino pesado.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Aquecimento de jogo",
+    "text": "Progressivo, com bolas e ativações específicas.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Banco aquecido",
+    "text": "Reservas prontos fisicamente e mentalmente.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Gestão de cartões",
+    "text": "Evitar suspensões em jogos-chave com inteligência tática.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Simulação e fair play",
+    "text": "Padrões éticos fazem parte da cultura do clube.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Árbitro",
+    "text": "Respeito à arbitragem protege o time de cartões desnecessários.",
+    "tags": "cultura"
+  },
+  {
+    "title": "Capitão e árbitro",
+    "text": "Comunicação calma com a arbitragem ajuda o time.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Análise do próprio time",
+    "text": "Olhar crítico interno antes de culpar o adversário.",
+    "tags": "analise"
+  },
+  {
+    "title": "Padrões ofensivos",
+    "text": "2–4 jogadas ensaiadas de progressão ajudam a fluidez.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Padrões defensivos",
+    "text": "Coberturas e dobras ensaiadas reduzem 1x1 expostos.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Jogo aéreo ofensivo",
+    "text": "Não é só altura: timing e ocupação.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Jogo aéreo defensivo",
+    "text": "Antecipação e rejeição para zonas seguras.",
+    "tags": "defesa"
+  },
+  {
+    "title": "Lateralidade do time",
+    "text": "Atacar os dois lados evita previsibilidade.",
+    "tags": "ataque"
+  },
+  {
+    "title": "Ritmo de posse",
+    "text": "Saber acelerar e pisar na bola conforme o placar.",
+    "tags": "posse"
+  },
+  {
+    "title": "Controle de ritmo",
+    "text": "Time maduro altera o ritmo sem perder a organização.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Momento do jogo",
+    "text": "Minuto 10 não é minuto 85; a dose de risco muda.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Estados emocionais",
+    "text": "Raiva e euforia excessivas prejudicam a decisão.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Ritual de equipe",
+    "text": "Rituais simples aumentam senso de pertencimento.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Objetivo da sessão",
+    "text": "Toda sessão precisa de um ‘para quê’ claro.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Avaliação pós-sessão",
+    "text": "3 perguntas: o que funcionou, o que não, o que treinar amanhã.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Caderno do treinador",
+    "text": "Registrar padrões e lesões ajuda a decisão futura.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Planilha simples",
+    "text": "Organizar microciclos não exige software caro.",
+    "tags": "periodizacao"
+  },
+  {
+    "title": "Comunicação com a direção",
+    "text": "Alinhar expectativa de estilo e de resultados.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Paciência com o modelo",
+    "text": "Identidade leva tempo para assentir no elenco.",
+    "tags": "modelo"
+  },
+  {
+    "title": "Flexibilidade tática",
+    "text": "Ter plano B treinado evita improviso puro.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Plano B",
+    "text": "Não é abandono de identidade; é adaptação inteligente.",
+    "tags": "tatica"
+  },
+  {
+    "title": "Treino sombrio",
+    "text": "Evite sessões sem propósito só para ‘cansar’.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Cansaço sem aprendizado",
+    "text": "Fadiga sem conteúdo técnico-tático é desperdício.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Aprendizado sob fadiga",
+    "text": "Dose controlada de decisão cansada prepara o final do jogo.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Final de treino",
+    "text": "Termine com clareza, não com confusão e gritos.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Começo de treino",
+    "text": "Os primeiros minutos definem o tom da sessão.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Exemplo do coach",
+    "text": "O treinador também aquece o padrão de energia.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Silêncio produtivo",
+    "text": "Às vezes deixar o jogo correr revela mais do que apitar demais.",
+    "tags": "lideranca"
+  },
+  {
+    "title": "Apito excessivo",
+    "text": "Interromper a cada erro mata o fluxo e a intensidade.",
+    "tags": "sessao"
+  },
+  {
+    "title": "Perguntas abertas",
+    "text": "‘O que você poderia fazer diferente?’ gera reflexão.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Feedback sanduíche",
+    "text": "Não precisa; seja claro e respeitoso sem fórmula forçada.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Reunião curta",
+    "text": "Reunião longa demais reduz retenção da mensagem.",
+    "tags": "comunicacao"
+  },
+  {
+    "title": "Mensagem única",
+    "text": "No intervalo, uma mensagem principal é melhor que dez.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Celebração",
+    "text": "Comemorar gols fortalece o grupo; mantenha foco após o 1-0.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Derrota",
+    "text": "Analisar sem destruir a confiança do elenco.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Vitória",
+    "text": "Aproveitar, mas corrigir detalhes enquanto a confiança está alta.",
+    "tags": "psicologia"
+  },
+  {
+    "title": "Empate",
+    "text": "Muitas vezes é ponto ganho ou dois perdidos; contexto define.",
+    "tags": "gestao_jogo"
+  },
+  {
+    "title": "Classificação",
+    "text": "Em eliminatórias, o placar agregado muda a gestão de risco.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Prorrogação",
+    "text": "Preparar substituições e cargas para 30 minutos extras.",
+    "tags": "competicao"
+  },
+  {
+    "title": "Pênaltis finais",
+    "text": "Ensaiar cobranças e ordem dos batedores.",
+    "tags": "bola_parada"
+  },
+  {
+    "title": "Goleiro nos pênaltis",
+    "text": "Estudo de tendências ajuda, mas o essencial é rotina e presença.",
+    "tags": "goleiro"
+  },
+  {
+    "title": "Fair play financeiro e humano",
+    "text": "Respeito ao atleta como pessoa sustenta o clube a longo prazo.",
+    "tags": "cultura"
+  }
+]

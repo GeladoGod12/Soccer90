@@ -1,0 +1,3290 @@
+[
+  {
+    "title": "Espaço mínimo",
+    "text": "Treinos sem bola cabem em cerca de 1,5m × 1,5m. Com bola, ideal 2m × 2m.",
+    "tags": [
+      "espaco",
+      "apartamento"
+    ],
+    "id": "F0",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492563+00:00"
+  },
+  {
+    "title": "Frequência",
+    "text": "Não treine pesado todos os dias. Use descanso ativo 1–2x por semana. O corpo evolui na recuperação.",
+    "tags": [
+      "frequencia",
+      "descanso"
+    ],
+    "id": "F1",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492579+00:00"
+  },
+  {
+    "title": "Dor",
+    "text": "Dor aguda ou articular: pare o exercício. Troque para mobilidade. Se persistir 2–3 dias, procure profissional de saúde.",
+    "tags": [
+      "dor",
+      "lesao",
+      "seguranca"
+    ],
+    "id": "F2",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492582+00:00"
+  },
+  {
+    "title": "Hidratação",
+    "text": "Beba água antes, durante e depois. Em apartamento o suor pode ser menos perceptível.",
+    "tags": [
+      "agua",
+      "hidratacao"
+    ],
+    "id": "F3",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492586+00:00"
+  },
+  {
+    "title": "Horário",
+    "text": "O melhor horário é o que você mantém. Final da tarde/noite costuma ter o corpo mais aquecido.",
+    "tags": [
+      "horario"
+    ],
+    "id": "F4",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492588+00:00"
+  },
+  {
+    "title": "Aquecimento",
+    "text": "3–5 min de marcha + mobilidade de tornozelo/quadril antes do treino principal reduz risco de lesão.",
+    "tags": [
+      "aquecimento",
+      "mobilidade"
+    ],
+    "id": "F5",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492589+00:00"
+  },
+  {
+    "title": "Técnica em casa",
+    "text": "Com bola: toques, condução em 8, passe na parede. Tático: decisão. Sem bola: simulação de chute. Qualidade > quantidade.",
+    "tags": [
+      "tecnica"
+    ],
+    "id": "F6",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492591+00:00"
+  },
+  {
+    "title": "Progressão Soccer90",
+    "text": "A intensidade segue as estrelas de qualidade técnica. Na 2ª metade do plano o app adiciona mais um exercício.",
+    "tags": [
+      "plano",
+      "intensidade",
+      "progressao"
+    ],
+    "id": "F7",
+    "source": "default",
+    "createdAt": "2026-08-29T17:08:37.492592+00:00"
+  },
+  {
+    "id": "F1788026465985",
+    "title": "Jogo como referência",
+    "text": "O treino deve se parecer com o jogo: decisões, oposição e intensidade específicas do futebol.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.985202+00:00"
+  },
+  {
+    "id": "F1788026465985",
+    "title": "Qualidade antes de quantidade",
+    "text": "Repetição só é útil se o gesto e a decisão forem corretos. Volume sem qualidade reforça erro.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.985959+00:00"
+  },
+  {
+    "id": "F1788026465986",
+    "title": "Especificidade",
+    "text": "O corpo e o cérebro se adaptam ao que é treinado. Treine o que quer ver no domingo.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.986538+00:00"
+  },
+  {
+    "id": "F1788026465987",
+    "title": "Progressão",
+    "text": "Aumente dificuldade aos poucos: espaço, oposição, velocidade e complexidade tática.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.987177+00:00"
+  },
+  {
+    "id": "F1788026465987",
+    "title": "Variabilidade",
+    "text": "Variar estímulos evita estagnação e prepara o jogador para o caos do jogo.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.987739+00:00"
+  },
+  {
+    "id": "F1788026465988",
+    "title": "Recuperação é treino",
+    "text": "Adaptação acontece no descanso. Sem recuperação, não há evolução — só fadiga.",
+    "tags": "recuperacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.988302+00:00"
+  },
+  {
+    "id": "F1788026465988",
+    "title": "Individualização",
+    "text": "Mesmo plano coletivo precisa de ajustes por posição, idade, histórico de lesão e minutos.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.988908+00:00"
+  },
+  {
+    "id": "F1788026465989",
+    "title": "Consistência",
+    "text": "Quinze minutos bem feitos vários dias na semana superam uma sessão longa e irregular.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.989493+00:00"
+  },
+  {
+    "id": "F1788026465990",
+    "title": "Processo vs resultado",
+    "text": "Meta de processo (padrões de jogo, intensidade) sustenta resultados a médio prazo.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.990326+00:00"
+  },
+  {
+    "id": "F1788026465990",
+    "title": "Coerência do coach",
+    "text": "O que se treina deve ser o que se cobra no jogo. Incoerência confunde o elenco.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.990995+00:00"
+  },
+  {
+    "id": "F1788026465991",
+    "title": "Menos instruções",
+    "text": "1 a 3 correções por bloco de treino são mais eficazes do que 15 pontos de uma vez.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.991728+00:00"
+  },
+  {
+    "id": "F1788026465992",
+    "title": "Perguntar desenvolve",
+    "text": "Perguntar o que o jogador viu desenvolve autonomia melhor do que só dar a resposta.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.992426+00:00"
+  },
+  {
+    "id": "F1788026465993",
+    "title": "Ambiente de treino",
+    "text": "Cultura de pontualidade, intensidade e respeito sustenta qualquer modelo tático.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.993128+00:00"
+  },
+  {
+    "id": "F1788026465993",
+    "title": "Erro como informação",
+    "text": "Erro bem tratado é aprendizado. Erro humilhado vira medo de tentar.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.993823+00:00"
+  },
+  {
+    "id": "F1788026465994",
+    "title": "Intensidade com qualidade",
+    "text": "Alta intensidade só vale se a técnica e a decisão se mantêm.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.994506+00:00"
+  },
+  {
+    "id": "F1788026465995",
+    "title": "Transferência",
+    "text": "O que não aparece sob pressão no treino raramente aparece no jogo.",
+    "tags": "principios",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.995200+00:00"
+  },
+  {
+    "id": "F1788026465995",
+    "title": "Simplicidade no dia do jogo",
+    "text": "Plano de jogo cabe em poucos princípios. Complexidade excessiva morre no minuto 5.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.995977+00:00"
+  },
+  {
+    "id": "F1788026465996",
+    "title": "Papéis claros",
+    "text": "Cada jogador precisa saber o que fazer em posse, sem posse e em transição.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.996742+00:00"
+  },
+  {
+    "id": "F1788026465997",
+    "title": "Detalhes decidem",
+    "text": "Bola parada, segundo lance e concentração aos 90 minutos decidem campeonatos.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.997527+00:00"
+  },
+  {
+    "id": "F1788026465998",
+    "title": "Longo prazo na base",
+    "text": "Na formação, priorize o jogador em 5 anos, não só o placar do fim de semana.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.998354+00:00"
+  },
+  {
+    "id": "F1788026465999",
+    "title": "Sono",
+    "text": "7 a 9 horas de sono são a principal ferramenta de recuperação para a maioria.",
+    "tags": "recuperacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:05.999160+00:00"
+  },
+  {
+    "id": "F1788026466000",
+    "title": "Hidratação",
+    "text": "Desidratação reduz performance cognitiva e física antes da sede extrema aparecer.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.000015+00:00"
+  },
+  {
+    "id": "F1788026466000",
+    "title": "Carga progressiva",
+    "text": "Picos bruscos de volume ou sprint elevam risco de lesão.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.000828+00:00"
+  },
+  {
+    "id": "F1788026466001",
+    "title": "Dor aguda",
+    "text": "Dor aguda ou articular: pare o estímulo e avalie. Não ‘jogue por cima’.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.001721+00:00"
+  },
+  {
+    "id": "F1788026466002",
+    "title": "Pé de apoio",
+    "text": "No chute e no corte, o pé de apoio estável é tão importante quanto a perna de ação.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.002651+00:00"
+  },
+  {
+    "id": "F1788026466003",
+    "title": "Orientação corporal",
+    "text": "Muitos erros de passe nascem de má orientação antes de receber, não só de técnica de pé.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.003581+00:00"
+  },
+  {
+    "id": "F1788026466004",
+    "title": "Escaneamento",
+    "text": "Olhar ao redor antes de receber a bola aumenta opções e reduz perdas.",
+    "tags": "percepcao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.004714+00:00"
+  },
+  {
+    "id": "F1788026466005",
+    "title": "Primeiro toque",
+    "text": "O primeiro toque prepara a próxima ação: passe, condução ou finalização.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.005707+00:00"
+  },
+  {
+    "id": "F1788026466006",
+    "title": "Dois pés",
+    "text": "Treinar o pé não dominante com volume pequeno e diário traz ganho acumulado.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.006702+00:00"
+  },
+  {
+    "id": "F1788026466007",
+    "title": "Comunicação em campo",
+    "text": "Comandos curtos e audíveis reduzem buracos e marcações duplicadas.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.007657+00:00"
+  },
+  {
+    "id": "F1788026466008",
+    "title": "Compactação",
+    "text": "Manter distâncias curtas entre linhas reduz espaços para o adversário.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.008639+00:00"
+  },
+  {
+    "id": "F1788026466009",
+    "title": "Amplitude",
+    "text": "Abrir o campo estica a defesa e cria corredores internos.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.009499+00:00"
+  },
+  {
+    "id": "F1788026466010",
+    "title": "Profundidade",
+    "text": "Ataques às costas da linha punem blocos altos e defesas desorganizadas.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.010484+00:00"
+  },
+  {
+    "id": "F1788026466011",
+    "title": "Transição",
+    "text": "Os primeiros 5 segundos após ganhar ou perder a bola decidem muitos gols.",
+    "tags": "transicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.011558+00:00"
+  },
+  {
+    "id": "F1788026466012",
+    "title": "Counterpress",
+    "text": "Pressionar logo após a perda pode recuperar alto ou atrasar o contra-ataque.",
+    "tags": "transicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.012754+00:00"
+  },
+  {
+    "id": "F1788026466013",
+    "title": "Gestão de ego",
+    "text": "Minutos e papéis claros reduzem atrito entre titulares e reservas.",
+    "tags": "gestao_elenco",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.013820+00:00"
+  },
+  {
+    "id": "F1788026466014",
+    "title": "Viagem",
+    "text": "Em viagens, priorize sono, mobilidade e sessões curtas de qualidade.",
+    "tags": "recuperacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.014935+00:00"
+  },
+  {
+    "id": "F1788026466016",
+    "title": "Campo ruim",
+    "text": "Em piso ruim, reduza giros agressivos e ajuste calçado. Segurança primeiro.",
+    "tags": "estrutura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.016082+00:00"
+  },
+  {
+    "id": "F1788026466017",
+    "title": "Calor",
+    "text": "No calor, aumente hidratação e ajuste séries contínuas longas.",
+    "tags": "ambiente",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.017156+00:00"
+  },
+  {
+    "id": "F1788026466018",
+    "title": "Frio",
+    "text": "No frio, alongue o aquecimento e suba a intensidade de forma progressiva.",
+    "tags": "ambiente",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.018141+00:00"
+  },
+  {
+    "id": "F1788026466019",
+    "title": "Goleiro — pés",
+    "text": "Goleiro moderno precisa sair jogando com qualidade e decidir quando alongar.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.019169+00:00"
+  },
+  {
+    "id": "F1788026466020",
+    "title": "Goleiro — área",
+    "text": "Domínio de área em cruzamentos exige timing, coragem e comunicação.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.020496+00:00"
+  },
+  {
+    "id": "F1788026466021",
+    "title": "Goleiro — 1x1",
+    "text": "No 1x1, reduzir ângulo e adiar o drible do atacante aumenta chances de defesa.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.021859+00:00"
+  },
+  {
+    "id": "F1788026466023",
+    "title": "Goleiro — linha",
+    "text": "Integração com a linha defensiva evita espaços nas costas e offsides confusos.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.023096+00:00"
+  },
+  {
+    "id": "F1788026466024",
+    "title": "Zagueiro — leitura",
+    "text": "Ler a profundidade e a linha de passe evita ser furado por bolas nas costas.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.024207+00:00"
+  },
+  {
+    "id": "F1788026466025",
+    "title": "Zagueiro — construção",
+    "text": "Saída limpa sob pressão é tão importante quanto o desarme.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.025384+00:00"
+  },
+  {
+    "id": "F1788026466026",
+    "title": "Zagueiro — cobertura",
+    "text": "Cobrir o parceiro quando ele sai no homem evita 1x1 nas costas.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.026473+00:00"
+  },
+  {
+    "id": "F1788026466027",
+    "title": "Zagueiro — aéreo",
+    "text": "Jogo aéreo defensivo e ofensivo em bolas paradas é diferencial do central.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.027750+00:00"
+  },
+  {
+    "id": "F1788026466029",
+    "title": "Lateral — ida e volta",
+    "text": "Lateral precisa de resistência específica para atacar e ainda voltar compacto.",
+    "tags": "lateral",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.029083+00:00"
+  },
+  {
+    "id": "F1788026466030",
+    "title": "Lateral — cruzamento",
+    "text": "Cruzamento em movimento com destino claro (1º poste, 2º, rejeição).",
+    "tags": "lateral",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.030411+00:00"
+  },
+  {
+    "id": "F1788026466031",
+    "title": "Lateral — 1x1",
+    "text": "Defender o corredor com distância correta e orientação para o lado menos perigoso.",
+    "tags": "lateral",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.031744+00:00"
+  },
+  {
+    "id": "F1788026466033",
+    "title": "Lateral — cobertura",
+    "text": "Saber quem cobre a costa quando o lateral sobe evita contra-ataques fáceis.",
+    "tags": "lateral",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.033097+00:00"
+  },
+  {
+    "id": "F1788026466034",
+    "title": "Volante âncora",
+    "text": "Primeiro volante protege a área, simplifica o passe e organiza a primeira linha.",
+    "tags": "volante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.034508+00:00"
+  },
+  {
+    "id": "F1788026466036",
+    "title": "Segundo volante",
+    "text": "Chega à área, busca verticalidade e participa da criação e finalização.",
+    "tags": "volante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.036099+00:00"
+  },
+  {
+    "id": "F1788026466037",
+    "title": "Volante — corpo",
+    "text": "Receber de frente para o jogo aumenta opções de passe.",
+    "tags": "volante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.037650+00:00"
+  },
+  {
+    "id": "F1788026466039",
+    "title": "Meia — entre linhas",
+    "text": "Ocupar o espaço entre defesa e meio adversário cria superioridades.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.039098+00:00"
+  },
+  {
+    "id": "F1788026466040",
+    "title": "Meia — último passe",
+    "text": "Timing do passe filtrado vale mais do que força do chute.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.040460+00:00"
+  },
+  {
+    "id": "F1788026466041",
+    "title": "Meia — mobilidade",
+    "text": "Mover-se para criar ângulos é tão importante quanto pedir a bola parado.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.041910+00:00"
+  },
+  {
+    "id": "F1788026466043",
+    "title": "Ponta — amplitude",
+    "text": "Manter largura estica a defesa e abre o meio.",
+    "tags": "ponta",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.043184+00:00"
+  },
+  {
+    "id": "F1788026466044",
+    "title": "Ponta — 1x1",
+    "text": "Decidir driblar, cruzar ou combinar define o último terço.",
+    "tags": "ponta",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.044611+00:00"
+  },
+  {
+    "id": "F1788026466046",
+    "title": "Ponta — diagonal",
+    "text": "Cortar para dentro com o pé dominante gera finalizações e desequilíbrios.",
+    "tags": "ponta",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.046087+00:00"
+  },
+  {
+    "id": "F1788026466047",
+    "title": "Centroavante — pivô",
+    "text": "Jogo de costas e proteção de bola ligam o meio ao ataque.",
+    "tags": "centroavante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.047530+00:00"
+  },
+  {
+    "id": "F1788026466048",
+    "title": "Centroavante — profundidade",
+    "text": "Corridas nas costas forçam a linha adversária a recuar.",
+    "tags": "centroavante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.048945+00:00"
+  },
+  {
+    "id": "F1788026466050",
+    "title": "Centroavante — finalização",
+    "text": "Variedade de finalizações (primeira, domínio, cabeça) aumenta eficiência.",
+    "tags": "centroavante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.050643+00:00"
+  },
+  {
+    "id": "F1788026466052",
+    "title": "Falso 9",
+    "text": "Descer para articular arrasta zagueiros e libera espaços aos pontas.",
+    "tags": "falso9",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.052201+00:00"
+  },
+  {
+    "id": "F1788026466053",
+    "title": "Segundo atacante",
+    "text": "Mobilidade e chegada em diagonal complementam o 9 de área.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.053688+00:00"
+  },
+  {
+    "id": "F1788026466055",
+    "title": "Universalidade na base",
+    "text": "Na base, evite prender o jogador cedo demais a uma única posição.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.055227+00:00"
+  },
+  {
+    "id": "F1788026466056",
+    "title": "Especialização gradual",
+    "text": "Especialização posicional cresce com a idade e o nível competitivo.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.056757+00:00"
+  },
+  {
+    "id": "F1788026466058",
+    "title": "Liderança do zagueiro",
+    "text": "Zagueiro central e goleiro costumam organizar a linha por visão de jogo.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.058366+00:00"
+  },
+  {
+    "id": "F1788026466060",
+    "title": "Lateral invertido",
+    "text": "Em alguns modelos, lateral entra para dentro e vira meia na construção.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.060004+00:00"
+  },
+  {
+    "id": "F1788026466061",
+    "title": "Ala no 3-5-2",
+    "text": "Ala combina atribuições de lateral e ponta; demanda física alta.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.061607+00:00"
+  },
+  {
+    "id": "F1788026466063",
+    "title": "Meia de ligação",
+    "text": "Conecta setores e acelera a progressão com poucos toques.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.063214+00:00"
+  },
+  {
+    "id": "F1788026466064",
+    "title": "Pivô no meio",
+    "text": "Volante que joga simples e segura a posse sob pressão.",
+    "tags": "volante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.064855+00:00"
+  },
+  {
+    "id": "F1788026466066",
+    "title": "Homem de área",
+    "text": "Atacante de referência no jogo aéreo e no pivô.",
+    "tags": "centroavante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.066537+00:00"
+  },
+  {
+    "id": "F1788026466069",
+    "title": "Explorador de espaços",
+    "text": "Atacante que vive de rupturas e timing, não só de força.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.069871+00:00"
+  },
+  {
+    "id": "F1788026466071",
+    "title": "Marcador de ponta",
+    "text": "Lateral ou ala com foco em anular o extremo adversário.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.071722+00:00"
+  },
+  {
+    "id": "F1788026466073",
+    "title": "Líbero moderno",
+    "text": "Zagueiro que sobe para construir e ocupa o meio na posse.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.073379+00:00"
+  },
+  {
+    "id": "F1788026466075",
+    "title": "Goleiro-líbero",
+    "text": "Goleiro que joga alto e participa da primeira fase de construção.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.075175+00:00"
+  },
+  {
+    "id": "F1788026466076",
+    "title": "Terceiro zagueiro",
+    "text": "No sistema com 3, o central organiza e os laterais cobrem a amplitude.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.076978+00:00"
+  },
+  {
+    "id": "F1788026466078",
+    "title": "Meias livres",
+    "text": "Em posse, meias trocam de lado para dificultar a marcação.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.078822+00:00"
+  },
+  {
+    "id": "F1788026466080",
+    "title": "Pontas invertidos",
+    "text": "Ponta destro na esquerda (e vice-versa) favorece corte para dentro.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.080570+00:00"
+  },
+  {
+    "id": "F1788026466082",
+    "title": "Laterais simétricos",
+    "text": "Alguns times pedem os dois laterais altos ao mesmo tempo.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.082384+00:00"
+  },
+  {
+    "id": "F1788026466084",
+    "title": "Laterais assimétricos",
+    "text": "Um lateral sobe mais; o outro equilibra. Depende do elenco.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.084029+00:00"
+  },
+  {
+    "id": "F1788026466086",
+    "title": "Volante de chegada",
+    "text": "Chega de trás na área no segundo tempo de bola.",
+    "tags": "volante",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.086122+00:00"
+  },
+  {
+    "id": "F1788026466088",
+    "title": "Meia box-to-box",
+    "text": "Cobre grande volume entre área e área; precisa de resistência.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.088009+00:00"
+  },
+  {
+    "id": "F1788026466089",
+    "title": "Enganche",
+    "text": "Clássico 10 mais fixo entre linhas; menos comum em pressing alto.",
+    "tags": "meia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.089943+00:00"
+  },
+  {
+    "id": "F1788026466091",
+    "title": "Falso lateral",
+    "text": "Meia ou ponta que ocupa a lateral na posse para criar 3 no meio.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.091583+00:00"
+  },
+  {
+    "id": "F1788026466093",
+    "title": "Atacante de pressão",
+    "text": "Primeiro a pressionar a saída adversária após perda.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.093419+00:00"
+  },
+  {
+    "id": "F1788026466095",
+    "title": "Zagueiro de bola",
+    "text": "Confortável para progressão e passe longo sob pressão.",
+    "tags": "zagueiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.095587+00:00"
+  },
+  {
+    "id": "F1788026466097",
+    "title": "Goleiro reativo",
+    "text": "Perfil clássico de reflexos e 1x1; complementa o construtor.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.097700+00:00"
+  },
+  {
+    "id": "F1788026466099",
+    "title": "Sistema não é camisa de força",
+    "text": "O desenho é ponto de partida; os princípios sustentam o jogo.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.099738+00:00"
+  },
+  {
+    "id": "F1788026466101",
+    "title": "4-3-3",
+    "text": "Três atacantes, meio com âncora e laterais que dão amplitude.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.101776+00:00"
+  },
+  {
+    "id": "F1788026466103",
+    "title": "4-2-3-1",
+    "text": "Duas volantes dão equilíbrio; o 10 articula atrás do 9.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.103960+00:00"
+  },
+  {
+    "id": "F1788026466105",
+    "title": "4-4-2 clássico",
+    "text": "Duas linhas de quatro; clareza defensiva e par de atacantes.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.105861+00:00"
+  },
+  {
+    "id": "F1788026466108",
+    "title": "3-5-2",
+    "text": "Três zagueiros e alas; forte no pivô e no jogo interior.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.108030+00:00"
+  },
+  {
+    "id": "F1788026466109",
+    "title": "3-4-3",
+    "text": "Amplitude ofensiva com pontas; exige alas muito disciplinados.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.109834+00:00"
+  },
+  {
+    "id": "F1788026466111",
+    "title": "4-1-4-1",
+    "text": "Âncora único e linha de quatro no meio; boa para pressionar.",
+    "tags": "sistemas",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.112000+00:00"
+  },
+  {
+    "id": "F1788026466114",
+    "title": "Bloco alto",
+    "text": "Defende perto da área adversária; risco nas costas se furado.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.114090+00:00"
+  },
+  {
+    "id": "F1788026466116",
+    "title": "Bloco médio",
+    "text": "Equilíbrio entre pressão e proteção da profundidade.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.116064+00:00"
+  },
+  {
+    "id": "F1788026466118",
+    "title": "Bloco baixo",
+    "text": "Protege a área; precisa de saída rápida em transição.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.118075+00:00"
+  },
+  {
+    "id": "F1788026466120",
+    "title": "Marcação individual",
+    "text": "Responsabilidade homem a homem; risco se alguém for batido.",
+    "tags": "marcacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.120175+00:00"
+  },
+  {
+    "id": "F1788026466122",
+    "title": "Marcação por zona",
+    "text": "Marca espaço; exige comunicação e cobertura.",
+    "tags": "marcacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.122147+00:00"
+  },
+  {
+    "id": "F1788026466124",
+    "title": "Marcação mista",
+    "text": "Combina homem e zona conforme a situação.",
+    "tags": "marcacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.124132+00:00"
+  },
+  {
+    "id": "F1788026466126",
+    "title": "Superioridade numérica",
+    "text": "Criar 2v1 ou 3v2 facilita progressão e finalização.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.126220+00:00"
+  },
+  {
+    "id": "F1788026466128",
+    "title": "Inferioridade defensiva",
+    "text": "Treinar 4v5 ensina compactação e prioridade de cobertura.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.128386+00:00"
+  },
+  {
+    "id": "F1788026466130",
+    "title": "Lado fraco",
+    "text": "Após circular para um lado, atacar o lado oposto com velocidade.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.130621+00:00"
+  },
+  {
+    "id": "F1788026466132",
+    "title": "Terceiro homem",
+    "text": "Combinação em que o terceiro recebe no espaço criado pelos dois primeiros.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.132957+00:00"
+  },
+  {
+    "id": "F1788026466134",
+    "title": "Fixar e soltar",
+    "text": "Atacante fixa o zagueiro e solta de primeira para quem chega.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.134848+00:00"
+  },
+  {
+    "id": "F1788026466136",
+    "title": "Atrair e progressir",
+    "text": "Circular para atrair marcadores e depois jogar em profundidade.",
+    "tags": "posse",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.136822+00:00"
+  },
+  {
+    "id": "F1788026466138",
+    "title": "Cobertura ofensiva",
+    "text": "Quando um sobe, outro equilibra para evitar contra-ataque.",
+    "tags": "equilibrio",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.138762+00:00"
+  },
+  {
+    "id": "F1788026466140",
+    "title": "Altura da linha",
+    "text": "Linha alta comprime; linha baixa protege; deve ser coordenada.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.140697+00:00"
+  },
+  {
+    "id": "F1788026466143",
+    "title": "Fora de jogo",
+    "text": "Linha coordenada usa a regra a favor; desatenção gera gols.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.143091+00:00"
+  },
+  {
+    "id": "F1788026466145",
+    "title": "Bola parada ofensiva",
+    "text": "Ensaios e segundo lance são fonte constante de gols.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.145281+00:00"
+  },
+  {
+    "id": "F1788026466147",
+    "title": "Bola parada defensiva",
+    "text": "Funções claras e reação ao rebote evitam gols evitáveis.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.147478+00:00"
+  },
+  {
+    "id": "F1788026466149",
+    "title": "Pressão no portador",
+    "text": "Pressionar quem tem a bola reduz tempo de decisão.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.149615+00:00"
+  },
+  {
+    "id": "F1788026466151",
+    "title": "Cobertura na pressão",
+    "text": "Quem não pressiona cobre o espaço nas costas de quem pressiona.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.151917+00:00"
+  },
+  {
+    "id": "F1788026466154",
+    "title": "Gatilho de pressão",
+    "text": "Passe ruim, recepção de costas ou lateral podem iniciar pressão.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.154237+00:00"
+  },
+  {
+    "id": "F1788026466156",
+    "title": "Saída a 3",
+    "text": "Construção com 3 na primeira linha (incluindo laterais ou volante).",
+    "tags": "construcao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.156593+00:00"
+  },
+  {
+    "id": "F1788026466159",
+    "title": "Saída a 4",
+    "text": "Linha de 4 na construção com laterais baixos.",
+    "tags": "construcao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.159304+00:00"
+  },
+  {
+    "id": "F1788026466162",
+    "title": "Jogo direto",
+    "text": "Passe longo e disputa de segunda bola; útil sob pressão alta.",
+    "tags": "construcao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.162376+00:00"
+  },
+  {
+    "id": "F1788026466164",
+    "title": "Jogo associado",
+    "text": "Passes curtos e apoio próximo para progressão controlada.",
+    "tags": "posse",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.164787+00:00"
+  },
+  {
+    "id": "F1788026466167",
+    "title": "Mudança de flanco",
+    "text": "Troca rápida de lado desloca o bloco defensivo.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.167097+00:00"
+  },
+  {
+    "id": "F1788026466169",
+    "title": "Ocupação de área",
+    "text": "Cruzamento precisa de gente no 1º poste, 2º e rejeição.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.169664+00:00"
+  },
+  {
+    "id": "F1788026466172",
+    "title": "Segunda onda",
+    "text": "Chegada de meias/laterais após o primeiro movimento dos atacantes.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.172154+00:00"
+  },
+  {
+    "id": "F1788026466174",
+    "title": "Transição 5 segundos",
+    "text": "Regra prática: os primeiros segundos valem mais que os 30 seguintes.",
+    "tags": "transicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.174849+00:00"
+  },
+  {
+    "id": "F1788026466177",
+    "title": "Falta tática",
+    "text": "Falta para quebrar contra-ataque deve ser consciente e fora da zona perigosa.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.177151+00:00"
+  },
+  {
+    "id": "F1788026466179",
+    "title": "Gestão de resultado",
+    "text": "Placar e relógio mudam o risco permitido com a bola.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.179564+00:00"
+  },
+  {
+    "id": "F1788026466181",
+    "title": "Identidade de jogo",
+    "text": "Poucos princípios repetidos criam time reconhecível.",
+    "tags": "modelo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.181951+00:00"
+  },
+  {
+    "id": "F1788026466184",
+    "title": "Adaptação ao adversário",
+    "text": "Identidade não impede ajustes de altura de bloco e marcação.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.184463+00:00"
+  },
+  {
+    "id": "F1788026466187",
+    "title": "Ultrapassagem da linha",
+    "text": "Atacante que parte no tempo certo fura a linha adversária.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.187019+00:00"
+  },
+  {
+    "id": "F1788026466189",
+    "title": "Meio-espaço",
+    "text": "Canal entre lateral e zagueiro; zona rica para meias e pontas.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.189973+00:00"
+  },
+  {
+    "id": "F1788026466193",
+    "title": "Pivô no meio-campo",
+    "text": "Volante fixo facilita a saída e a cobertura.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.193726+00:00"
+  },
+  {
+    "id": "F1788026466196",
+    "title": "Dupla de volantes",
+    "text": "Pode escalonar: um sobe, outro fica.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.196737+00:00"
+  },
+  {
+    "id": "F1788026466199",
+    "title": "Trio de meio",
+    "text": "Em 4-3-3, o trio define se o time é mais de posse ou de chegada.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.199690+00:00"
+  },
+  {
+    "id": "F1788026466202",
+    "title": "Linha de 5",
+    "text": "Com alas recuados, a defesa ganha largura e números.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.202518+00:00"
+  },
+  {
+    "id": "F1788026466205",
+    "title": "Reorganização",
+    "text": "Após ataque, voltar à estrutura antes de ser contra-atacado.",
+    "tags": "transicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.205478+00:00"
+  },
+  {
+    "id": "F1788026466208",
+    "title": "Pressing mid-block",
+    "text": "Pressão inicia no meio-campo, não na área adversária.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.208287+00:00"
+  },
+  {
+    "id": "F1788026466211",
+    "title": "Armadilha de lateral",
+    "text": "Pressionar o lateral adversário contra a linha lateral.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.211115+00:00"
+  },
+  {
+    "id": "F1788026466214",
+    "title": "Superioridade posicional",
+    "text": "Ocupar zonas certas importa mais do que só ter mais gente perto da bola.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.214202+00:00"
+  },
+  {
+    "id": "F1788026466216",
+    "title": "Igualdade numérica no meio",
+    "text": "Perder o meio-campo costuma perder o controle do ritmo.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.216761+00:00"
+  },
+  {
+    "id": "F1788026466219",
+    "title": "Aceleração",
+    "text": "Os primeiros 5–15 metros decidem muitos duelos e contra-ataques.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.219819+00:00"
+  },
+  {
+    "id": "F1788026466223",
+    "title": "Velocidade máxima",
+    "text": "Treinar em doses baixas, com recuperação completa entre sprints.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.223043+00:00"
+  },
+  {
+    "id": "F1788026466225",
+    "title": "Desaceleração",
+    "text": "Frear bem protege joelhos e prepara o próximo corte.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.225963+00:00"
+  },
+  {
+    "id": "F1788026466229",
+    "title": "Mudança de direção",
+    "text": "Cortes de 45–90° com técnica reduzem risco e melhoram o 1x1.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.229139+00:00"
+  },
+  {
+    "id": "F1788026466232",
+    "title": "Potência",
+    "text": "Pliometria e arranques com qualidade, nunca em volume caótico.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.232298+00:00"
+  },
+  {
+    "id": "F1788026466235",
+    "title": "Força útil",
+    "text": "Força no futebol serve a sprint, chute e duelo — não ao ego da academia.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.235660+00:00"
+  },
+  {
+    "id": "F1788026466239",
+    "title": "Core",
+    "text": "Prancha, anti-rotação e estabilidade melhoram transmissão de força.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.239269+00:00"
+  },
+  {
+    "id": "F1788026466242",
+    "title": "Isquiotibiais",
+    "text": "Fortalecimento excêntrico e gestão de sprints previnem lesões.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.242462+00:00"
+  },
+  {
+    "id": "F1788026466245",
+    "title": "Adutores",
+    "text": "Trabalho de adutores ajuda a prevenir dores na virilha e pubalgia.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.245289+00:00"
+  },
+  {
+    "id": "F1788026466248",
+    "title": "Panturrilha",
+    "text": "Força e elasticidade da panturrilha importam em sprints e saltos.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.248545+00:00"
+  },
+  {
+    "id": "F1788026466251",
+    "title": "Mobilidade de quadril",
+    "text": "Quadril móvel melhora chute, mudança de direção e postura.",
+    "tags": "mobilidade",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.251751+00:00"
+  },
+  {
+    "id": "F1788026466254",
+    "title": "Mobilidade de tornozelo",
+    "text": "Tornozelo limitado prejudica agachamento e aterrissagens.",
+    "tags": "mobilidade",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.254758+00:00"
+  },
+  {
+    "id": "F1788026466258",
+    "title": "Aquecimento",
+    "text": "8–15 min progressivos reduzem lesão e preparam a atenção.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.258045+00:00"
+  },
+  {
+    "id": "F1788026466261",
+    "title": "Volta à calma",
+    "text": "Baixar a intensidade e alongar leve ajuda a transição pós-treino.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.261536+00:00"
+  },
+  {
+    "id": "F1788026466265",
+    "title": "PSE",
+    "text": "Percepção de esforço de 1 a 10 ajuda a controlar carga sem GPS.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.265026+00:00"
+  },
+  {
+    "id": "F1788026466268",
+    "title": "GPS",
+    "text": "Dados de distância e sprint informam, mas não substituem o olhar do coach.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.268683+00:00"
+  },
+  {
+    "id": "F1788026466272",
+    "title": "Microciclo",
+    "text": "Organize a semana em função da data do jogo, não do hábito fixo.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.272294+00:00"
+  },
+  {
+    "id": "F1788026466275",
+    "title": "Dois jogos na semana",
+    "text": "Com calendário cheio, priorize recuperação e ativação.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.275583+00:00"
+  },
+  {
+    "id": "F1788026466278",
+    "title": "Pré-temporada",
+    "text": "Base progressiva com bola; evite só corrida longa isolada.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.278861+00:00"
+  },
+  {
+    "id": "F1788026466281",
+    "title": "Meio de temporada",
+    "text": "Rotação e monitoramento de fadiga mantêm o nível.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.281948+00:00"
+  },
+  {
+    "id": "F1788026466285",
+    "title": "Nordic curl",
+    "text": "Exercício excêntrico clássico para isquiotibiais, com progressão.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.285501+00:00"
+  },
+  {
+    "id": "F1788026466288",
+    "title": "Copenhagen",
+    "text": "Exercício de adutores usado na prevenção de pubalgia.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.288658+00:00"
+  },
+  {
+    "id": "F1788026466291",
+    "title": "Aterrissagem",
+    "text": "Aterrissar com controle reduz risco de lesão de joelho.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.291934+00:00"
+  },
+  {
+    "id": "F1788026466295",
+    "title": "Assimetrias",
+    "text": "Diferenças grandes entre lados merecem atenção preventiva.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.295210+00:00"
+  },
+  {
+    "id": "F1788026466298",
+    "title": "Retorno de lesão",
+    "text": "Critérios objetivos antes de minutos oficiais.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.298362+00:00"
+  },
+  {
+    "id": "F1788026466301",
+    "title": "DOMS",
+    "text": "Dor muscular tardia leve é comum; dor aguda não é DOMS.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.301856+00:00"
+  },
+  {
+    "id": "F1788026466304",
+    "title": "Canelite",
+    "text": "Aumento brusco de volume de corrida pode precipitar canelite.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.304805+00:00"
+  },
+  {
+    "id": "F1788026466308",
+    "title": "Tendão patelar",
+    "text": "Impactos e saltos em excesso exigem gestão e força progressiva.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.308311+00:00"
+  },
+  {
+    "id": "F1788026466312",
+    "title": "LCA feminino",
+    "text": "Programas preventivos de aterrissagem e força são especialmente relevantes.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.312007+00:00"
+  },
+  {
+    "id": "F1788026466315",
+    "title": "Concussão",
+    "text": "Suspeita de concussão: saída imediata e protocolo médico.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.315758+00:00"
+  },
+  {
+    "id": "F1788026466319",
+    "title": "Hidratação e suor",
+    "text": "Em apartamento o suor pode enganar; beba água mesmo assim.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.319684+00:00"
+  },
+  {
+    "id": "F1788026466322",
+    "title": "Carboidrato",
+    "text": "Importante em torno de treinos intensos e jogos.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.322716+00:00"
+  },
+  {
+    "id": "F1788026466326",
+    "title": "Proteína",
+    "text": "Distribuir proteína no dia ajuda recuperação muscular.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.326206+00:00"
+  },
+  {
+    "id": "F1788026466329",
+    "title": "Cafeína",
+    "text": "Pode ajudar prontidão; teste antes de usar em jogo oficial.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.329829+00:00"
+  },
+  {
+    "id": "F1788026466333",
+    "title": "Álcool",
+    "text": "Prejudica sono e recuperação; ruim perto de jogos.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.333508+00:00"
+  },
+  {
+    "id": "F1788026466336",
+    "title": "Jejum e treino intenso",
+    "text": "Treino intenso em jejum aumenta risco de queda de rendimento.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.336585+00:00"
+  },
+  {
+    "id": "F1788026466339",
+    "title": "Lanche pré-jogo",
+    "text": "Testado e leve; nada experimental no dia da partida.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.339547+00:00"
+  },
+  {
+    "id": "F1788026466343",
+    "title": "Pós-jogo",
+    "text": "Reposição de líquidos, carboidrato e proteína nas horas seguintes.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.343157+00:00"
+  },
+  {
+    "id": "F1788026466346",
+    "title": "Peso corporal",
+    "text": "Mudanças bruscas de peso devem ser acompanhadas por profissional.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.346817+00:00"
+  },
+  {
+    "id": "F1788026466350",
+    "title": "Suplemento",
+    "text": "Não substitui comida; use com orientação quando necessário.",
+    "tags": "nutricao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.350306+00:00"
+  },
+  {
+    "id": "F1788026466353",
+    "title": "Intervalo de sprint",
+    "text": "Recuperação completa entre sprints máximos preserva qualidade.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.353827+00:00"
+  },
+  {
+    "id": "F1788026466357",
+    "title": "Fadiga e técnica",
+    "text": "Sob fadiga extrema a técnica cai; treine isso de forma controlada.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.357477+00:00"
+  },
+  {
+    "id": "F1788026466360",
+    "title": "Força unilateral",
+    "text": "Afundo e variantes corrigem desequilíbrios e transferem ao sprint.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.360966+00:00"
+  },
+  {
+    "id": "F1788026466364",
+    "title": "Potência de salto",
+    "text": "Salto vertical e horizontal ajudam no jogo aéreo e nos arranques.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.364676+00:00"
+  },
+  {
+    "id": "F1788026466368",
+    "title": "Resistência de repetição",
+    "text": "Capacidade de repetir sprints com pausa curta é específica do futebol.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.368366+00:00"
+  },
+  {
+    "id": "F1788026466371",
+    "title": "RSA",
+    "text": "Repeated Sprint Ability: treine com tiros e pausas incompletas.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.371385+00:00"
+  },
+  {
+    "id": "F1788026466374",
+    "title": "Economia de corrida",
+    "text": "Técnica de corrida economiza energia ao longo de 90 minutos.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.374894+00:00"
+  },
+  {
+    "id": "F1788026466378",
+    "title": "Carga mental",
+    "text": "Decisões sob pressão também cansam; treine percepção.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.378495+00:00"
+  },
+  {
+    "id": "F1788026466381",
+    "title": "Férias",
+    "text": "Retorno de férias exige progressão cuidadosa de sprints.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.381982+00:00"
+  },
+  {
+    "id": "F1788026466385",
+    "title": "Supercompensação",
+    "text": "Após estímulo e descanso adequado, o rendimento pode subir.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.385428+00:00"
+  },
+  {
+    "id": "F1788026466388",
+    "title": "Passe curto",
+    "text": "Base da posse; precisão e timing sob pressão.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.388704+00:00"
+  },
+  {
+    "id": "F1788026466391",
+    "title": "Passe longo",
+    "text": "Muda o flanco ou encontra profundidade; exige qualidade de batida.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.391722+00:00"
+  },
+  {
+    "id": "F1788026466394",
+    "title": "Passe filtrado",
+    "text": "Entre linhas; quebra blocos densos.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.394774+00:00"
+  },
+  {
+    "id": "F1788026466398",
+    "title": "Cruzamento rasteiro",
+    "text": "Difícil de interceptar; bom para primeiro poste.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.398147+00:00"
+  },
+  {
+    "id": "F1788026466401",
+    "title": "Cruzamento alto",
+    "text": "Útil no segundo poste e no jogo aéreo.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.401323+00:00"
+  },
+  {
+    "id": "F1788026466404",
+    "title": "Finalização de primeira",
+    "text": "Reduz tempo ao goleiro; exige timing.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.404315+00:00"
+  },
+  {
+    "id": "F1788026466407",
+    "title": "Finalização colocada",
+    "text": "Mira nos cantos muitas vezes supera força bruta.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.407722+00:00"
+  },
+  {
+    "id": "F1788026466411",
+    "title": "Chute de longe",
+    "text": "Ameaça força o bloco adversário a sair.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.411103+00:00"
+  },
+  {
+    "id": "F1788026466414",
+    "title": "Domínio de peito",
+    "text": "Alivia bolas altas e prepara o próximo passe.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.414471+00:00"
+  },
+  {
+    "id": "F1788026466417",
+    "title": "Domínio de sola",
+    "text": "Útil para proteger e girar em espaços curtos.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.417860+00:00"
+  },
+  {
+    "id": "F1788026466421",
+    "title": "Condução",
+    "text": "Levar a bola com a cabeça erguida para ver opções.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.421350+00:00"
+  },
+  {
+    "id": "F1788026466424",
+    "title": "Drible",
+    "text": "Criar vantagem numérica; não é fim em si.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.424791+00:00"
+  },
+  {
+    "id": "F1788026466427",
+    "title": "Finta",
+    "text": "Enganar o marcador sem necessariamente tocar a bola.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.428000+00:00"
+  },
+  {
+    "id": "F1788026466431",
+    "title": "Proteção de bola",
+    "text": "Corpo entre a bola e o adversário.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.431426+00:00"
+  },
+  {
+    "id": "F1788026466435",
+    "title": "Interceptação",
+    "text": "Chegar na linha de passe antes do adversário.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.435111+00:00"
+  },
+  {
+    "id": "F1788026466438",
+    "title": "Desarme limpo",
+    "text": "Timing e lateralidade; evitar falta desnecessária.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.438999+00:00"
+  },
+  {
+    "id": "F1788026466442",
+    "title": "Cabeceio ofensivo",
+    "text": "Timing de salto e direção do golpe.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.442716+00:00"
+  },
+  {
+    "id": "F1788026466446",
+    "title": "Cabeceio defensivo",
+    "text": "Rejeitar para longe da área de perigo.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.446085+00:00"
+  },
+  {
+    "id": "F1788026466449",
+    "title": "Rondo",
+    "text": "Treina suporte, passe e pressão em espaço reduzido.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.449694+00:00"
+  },
+  {
+    "id": "F1788026466453",
+    "title": "Jogo 4v4",
+    "text": "Alto número de contatos e decisões por minuto.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.453165+00:00"
+  },
+  {
+    "id": "F1788026466456",
+    "title": "Jogo 7v7",
+    "text": "Ponte entre reduzido e o jogo formal.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.456423+00:00"
+  },
+  {
+    "id": "F1788026466459",
+    "title": "Campo grande",
+    "text": "Favorece resistência e amplitude.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.459754+00:00"
+  },
+  {
+    "id": "F1788026466463",
+    "title": "Campo pequeno",
+    "text": "Favorece velocidade de decisão e pressão.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.463181+00:00"
+  },
+  {
+    "id": "F1788026466466",
+    "title": "Regra de 2 toques",
+    "text": "Acelera a circulação e o suporte.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.466525+00:00"
+  },
+  {
+    "id": "F1788026466469",
+    "title": "Gol valendo mais de fora da área",
+    "text": "Estimula finalização e criação de espaço.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.469991+00:00"
+  },
+  {
+    "id": "F1788026466477",
+    "title": "Superioridade 5v2",
+    "text": "Treina posse e pressão em inferioridade.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.477651+00:00"
+  },
+  {
+    "id": "F1788026466480",
+    "title": "Situação de bola parada",
+    "text": "Ensaiar como se fosse o minuto 88.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.480797+00:00"
+  },
+  {
+    "id": "F1788026466483",
+    "title": "Estações técnicas",
+    "text": "Circuito de qualidade com pouco tempo morto.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.483983+00:00"
+  },
+  {
+    "id": "F1788026466487",
+    "title": "Treino integrado",
+    "text": "Une técnica, tática e físico no mesmo estímulo.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.487890+00:00"
+  },
+  {
+    "id": "F1788026466491",
+    "title": "Treino analítico",
+    "text": "Isola o gesto; útil no começo do aprendizado.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.491718+00:00"
+  },
+  {
+    "id": "F1788026466495",
+    "title": "Treino situacional",
+    "text": "Pedaço do jogo com regras e oposição.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.495312+00:00"
+  },
+  {
+    "id": "F1788026466498",
+    "title": "Treino global",
+    "text": "Jogo mais livre com correção de princípios.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.498978+00:00"
+  },
+  {
+    "id": "F1788026466502",
+    "title": "Feedback em 90 segundos",
+    "text": "Pausas curtas mantêm a intensidade da sessão.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.502750+00:00"
+  },
+  {
+    "id": "F1788026466506",
+    "title": "Critério de sucesso",
+    "text": "Defina o que é ‘bom’ antes do exercício começar.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.506761+00:00"
+  },
+  {
+    "id": "F1788026466510",
+    "title": "Material pronto",
+    "text": "Cones e coletes organizados evitam tempo morto.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.510101+00:00"
+  },
+  {
+    "id": "F1788026466513",
+    "title": "Filas longas",
+    "text": "Fila longa mata intensidade; organize grupos menores.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.513512+00:00"
+  },
+  {
+    "id": "F1788026466516",
+    "title": "Demonstração clara",
+    "text": "Mostre em 20 segundos o que quer; depois deixe executar.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.516980+00:00"
+  },
+  {
+    "id": "F1788026466520",
+    "title": "Correção positiva",
+    "text": "Diga o que fazer, não só o que não fazer.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.520969+00:00"
+  },
+  {
+    "id": "F1788026466525",
+    "title": "Gravação curta",
+    "text": "Vídeo de 10–20s ajuda a corrigir postura e decisão.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.525013+00:00"
+  },
+  {
+    "id": "F1788026466529",
+    "title": "3 clipes de vídeo",
+    "text": "Poucos clipes bem escolhidos superam 40 minutos de reunião.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.529077+00:00"
+  },
+  {
+    "id": "F1788026466533",
+    "title": "Placar no treino",
+    "text": "Pode motivar, mas não pode destruir o objetivo técnico.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.533116+00:00"
+  },
+  {
+    "id": "F1788026466537",
+    "title": "Coletes e lados",
+    "text": "Cores claras reduzem confusão em jogos reduzidos.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.537246+00:00"
+  },
+  {
+    "id": "F1788026466541",
+    "title": "Cronômetro",
+    "text": "Séries e pausas controladas melhoram a dose de carga.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.541372+00:00"
+  },
+  {
+    "id": "F1788026466545",
+    "title": "Espaço marcado",
+    "text": "Limites claros aumentam a repetição do comportamento desejado.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.545642+00:00"
+  },
+  {
+    "id": "F1788026466549",
+    "title": "Oposição passiva",
+    "text": "Marcador que não desarma no início do aprendizado.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.549733+00:00"
+  },
+  {
+    "id": "F1788026466553",
+    "title": "Oposição ativa",
+    "text": "Marcador real após o gesto estar estável.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.553697+00:00"
+  },
+  {
+    "id": "F1788026466557",
+    "title": "Dois lados do campo",
+    "text": "Treine padrões para a direita e para a esquerda.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.557699+00:00"
+  },
+  {
+    "id": "F1788026466561",
+    "title": "Rotação de estações",
+    "text": "Mantém todos ativos e reduz espera.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.561478+00:00"
+  },
+  {
+    "id": "F1788026466565",
+    "title": "Jogador extra (coringa)",
+    "text": "Coringa na posse facilita superioridade e fluidez.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.565125+00:00"
+  },
+  {
+    "id": "F1788026466569",
+    "title": "Goleiros nos reduzidos",
+    "text": "Sempre que possível, inclua goleiros para realismo.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.569182+00:00"
+  },
+  {
+    "id": "F1788026466572",
+    "title": "Finalização após esforço",
+    "text": "Chute após sprint simula o jogo real.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.572993+00:00"
+  },
+  {
+    "id": "F1788026466576",
+    "title": "Passe após giro",
+    "text": "Receber, girar e passar sob pressão.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.576797+00:00"
+  },
+  {
+    "id": "F1788026466580",
+    "title": "1x1 em corredor",
+    "text": "Treina drible e contenção no espaço típico do jogo.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.580857+00:00"
+  },
+  {
+    "id": "F1788026466584",
+    "title": "2x1 ofensivo",
+    "text": "Decisão de driblar ou passar em superioridade.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.584835+00:00"
+  },
+  {
+    "id": "F1788026466588",
+    "title": "3x2 em profundidade",
+    "text": "Treina ruptura e último passe.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.588469+00:00"
+  },
+  {
+    "id": "F1788026466592",
+    "title": "Jogo de linhas",
+    "text": "Campo dividido em zonas para ensinar altura e ocupação.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.592811+00:00"
+  },
+  {
+    "id": "F1788026466596",
+    "title": "Pressão após 3 passes",
+    "text": "Regra que força o time sem bola a agir.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.596940+00:00"
+  },
+  {
+    "id": "F1788026466600",
+    "title": "Gol só de cabeça",
+    "text": "Enfatiza cruzamento e ocupação de área.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.600841+00:00"
+  },
+  {
+    "id": "F1788026466604",
+    "title": "Reposição rápida",
+    "text": "Mantém intensidade e treina transição.",
+    "tags": "metodologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.604670+00:00"
+  },
+  {
+    "id": "F1788026466608",
+    "title": "Confiança",
+    "text": "Vem de preparação e de sucessos parciais no treino.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.608992+00:00"
+  },
+  {
+    "id": "F1788026466613",
+    "title": "Ansiedade pré-jogo",
+    "text": "Rotina fixa e respiração ajudam a canalizar o nervosismo.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.613295+00:00"
+  },
+  {
+    "id": "F1788026466617",
+    "title": "Concentração",
+    "text": "Rituais curtos a cada parada de bola ajudam a manter o foco.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.617088+00:00"
+  },
+  {
+    "id": "F1788026466621",
+    "title": "Resiliência",
+    "text": "Treinar o ‘próximo lance’ após o erro.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.621120+00:00"
+  },
+  {
+    "id": "F1788026466624",
+    "title": "Coesão",
+    "text": "Time que se protege em campo costuma treinar com mais entrega.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.624976+00:00"
+  },
+  {
+    "id": "F1788026466629",
+    "title": "Motivação intrínseca",
+    "text": "Prazer pelo jogo sustenta a carreira mais que só pressão externa.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.629536+00:00"
+  },
+  {
+    "id": "F1788026466633",
+    "title": "Pressão externa",
+    "text": "O coach protege o ambiente de treino quando possível.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.633861+00:00"
+  },
+  {
+    "id": "F1788026466638",
+    "title": "Conversa individual",
+    "text": "10 minutos honestos resolvem o que 30 gritos não resolvem.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.638242+00:00"
+  },
+  {
+    "id": "F1788026466642",
+    "title": "Critério de seleção",
+    "text": "Transparência de critérios reduz teorias de favoritismo.",
+    "tags": "gestao_elenco",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.642929+00:00"
+  },
+  {
+    "id": "F1788026466647",
+    "title": "Banco de reservas",
+    "text": "Reservas que entendem o papel elevam o treino de todos.",
+    "tags": "gestao_elenco",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.647060+00:00"
+  },
+  {
+    "id": "F1788026466651",
+    "title": "Capitão",
+    "text": "Liderança por exemplo e comunicação, não só pela braçadeira.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.651793+00:00"
+  },
+  {
+    "id": "F1788026466656",
+    "title": "Vestiário",
+    "text": "Ambiente do vestiário reflete e alimenta a cultura do time.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.656491+00:00"
+  },
+  {
+    "id": "F1788026466660",
+    "title": "Pontualidade",
+    "text": "Chegar no horário é o primeiro treino do dia.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.660833+00:00"
+  },
+  {
+    "id": "F1788026466665",
+    "title": "Padrão de intensidade",
+    "text": "Cobrar o mesmo padrão de estrelas e jovens.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.665146+00:00"
+  },
+  {
+    "id": "F1788026466669",
+    "title": "Pais na base",
+    "text": "Alinhar expectativas evita conflito e protege o atleta.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.669208+00:00"
+  },
+  {
+    "id": "F1788026466674",
+    "title": "Maturação biológica",
+    "text": "Idade cronológica não é idade biológica; cuidado com comparações.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.674274+00:00"
+  },
+  {
+    "id": "F1788026466679",
+    "title": "Especialização precoce",
+    "text": "Especializar demais cedo demais aumenta risco de burnout e lesão.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.679230+00:00"
+  },
+  {
+    "id": "F1788026466684",
+    "title": "Multilateralidade",
+    "text": "Variar esportes e estímulos na infância ajuda o desenvolvimento.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.684063+00:00"
+  },
+  {
+    "id": "F1788026466688",
+    "title": "Prazer em jogar",
+    "text": "Criança que se diverte treina mais e aprende mais.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.688839+00:00"
+  },
+  {
+    "id": "F1788026466693",
+    "title": "Campeonato vs formação",
+    "text": "Equilíbrio delicado; a base não é profissional em miniatura.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.693886+00:00"
+  },
+  {
+    "id": "F1788026466698",
+    "title": "Sub-15",
+    "text": "Introdução gradual de princípios táticos mais complexos.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.698510+00:00"
+  },
+  {
+    "id": "F1788026466702",
+    "title": "Sub-17",
+    "text": "Maior competitividade e cuidado com carga e crescimento.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.702424+00:00"
+  },
+  {
+    "id": "F1788026466706",
+    "title": "Sub-20",
+    "text": "Ponte para o profissional: rotina e responsabilidade.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.706480+00:00"
+  },
+  {
+    "id": "F1788026466711",
+    "title": "Scout de base",
+    "text": "Procure inteligência de jogo e personalidade, não só físico precoce.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.711500+00:00"
+  },
+  {
+    "id": "F1788026466716",
+    "title": "Soccer90 espaço",
+    "text": "Treinos sem bola cabem em cerca de 1,5 m × 1,5 m.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.716262+00:00"
+  },
+  {
+    "id": "F1788026466720",
+    "title": "Soccer90 com bola",
+    "text": "Com bola, o ideal é cerca de 2 m × 2 m.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.720674+00:00"
+  },
+  {
+    "id": "F1788026466725",
+    "title": "Soccer90 tipos",
+    "text": "Sem bola, com bola, tático, força, agilidade e descanso.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.725613+00:00"
+  },
+  {
+    "id": "F1788026466730",
+    "title": "Soccer90 descanso",
+    "text": "Descanso ativo mantém o hábito sem carga alta.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.730149+00:00"
+  },
+  {
+    "id": "F1788026466734",
+    "title": "Soccer90 consistência",
+    "text": "O app ajuda a manter sequência quando não há campo.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.734859+00:00"
+  },
+  {
+    "id": "F1788026466740",
+    "title": "Campo + casa",
+    "text": "Campo para o coletivo; casa para mobilidade, core e hábito.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.740401+00:00"
+  },
+  {
+    "id": "F1788026466744",
+    "title": "Apartamento",
+    "text": "Evite saltos altos se o piso incomodar vizinhos.",
+    "tags": "soccer90",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.744691+00:00"
+  },
+  {
+    "id": "F1788026466749",
+    "title": "Sem equipamentos",
+    "text": "A maior parte do treino funcional de futebol não exige academia.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.749949+00:00"
+  },
+  {
+    "id": "F1788026466755",
+    "title": "Tênis adequado",
+    "text": "Bom amortecimento e estabilidade para mudanças de direção.",
+    "tags": "equipamento",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.755527+00:00"
+  },
+  {
+    "id": "F1788026466760",
+    "title": "Campo society",
+    "text": "Ajuste volume de giros; superfície muda a carga articular.",
+    "tags": "estrutura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.760705+00:00"
+  },
+  {
+    "id": "F1788026466766",
+    "title": "Grama sintética",
+    "text": "Pode aumentar carga em alguns movimentos; progressão é chave.",
+    "tags": "estrutura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.766016+00:00"
+  },
+  {
+    "id": "F1788026466771",
+    "title": "Areia",
+    "text": "Alto custo energético; útil com dose controlada.",
+    "tags": "estrutura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.771046+00:00"
+  },
+  {
+    "id": "F1788026466776",
+    "title": "Chuva",
+    "text": "Calçado e prudência em giros; adaptação faz parte.",
+    "tags": "ambiente",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.776063+00:00"
+  },
+  {
+    "id": "F1788026466781",
+    "title": "Altitude",
+    "text": "Exige adaptação; não copie a mesma carga do nível do mar.",
+    "tags": "ambiente",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.781215+00:00"
+  },
+  {
+    "id": "F1788026466786",
+    "title": "Jogos em sequência",
+    "text": "Três jogos em 8 dias mudam totalmente o microciclo.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.786368+00:00"
+  },
+  {
+    "id": "F1788026466791",
+    "title": "Minutos acumulados",
+    "text": "Titular com 90 min repetidos precisa de gestão de carga.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.791570+00:00"
+  },
+  {
+    "id": "F1788026466796",
+    "title": "Cartão amarelo",
+    "text": "Jogador pendurado exige plano tático e emocional.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.796610+00:00"
+  },
+  {
+    "id": "F1788026466800",
+    "title": "Expulsão",
+    "text": "Com 10, compactar e priorizar estabilidade.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.800849+00:00"
+  },
+  {
+    "id": "F1788026466805",
+    "title": "Intervalo",
+    "text": "Poucos pontos objetivos; hidratação e calma.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.805651+00:00"
+  },
+  {
+    "id": "F1788026466809",
+    "title": "Substituição com função",
+    "text": "Cada entrada deve ter uma tarefa clara.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.809807+00:00"
+  },
+  {
+    "id": "F1788026466814",
+    "title": "Tempo de compensação",
+    "text": "Concentração máxima; muitos gols acontecem ali.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.814844+00:00"
+  },
+  {
+    "id": "F1788026466819",
+    "title": "Cantonera e escanteio",
+    "text": "Ensaios curtos e frequentes na semana.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.819017+00:00"
+  },
+  {
+    "id": "F1788026466823",
+    "title": "Falta lateral",
+    "text": "Cobrança ensaiada e ocupação de área.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.823729+00:00"
+  },
+  {
+    "id": "F1788026466828",
+    "title": "Pênalti",
+    "text": "Rotina do cobrador e preparação emocional.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.828426+00:00"
+  },
+  {
+    "id": "F1788026466833",
+    "title": "Barreira",
+    "text": "Altura, número e reação ao rebote.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.833732+00:00"
+  },
+  {
+    "id": "F1788026466838",
+    "title": "Segundo lance",
+    "text": "A maioria das defesas não termina no primeiro desvio.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.838832+00:00"
+  },
+  {
+    "id": "F1788026466843",
+    "title": "Scouting 5 pontos",
+    "text": "Resuma o adversário em poucos pontos acionáveis.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.843920+00:00"
+  },
+  {
+    "id": "F1788026466849",
+    "title": "Jogador-chave adversário",
+    "text": "Plano específico para anular ou pressionar o melhor.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.849513+00:00"
+  },
+  {
+    "id": "F1788026466854",
+    "title": "Padrão de saída adversária",
+    "text": "Onde eles gostam de sair define onde pressionar.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.854536+00:00"
+  },
+  {
+    "id": "F1788026466859",
+    "title": "Vídeo pós-jogo",
+    "text": "No dia seguinte a análise costuma ser mais racional.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.859998+00:00"
+  },
+  {
+    "id": "F1788026466865",
+    "title": "Treino do dia seguinte",
+    "text": "Recuperação ativa e correções leves, não carga alta.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.865436+00:00"
+  },
+  {
+    "id": "F1788026466870",
+    "title": "Dia de folga",
+    "text": "Folga também é ferramenta de performance.",
+    "tags": "recuperacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.870476+00:00"
+  },
+  {
+    "id": "F1788026466876",
+    "title": "Massagem e gelo",
+    "text": "Recursos auxiliares; não substituem sono e carga bem dosada.",
+    "tags": "recuperacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.876425+00:00"
+  },
+  {
+    "id": "F1788026466881",
+    "title": "Alongamento estático",
+    "text": "Melhor na volta à calma do que antes de sprints.",
+    "tags": "mobilidade",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.881960+00:00"
+  },
+  {
+    "id": "F1788026466886",
+    "title": "Alongamento dinâmico",
+    "text": "Mais adequado no aquecimento.",
+    "tags": "mobilidade",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.886534+00:00"
+  },
+  {
+    "id": "F1788026466892",
+    "title": "Respiração no esforço",
+    "text": "Expirar na fase de força ajuda estabilidade do core.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.892124+00:00"
+  },
+  {
+    "id": "F1788026466897",
+    "title": "Olhos na bola no cabeceio",
+    "text": "Contato visual com a bola melhora precisão.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.897448+00:00"
+  },
+  {
+    "id": "F1788026466902",
+    "title": "Apoio no chute",
+    "text": "Pé de apoio ao lado da bola, direção do alvo.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.902782+00:00"
+  },
+  {
+    "id": "F1788026466908",
+    "title": "Tornozelo travado no passe",
+    "text": "Tornozelo firme aumenta precisão do passe rasteiro.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.908209+00:00"
+  },
+  {
+    "id": "F1788026466912",
+    "title": "Cabeça erguida na condução",
+    "text": "Ver o campo antes de ser pressionado.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.912650+00:00"
+  },
+  {
+    "id": "F1788026466917",
+    "title": "Disputa de ombro",
+    "text": "Usar o corpo legalmente para proteger a bola.",
+    "tags": "tecnica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.917214+00:00"
+  },
+  {
+    "id": "F1788026466922",
+    "title": "Antecipação",
+    "text": "Chegar antes na bola reduz falta e aumenta interceptações.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.922690+00:00"
+  },
+  {
+    "id": "F1788026466927",
+    "title": "Paciência defensiva",
+    "text": "Adiar o drible adversário é virtude.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.927591+00:00"
+  },
+  {
+    "id": "F1788026466932",
+    "title": "Agressividade controlada",
+    "text": "Competitividade sem perder a técnica do desarme.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.932801+00:00"
+  },
+  {
+    "id": "F1788026466938",
+    "title": "Cobertura diagonal",
+    "text": "Zagueiro cobre o espaço quando o outro sai.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.938141+00:00"
+  },
+  {
+    "id": "F1788026466943",
+    "title": "Linha de passe fechada",
+    "text": "Corpo na linha de passe reduz opções do adversário.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.943551+00:00"
+  },
+  {
+    "id": "F1788026466948",
+    "title": "Pressão em curva",
+    "text": "Orientar o portador para onde o time quer.",
+    "tags": "pressao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.948095+00:00"
+  },
+  {
+    "id": "F1788026466953",
+    "title": "Profissionalismo",
+    "text": "Treinar bem quando ninguém está olhando define carreira.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.953701+00:00"
+  },
+  {
+    "id": "F1788026466959",
+    "title": "Hábitos",
+    "text": "Sono, alimentação e pontualidade são performance.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.959071+00:00"
+  },
+  {
+    "id": "F1788026466964",
+    "title": "Redes sociais",
+    "text": "Exposição emocional excessiva pode afetar foco e vestiário.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.964635+00:00"
+  },
+  {
+    "id": "F1788026466969",
+    "title": "Crítica da imprensa",
+    "text": "Filtro emocional; foco no que o time controla.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.969428+00:00"
+  },
+  {
+    "id": "F1788026466974",
+    "title": "Contrato e minutos",
+    "text": "Expectativa de minutos deve ser alinhada com honestidade.",
+    "tags": "gestao_elenco",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.974309+00:00"
+  },
+  {
+    "id": "F1788026466979",
+    "title": "Multiculturalidade",
+    "text": "Elenco diverso exige comunicação ainda mais clara.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.979798+00:00"
+  },
+  {
+    "id": "F1788026466986",
+    "title": "Idioma no vestiário",
+    "text": "Garantir que todos entendam instruções táticas.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.986749+00:00"
+  },
+  {
+    "id": "F1788026466992",
+    "title": "Novatos",
+    "text": "Integração social acelera o rendimento em campo.",
+    "tags": "gestao_elenco",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.992719+00:00"
+  },
+  {
+    "id": "F1788026466997",
+    "title": "Veteranos",
+    "text": "Exemplo de rotina vale mais que discurso.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:06.997717+00:00"
+  },
+  {
+    "id": "F1788026467002",
+    "title": "Reabilitação social",
+    "text": "Lesionado deve continuar pertencendo ao grupo.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.002757+00:00"
+  },
+  {
+    "id": "F1788026467008",
+    "title": "Testes físicos",
+    "text": "Úteis para monitorar, não para humilhar.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.008165+00:00"
+  },
+  {
+    "id": "F1788026467013",
+    "title": "Yo-Yo e variantes",
+    "text": "Testes de capacidade intermitente comuns no futebol.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.013009+00:00"
+  },
+  {
+    "id": "F1788026467018",
+    "title": "Sprint 30 m",
+    "text": "Indicador simples de velocidade; use com contexto.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.018070+00:00"
+  },
+  {
+    "id": "F1788026467023",
+    "title": "Salto vertical",
+    "text": "Proxy de potência de membros inferiores.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.023560+00:00"
+  },
+  {
+    "id": "F1788026467034",
+    "title": "Amplitude articular",
+    "text": "Avaliação de mobilidade previne compensações.",
+    "tags": "mobilidade",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.034066+00:00"
+  },
+  {
+    "id": "F1788026467041",
+    "title": "Assimetria de força",
+    "text": "Diferenças grandes entre pernas merecem plano.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.041158+00:00"
+  },
+  {
+    "id": "F1788026467047",
+    "title": "GPS high speed",
+    "text": "Metros em alta velocidade são marcador de exigência.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.047293+00:00"
+  },
+  {
+    "id": "F1788026467053",
+    "title": "Acelerações GPS",
+    "text": "Número de acelerações reflete o caos do jogo.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.053605+00:00"
+  },
+  {
+    "id": "F1788026467059",
+    "title": "Carga interna",
+    "text": "FC e PSE mostram como o atleta sentiu o treino.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.059106+00:00"
+  },
+  {
+    "id": "F1788026467065",
+    "title": "Bem-estar diário",
+    "text": "Perguntas simples de sono e dor ajudam a decidir a dose.",
+    "tags": "carga",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.065481+00:00"
+  },
+  {
+    "id": "F1788026467072",
+    "title": "Overreaching",
+    "text": "Carga alta temporária pode ser planejada; overtraining não.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.072427+00:00"
+  },
+  {
+    "id": "F1788026467079",
+    "title": "Sintomas de excesso",
+    "text": "Queda de rendimento, insônia, irritação e lesões recorrentes.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.079245+00:00"
+  },
+  {
+    "id": "F1788026467085",
+    "title": "Mulheres no futebol",
+    "text": "Mesmos princípios; ajuste de carga e contexto do elenco.",
+    "tags": "inclusao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.085875+00:00"
+  },
+  {
+    "id": "F1788026467092",
+    "title": "Futebol feminino — bolas paradas",
+    "text": "Tão decisivas quanto no masculino; ensaiar com seriedade.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.092603+00:00"
+  },
+  {
+    "id": "F1788026467099",
+    "title": "Futebol de 7 e society",
+    "text": "Adapte espaços e princípios; não copie o 11x11 cegamente.",
+    "tags": "estrutura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.099308+00:00"
+  },
+  {
+    "id": "F1788026467105",
+    "title": "Futsal para campo",
+    "text": "Agiliza decisão e domínio em espaço curto.",
+    "tags": "base",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.105742+00:00"
+  },
+  {
+    "id": "F1788026467112",
+    "title": "Beach soccer",
+    "text": "Estímulo complementar de estabilidade e força, com dose.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.112539+00:00"
+  },
+  {
+    "id": "F1788026467117",
+    "title": "Treino em academia",
+    "text": "Complemento; o jogo continua sendo o eixo.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.117985+00:00"
+  },
+  {
+    "id": "F1788026467124",
+    "title": "Isometria",
+    "text": "Útil em reabilitação e em estabilidade de core.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.124170+00:00"
+  },
+  {
+    "id": "F1788026467130",
+    "title": "Excêntrico",
+    "text": "Forte papel na prevenção de lesões musculares.",
+    "tags": "saude",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.130716+00:00"
+  },
+  {
+    "id": "F1788026467136",
+    "title": "Pliometria",
+    "text": "Alta qualidade, baixo volume, boa aterrissagem.",
+    "tags": "fisico",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.136854+00:00"
+  },
+  {
+    "id": "F1788026467143",
+    "title": "Treino de força longe do jogo",
+    "text": "Permite cargas mais altas e adaptação.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.143038+00:00"
+  },
+  {
+    "id": "F1788026467148",
+    "title": "Ativação no dia anterior",
+    "text": "Estímulo leve de velocidade e finalização.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.148822+00:00"
+  },
+  {
+    "id": "F1788026467155",
+    "title": "Reconhecimento de campo",
+    "text": "Útil em viagens; não precisa ser treino pesado.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.155086+00:00"
+  },
+  {
+    "id": "F1788026467161",
+    "title": "Aquecimento de jogo",
+    "text": "Progressivo, com bolas e ativações específicas.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.161486+00:00"
+  },
+  {
+    "id": "F1788026467166",
+    "title": "Banco aquecido",
+    "text": "Reservas prontos fisicamente e mentalmente.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.166710+00:00"
+  },
+  {
+    "id": "F1788026467175",
+    "title": "Gestão de cartões",
+    "text": "Evitar suspensões em jogos-chave com inteligência tática.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.175320+00:00"
+  },
+  {
+    "id": "F1788026467182",
+    "title": "Simulação e fair play",
+    "text": "Padrões éticos fazem parte da cultura do clube.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.182462+00:00"
+  },
+  {
+    "id": "F1788026467188",
+    "title": "Árbitro",
+    "text": "Respeito à arbitragem protege o time de cartões desnecessários.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.188842+00:00"
+  },
+  {
+    "id": "F1788026467194",
+    "title": "Capitão e árbitro",
+    "text": "Comunicação calma com a arbitragem ajuda o time.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.194764+00:00"
+  },
+  {
+    "id": "F1788026467200",
+    "title": "Análise do próprio time",
+    "text": "Olhar crítico interno antes de culpar o adversário.",
+    "tags": "analise",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.200682+00:00"
+  },
+  {
+    "id": "F1788026467206",
+    "title": "Padrões ofensivos",
+    "text": "2–4 jogadas ensaiadas de progressão ajudam a fluidez.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.206542+00:00"
+  },
+  {
+    "id": "F1788026467211",
+    "title": "Padrões defensivos",
+    "text": "Coberturas e dobras ensaiadas reduzem 1x1 expostos.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.211508+00:00"
+  },
+  {
+    "id": "F1788026467218",
+    "title": "Jogo aéreo ofensivo",
+    "text": "Não é só altura: timing e ocupação.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.218500+00:00"
+  },
+  {
+    "id": "F1788026467224",
+    "title": "Jogo aéreo defensivo",
+    "text": "Antecipação e rejeição para zonas seguras.",
+    "tags": "defesa",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.224039+00:00"
+  },
+  {
+    "id": "F1788026467229",
+    "title": "Lateralidade do time",
+    "text": "Atacar os dois lados evita previsibilidade.",
+    "tags": "ataque",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.229171+00:00"
+  },
+  {
+    "id": "F1788026467234",
+    "title": "Ritmo de posse",
+    "text": "Saber acelerar e pisar na bola conforme o placar.",
+    "tags": "posse",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.234534+00:00"
+  },
+  {
+    "id": "F1788026467240",
+    "title": "Controle de ritmo",
+    "text": "Time maduro altera o ritmo sem perder a organização.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.240485+00:00"
+  },
+  {
+    "id": "F1788026467246",
+    "title": "Momento do jogo",
+    "text": "Minuto 10 não é minuto 85; a dose de risco muda.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.246466+00:00"
+  },
+  {
+    "id": "F1788026467252",
+    "title": "Estados emocionais",
+    "text": "Raiva e euforia excessivas prejudicam a decisão.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.252154+00:00"
+  },
+  {
+    "id": "F1788026467257",
+    "title": "Ritual de equipe",
+    "text": "Rituais simples aumentam senso de pertencimento.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.257079+00:00"
+  },
+  {
+    "id": "F1788026467262",
+    "title": "Objetivo da sessão",
+    "text": "Toda sessão precisa de um ‘para quê’ claro.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.262913+00:00"
+  },
+  {
+    "id": "F1788026467269",
+    "title": "Avaliação pós-sessão",
+    "text": "3 perguntas: o que funcionou, o que não, o que treinar amanhã.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.269249+00:00"
+  },
+  {
+    "id": "F1788026467275",
+    "title": "Caderno do treinador",
+    "text": "Registrar padrões e lesões ajuda a decisão futura.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.275166+00:00"
+  },
+  {
+    "id": "F1788026467281",
+    "title": "Planilha simples",
+    "text": "Organizar microciclos não exige software caro.",
+    "tags": "periodizacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.281036+00:00"
+  },
+  {
+    "id": "F1788026467286",
+    "title": "Comunicação com a direção",
+    "text": "Alinhar expectativa de estilo e de resultados.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.286110+00:00"
+  },
+  {
+    "id": "F1788026467291",
+    "title": "Paciência com o modelo",
+    "text": "Identidade leva tempo para assentir no elenco.",
+    "tags": "modelo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.291202+00:00"
+  },
+  {
+    "id": "F1788026467296",
+    "title": "Flexibilidade tática",
+    "text": "Ter plano B treinado evita improviso puro.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.296367+00:00"
+  },
+  {
+    "id": "F1788026467302",
+    "title": "Plano B",
+    "text": "Não é abandono de identidade; é adaptação inteligente.",
+    "tags": "tatica",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.302327+00:00"
+  },
+  {
+    "id": "F1788026467308",
+    "title": "Treino sombrio",
+    "text": "Evite sessões sem propósito só para ‘cansar’.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.308225+00:00"
+  },
+  {
+    "id": "F1788026467314",
+    "title": "Cansaço sem aprendizado",
+    "text": "Fadiga sem conteúdo técnico-tático é desperdício.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.314036+00:00"
+  },
+  {
+    "id": "F1788026467320",
+    "title": "Aprendizado sob fadiga",
+    "text": "Dose controlada de decisão cansada prepara o final do jogo.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.320190+00:00"
+  },
+  {
+    "id": "F1788026467326",
+    "title": "Final de treino",
+    "text": "Termine com clareza, não com confusão e gritos.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.326552+00:00"
+  },
+  {
+    "id": "F1788026467332",
+    "title": "Começo de treino",
+    "text": "Os primeiros minutos definem o tom da sessão.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.332597+00:00"
+  },
+  {
+    "id": "F1788026467338",
+    "title": "Exemplo do coach",
+    "text": "O treinador também aquece o padrão de energia.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.338935+00:00"
+  },
+  {
+    "id": "F1788026467346",
+    "title": "Silêncio produtivo",
+    "text": "Às vezes deixar o jogo correr revela mais do que apitar demais.",
+    "tags": "lideranca",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.346274+00:00"
+  },
+  {
+    "id": "F1788026467352",
+    "title": "Apito excessivo",
+    "text": "Interromper a cada erro mata o fluxo e a intensidade.",
+    "tags": "sessao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.352125+00:00"
+  },
+  {
+    "id": "F1788026467359",
+    "title": "Perguntas abertas",
+    "text": "‘O que você poderia fazer diferente?’ gera reflexão.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.359122+00:00"
+  },
+  {
+    "id": "F1788026467366",
+    "title": "Feedback sanduíche",
+    "text": "Não precisa; seja claro e respeitoso sem fórmula forçada.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.366266+00:00"
+  },
+  {
+    "id": "F1788026467373",
+    "title": "Reunião curta",
+    "text": "Reunião longa demais reduz retenção da mensagem.",
+    "tags": "comunicacao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.373306+00:00"
+  },
+  {
+    "id": "F1788026467380",
+    "title": "Mensagem única",
+    "text": "No intervalo, uma mensagem principal é melhor que dez.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.380432+00:00"
+  },
+  {
+    "id": "F1788026467387",
+    "title": "Celebração",
+    "text": "Comemorar gols fortalece o grupo; mantenha foco após o 1-0.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.388004+00:00"
+  },
+  {
+    "id": "F1788026467394",
+    "title": "Derrota",
+    "text": "Analisar sem destruir a confiança do elenco.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.394836+00:00"
+  },
+  {
+    "id": "F1788026467403",
+    "title": "Vitória",
+    "text": "Aproveitar, mas corrigir detalhes enquanto a confiança está alta.",
+    "tags": "psicologia",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.403713+00:00"
+  },
+  {
+    "id": "F1788026467411",
+    "title": "Empate",
+    "text": "Muitas vezes é ponto ganho ou dois perdidos; contexto define.",
+    "tags": "gestao_jogo",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.411912+00:00"
+  },
+  {
+    "id": "F1788026467419",
+    "title": "Classificação",
+    "text": "Em eliminatórias, o placar agregado muda a gestão de risco.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.419206+00:00"
+  },
+  {
+    "id": "F1788026467426",
+    "title": "Prorrogação",
+    "text": "Preparar substituições e cargas para 30 minutos extras.",
+    "tags": "competicao",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.426174+00:00"
+  },
+  {
+    "id": "F1788026467432",
+    "title": "Pênaltis finais",
+    "text": "Ensaiar cobranças e ordem dos batedores.",
+    "tags": "bola_parada",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.432758+00:00"
+  },
+  {
+    "id": "F1788026467440",
+    "title": "Goleiro nos pênaltis",
+    "text": "Estudo de tendências ajuda, mas o essencial é rotina e presença.",
+    "tags": "goleiro",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.440379+00:00"
+  },
+  {
+    "id": "F1788026467446",
+    "title": "Fair play financeiro e humano",
+    "text": "Respeito ao atleta como pessoa sustenta o clube a longo prazo.",
+    "tags": "cultura",
+    "source": "import:futebol_400_fatos.json",
+    "createdAt": "2026-08-29T18:01:07.446539+00:00"
+  }
+]

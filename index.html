@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Soccer90 - Criar Perfil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(160deg, #0a1f0a 0%, #0d2b0d 40%, #145214 100%);
+            min-height: 100vh; color: #fff; overflow-x: hidden;
+        }
+        .bg-pattern {
+            position: fixed; inset: 0;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(34, 197, 94, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(234, 179, 8, 0.1) 0%, transparent 40%);
+            pointer-events: none; z-index: 0;
+        }
+        .container { position: relative; z-index: 1; max-width: 420px; margin: 0 auto; padding: 20px 18px 40px; }
+        .header { text-align: center; margin-bottom: 24px; padding-top: 12px; }
+        .logo { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+        .logo-icon {
+            width: 42px; height: 42px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            border-radius: 12px; display: flex; align-items: center; justify-content: center;
+            font-size: 22px; box-shadow: 0 6px 16px rgba(34, 197, 94, 0.35);
+        }
+        .logo-text { font-size: 24px; font-weight: 800; }
+        .logo-text span { color: #fbbf24; }
+        .subtitle { font-size: 13px; color: rgba(255,255,255,0.6); }
+        .card {
+            background: rgba(255,255,255,0.06); backdrop-filter: blur(16px);
+            border: 1px solid rgba(255,255,255,0.1); border-radius: 22px;
+            padding: 24px 18px; box-shadow: 0 16px 36px rgba(0,0,0,0.3);
+        }
+        .card-title { font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 4px; }
+        .card-desc { font-size: 13px; color: rgba(255,255,255,0.55); text-align: center; margin-bottom: 24px; }
+        .form-group { margin-bottom: 16px; }
+        .form-group label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 7px; color: rgba(255,255,255,0.85); }
+        .input-wrapper { position: relative; }
+        input, select {
+            width: 100%; padding: 14px 14px 14px 44px;
+            background: rgba(0,0,0,0.25); border: 1.5px solid rgba(255,255,255,0.12);
+            border-radius: 12px; color: #fff; font-size: 15px; font-weight: 500; outline: none;
+            transition: all 0.25s ease; appearance: none;
+        }
+        select {
+            padding-right: 40px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgba(255,255,255,0.5)' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10l-5 5z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 14px center;
+        }
+        input::placeholder { color: rgba(255,255,255,0.35); }
+        input:focus, select:focus {
+            border-color: #22c55e; background: rgba(0,0,0,0.35);
+            box-shadow: 0 0 0 4px rgba(34,197,94,0.15);
+        }
+        .input-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 16px; opacity: 0.65; pointer-events: none; }
+        .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .stars { display: flex; gap: 8px; justify-content: space-between; margin-top: 4px; }
+        .star-btn {
+            flex: 1; padding: 12px 0; background: rgba(0,0,0,0.25);
+            border: 1.5px solid rgba(255,255,255,0.12); border-radius: 12px;
+            color: rgba(255,255,255,0.5); font-size: 18px; cursor: pointer; transition: all 0.2s ease;
+        }
+        .star-btn.active {
+            background: rgba(251,191,36,0.15); border-color: #fbbf24; color: #fbbf24;
+            box-shadow: 0 0 0 3px rgba(251,191,36,0.15);
+        }
+        .plan-options { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 4px; }
+        .plan-btn {
+            padding: 14px 6px; background: rgba(0,0,0,0.25);
+            border: 1.5px solid rgba(255,255,255,0.12); border-radius: 12px;
+            color: rgba(255,255,255,0.7); font-size: 13px; font-weight: 600;
+            text-align: center; cursor: pointer; transition: all 0.2s ease;
+        }
+        .plan-btn span { display: block; font-size: 11px; font-weight: 500; opacity: 0.7; margin-top: 2px; }
+        .plan-btn.active {
+            background: rgba(34,197,94,0.18); border-color: #22c55e; color: #fff;
+            box-shadow: 0 0 0 3px rgba(34,197,94,0.15);
+        }
+        .btn-create {
+            width: 100%; padding: 16px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            border: none; border-radius: 14px; color: #fff; font-size: 16px; font-weight: 700;
+            cursor: pointer; margin-top: 22px; box-shadow: 0 8px 20px rgba(34,197,94,0.35);
+            transition: all 0.25s ease;
+        }
+        .btn-create:disabled { opacity: 0.7; cursor: not-allowed; }
+        .login-link { text-align: center; margin-top: 22px; font-size: 14px; color: rgba(255,255,255,0.65); }
+        .login-link a { color: #fbbf24; font-weight: 700; text-decoration: none; }
+        .footer { text-align: center; margin-top: 28px; font-size: 12px; color: rgba(255,255,255,0.35); }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+        .header, .card { animation: fadeUp 0.45s ease forwards; }
+        .card { animation-delay: 0.08s; }
+    
+        /* Screen size toggle */
+        .screen-toggle {
+            position: fixed; top: 12px; right: 12px; z-index: 100;
+            display: flex; gap: 4px; background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(8px); border-radius: 10px; padding: 4px;
+            border: 1px solid rgba(255,255,255,0.12);
+        }
+        .screen-toggle button {
+            padding: 7px 12px; border: none; border-radius: 8px;
+            font-size: 12px; font-weight: 600; cursor: pointer;
+            background: transparent; color: rgba(255,255,255,0.5);
+        }
+        .screen-toggle button.on {
+            background: rgba(34,197,94,0.25); color: #86efac;
+        }
+        body.desktop-mode .container { max-width: 720px; }
+        body.desktop-mode .card { max-width: 560px; margin: 0 auto; }
+        body.desktop-mode .row { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+    </style>
+</head>
+<body>
+
+    <div class="screen-toggle">
+        <button type="button" id="btnMobile" class="on" onclick="setScreen('mobile')">📱 Celular</button>
+        <button type="button" id="btnDesktop" onclick="setScreen('desktop')">🖥️ PC</button>
+    </div>
+
+    <div class="bg-pattern"></div>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">⚽</div>
+                <div class="logo-text">Soccer<span>90</span></div>
+            </div>
+            <p class="subtitle">Crie seu perfil de atleta</p>
+        </div>
+
+        <div class="card">
+            <h1 class="card-title">Criar Perfil</h1>
+            <p class="card-desc">Preencha seus dados para começar a treinar</p>
+
+            <form id="profileForm" onsubmit="return handleCreate(event)">
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <div class="input-wrapper">
+                        <span class="input-icon">👤</span>
+                        <input type="text" id="nome" placeholder="Seu nome completo" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="idade">Idade</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">🎂</span>
+                            <input type="number" id="idade" placeholder="18" min="10" max="50" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="posicao">Posição</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">📍</span>
+                            <select id="posicao" required>
+                                <option value="" disabled selected>Escolha</option>
+                                <option value="goleiro">Goleiro</option>
+                                <option value="zagueiro">Zagueiro</option>
+                                <option value="lateral">Lateral</option>
+                                <option value="volante">Volante</option>
+                                <option value="meia">Meia</option>
+                                <option value="atacante">Atacante</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="altura">Altura (cm)</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">📏</span>
+                            <input type="number" id="altura" placeholder="175" min="140" max="220" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="peso">Peso (kg)</label>
+                        <div class="input-wrapper">
+                            <span class="input-icon">⚖️</span>
+                            <input type="number" id="peso" placeholder="70" min="40" max="130" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Qualidade técnica</label>
+                    <div class="stars" id="qualidade">
+                        <button type="button" class="star-btn" data-value="1">★</button>
+                        <button type="button" class="star-btn" data-value="2">★★</button>
+                        <button type="button" class="star-btn" data-value="3">★★★</button>
+                        <button type="button" class="star-btn" data-value="4">★★★★</button>
+                        <button type="button" class="star-btn" data-value="5">★★★★★</button>
+                    </div>
+                    <input type="hidden" id="qualidadeValue" value="">
+                </div>
+
+                <div class="form-group">
+                    <label>Tamanho do treino</label>
+                    <div class="plan-options" id="treino">
+                        <button type="button" class="plan-btn" data-value="7">7 dias<span>Iniciante</span></button>
+                        <button type="button" class="plan-btn" data-value="30">30 dias<span>Intermediário</span></button>
+                        <button type="button" class="plan-btn" data-value="90">90 dias<span>Avançado</span></button>
+                    </div>
+                    <input type="hidden" id="treinoValue" value="">
+                </div>
+
+                <button type="submit" class="btn-create" id="btnCreate">Criar meu perfil ⚽</button>
+            </form>
+        </div>
+
+        <div class="login-link">
+            Já tem uma conta? <a href="login.html">Fazer login</a>
+        </div>
+        <div class="footer">© 2026 Soccer90 • Treine como um profissional</div>
+    </div>
+
+    <script>
+        const starBtns = document.querySelectorAll('#qualidade .star-btn');
+        const qualidadeInput = document.getElementById('qualidadeValue');
+        starBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                starBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                qualidadeInput.value = btn.dataset.value;
+            });
+        });
+
+        const planBtns = document.querySelectorAll('#treino .plan-btn');
+        const treinoInput = document.getElementById('treinoValue');
+        planBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                planBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                treinoInput.value = btn.dataset.value;
+            });
+        });
+
+        function handleCreate(e) {
+            e.preventDefault();
+
+            const nome = document.getElementById('nome').value.trim();
+            const idade = document.getElementById('idade').value;
+            const posicao = document.getElementById('posicao').value;
+            const altura = document.getElementById('altura').value;
+            const peso = document.getElementById('peso').value;
+            const qualidade = qualidadeInput.value;
+            const treino = treinoInput.value;
+
+            if (!nome) { alert('Digite seu nome completo'); return false; }
+            if (!qualidade) { alert('Selecione sua qualidade técnica'); return false; }
+            if (!treino) { alert('Selecione o tamanho do treino'); return false; }
+
+            const btn = document.getElementById('btnCreate');
+            btn.disabled = true;
+            btn.textContent = 'Salvando perfil...';
+
+            let perfis = JSON.parse(localStorage.getItem('soccer90_perfis') || '[]');
+
+            const jaExiste = perfis.some(p => p.nome.toLowerCase() === nome.toLowerCase());
+            if (jaExiste) {
+                alert('Já existe um perfil com este nome. Use outro nome ou faça login.');
+                btn.disabled = false;
+                btn.textContent = 'Criar meu perfil ⚽';
+                return false;
+            }
+
+            const novoPerfil = {
+                nome: nome,
+                idade: Number(idade),
+                posicao: posicao,
+                altura: Number(altura),
+                peso: Number(peso),
+                qualidadeTecnica: Number(qualidade),
+                tamanhoTreino: Number(treino),
+                dataCriacao: new Date().toISOString(),
+                diaAtual: 1,
+                treinosConcluidos: []
+            };
+
+            perfis.push(novoPerfil);
+            localStorage.setItem('soccer90_perfis', JSON.stringify(perfis));
+
+            setTimeout(() => {
+                window.location.href = 'login.html';
+            }, 900);
+
+            return false;
+        }
+
+        function setScreen(mode) {
+            localStorage.setItem('soccer90_screen', mode);
+            document.body.classList.toggle('desktop-mode', mode === 'desktop');
+            document.getElementById('btnMobile').classList.toggle('on', mode === 'mobile');
+            document.getElementById('btnDesktop').classList.toggle('on', mode === 'desktop');
+        }
+        (function(){
+            const mode = localStorage.getItem('soccer90_screen') || 'mobile';
+            setScreen(mode);
+        })();
+
+    </script>
+</body>
+</html>

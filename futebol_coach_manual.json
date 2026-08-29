@@ -1,0 +1,650 @@
+{
+  "app": "Soccer90 Coach Pro",
+  "version": 3,
+  "description": "Base manual de conhecimento para IA coach de futebol. Importar: python3 soccer90_ai.py --import futebol_coach_manual.json",
+  "total_entries": 120,
+  "entries": [
+    {
+      "q": "Como treinar um goleiro de forma completa?",
+      "a": "Divida o treino do goleiro em: 1) técnica de mãos e quedas; 2) jogo com os pés e saída de bola; 3) cruzamentos e domínio de área; 4) reações e 1x1; 5) integração com a linha defensiva. Alterne trabalho específico isolado com fases junto ao time. Em semana de jogos, priorize qualidade, velocidade de reação e bola parada, evitando volume excessivo de quedas no dia anterior à partida.",
+      "score": 3,
+      "tags": ["goleiro", "posicao", "treino"]
+    },
+    {
+      "q": "Qual o papel do zagueiro central no futebol moderno?",
+      "a": "O zagueiro central precisa defender o espaço, vencer duelos aéreos e terrestres, orientar a linha, cobrir o companheiro e iniciar a construção com passes limpos sob pressão. Também deve saber quando sair da linha para pressionar e quando manter a compactação. Treine orientação corporal, leitura de profundidade, passe sob pressão e comunicação constante com goleiro e volantes.",
+      "score": 3,
+      "tags": ["zagueiro", "tatica"]
+    },
+    {
+      "q": "Como treinar laterais ofensivos e defensivos?",
+      "a": "Laterais precisam de ida e volta: cruzamentos, 1x1 ofensivo, contenção defensiva e compactação. Use corredores laterais em jogos reduzidos, sprints com e sem bola, cruzamentos em movimento e situações de 2x2 / 3x3 pelo lado. Trabalhe o pé menos dominante. Em times que jogam com laterais muito ofensivos, ensine quem cobre a costa (volante ou zagueiro) em cada padrão.",
+      "score": 3,
+      "tags": ["lateral", "posicao"]
+    },
+    {
+      "q": "Diferença entre primeiro e segundo volante?",
+      "a": "O primeiro volante (âncora) protege a zaga, simplifica o passe, cobre espaços e organiza a primeira linha à frente dos zagueiros. O segundo volante chega mais à área, busca passes verticais, participa da criação e da finalização. No treino, o âncora trabalha posicionamento, interceptação e passe curto sob pressão; o segundo trabalha chegada, finalização de meia distância e transição rápida.",
+      "score": 3,
+      "tags": ["volante", "tatica"]
+    },
+    {
+      "q": "Como treinar um meia criativo?",
+      "a": "Foque em percepção, passe filtrado, domínio orientado, 1-2 e mobilidade entre linhas. Use jogos em espaços reduzidos com superioridade numérica ofensiva, regras que premiam passe entre linhas e finalização de primeira. Treine sob pressão temporal. Incentive visão periférica e decisão rápida: passar, conduzir ou finalizar.",
+      "score": 3,
+      "tags": ["meia", "criacao"]
+    },
+    {
+      "q": "Como desenvolver pontas e extremos?",
+      "a": "Trabalhe 1x1 em amplitude, cruzamento, corte para dentro, finalização com os dois pés e decisão no último terço. Drills de condução em velocidade + finalização, jogos com corredores largos e regras que valorizam progressão pela lateral. Ensine quando segurar a bola e quando soltar cedo. Descanso e prevenção de isquiotibiais são críticos por causa dos sprints repetidos.",
+      "score": 3,
+      "tags": ["ponta", "extremo"]
+    },
+    {
+      "q": "Como treinar centroavante?",
+      "a": "Finalize de todas as formas: primeira, com domínio, de cabeça, de costas para o gol, em profundidade e em pivô. Treine timing de ataque à área, pressão na saída adversária e associação com meias/pontas. Jogos reduzidos com ênfase em finalização e segundo lance. Corrija a posição do corpo antes do chute e a escolha do canto.",
+      "score": 3,
+      "tags": ["centroavante", "finalizacao"]
+    },
+    {
+      "q": "O que é um falso 9 e como treinar?",
+      "a": "Falso 9 desce para articular, arrasta zagueiros e abre espaço para chegadas de pontas e meias. Treine domínio sob pressão, passe, condução entre linhas, finalização de meia distância e leitura espacial. Jogos em que o atacante central não pode ficar fixo na área forçam essa mobilidade. Exige inteligência tática alta.",
+      "score": 3,
+      "tags": ["falso9", "tatica"]
+    },
+    {
+      "q": "Como montar um 4-3-3?",
+      "a": "No 4-3-3 clássico: linha de 4 defensiva, meio com 1 âncora + 2 meias (ou 2 âncoras + 1 meia), e 3 atacantes (2 pontas + 1 centroavante). Em posse, laterais sobem, pontas abrem amplitude, meias ocupam entre linhas. Sem posse, compacte e defina se a pressão será alta ou média. Treine saída a 3 ou a 4, progressão pelos corredores e finalização com chegada do meio.",
+      "score": 3,
+      "tags": ["4-3-3", "sistema"]
+    },
+    {
+      "q": "Como montar um 4-2-3-1?",
+      "a": "Duas volantes dão equilíbrio; o trio de meias atrás do 9 cria e pressiona. Em posse, as volantes escalonam, o 10 se move entre linhas, pontas diagonais. Sem posse, o 9 inicia pressão, o trio fecha passagens e as volantes protegem a área. Treine pressão coordenada, cobertura das volantes e finalização com o 9 e chegadas do 10.",
+      "score": 3,
+      "tags": ["4-2-3-1", "sistema"]
+    },
+    {
+      "q": "Como montar um 3-5-2?",
+      "a": "Três zagueiros, alas com muita ida e volta, dois volantes e dois atacantes. Em posse, um zagueiro pode sair com a bola; alas dão amplitude. Sem posse, os alas recuam e formam linha de 5. Exige zagueiros confortáveis com bola e alas com grande capacidade física. Treine cobertura dos três, subida sincronizada dos alas e pivô dos dois atacantes.",
+      "score": 3,
+      "tags": ["3-5-2", "sistema"]
+    },
+    {
+      "q": "O que é periodização no futebol?",
+      "a": "É a organização das cargas de treino ao longo da temporada (pré-temporada, competição, transição) e da semana (microciclo). O objetivo é chegar bem ao jogo: estímulo certo no dia certo. Com 1 jogo por semana a carga pode ser maior no meio; com 2–3 jogos, priorize recuperação e ativação. Monitore fadiga, sono e, se possível, carga externa (GPS) e interna (PSE).",
+      "score": 3,
+      "tags": ["periodizacao", "carga"]
+    },
+    {
+      "q": "Como organizar a semana com jogo no domingo?",
+      "a": "Exemplo clássico: segunda regenerativa ou folga ativa; terça força/potência ou tático médio; quarta carga maior (tático-físico); quinta redução e padrões de jogo; sexta ativação e bola parada; sábado reconhecimento/leve; domingo jogo. Ajuste se houver desgaste, viagens ou jogadores com minutos altos. Nunca copie a planilha sem olhar o elenco real.",
+      "score": 3,
+      "tags": ["microciclo", "semana"]
+    },
+    {
+      "q": "Como treinar velocidade no futebol?",
+      "a": "Sprints curtos (10–30 m) com recuperação quase completa, técnica de corrida, saídas paradas e com bola. Trabalhe aceleração (primeiros metros) e velocidade máxima em doses baixas. Evite volume alto de sprints sob fadiga extrema. Integre a situações de jogo: sprint para cruzar, para pressionar, para atacar o espaço.",
+      "score": 3,
+      "tags": ["velocidade", "fisico"]
+    },
+    {
+      "q": "Como treinar agilidade e mudança de direção?",
+      "a": "Use cones, escada de coordenação, 5-10-5, cortes de 45–90° e reações a estímulo visual. Depois transfira para 1x1 e jogos reduzidos. Ensine freio (desaceleração) e reaceleração para proteger joelhos. Qualidade do movimento primeiro; só então aumente velocidade.",
+      "score": 3,
+      "tags": ["agilidade", "fisico"]
+    },
+    {
+      "q": "Como treinar força para jogador de futebol?",
+      "a": "Priorize padrões: agachamento, hinge (terra/good morning), afundos, empurrar/puxar, core. No campo, use força com bola e disputas. Longe do jogo: mais carga e potência. Perto do jogo: ativação neuromuscular leve. Não transforme o futebolista em levantador de peso: a força deve servir à corrida, ao chute e ao duelo.",
+      "score": 3,
+      "tags": ["forca", "fisico"]
+    },
+    {
+      "q": "Como treinar resistência específica de futebol?",
+      "a": "Jogos em campo grande, intervalados com bola, circuitos de alta intensidade e repetição de esforços tipo jogo (tiros com pausa incompleta). A melhor resistência para o futebol é a que se parece com o jogo: acelerar, desacelerar, trotar, sprintar de novo. Evite só corrida contínua longa como único método.",
+      "score": 3,
+      "tags": ["resistencia", "fisico"]
+    },
+    {
+      "q": "Como estruturar uma sessão de treino?",
+      "a": "1) Aquecimento (mobilidade, ativação, toques); 2) bloco técnico ou tático principal; 3) jogo reduzido ou situacional; 4) eventual bloco físico se couber no microciclo; 5) volta à calma e 2–3 pontos-chave. Cada bloco com objetivo claro, regra e critério de sucesso. Duração típica 60–90 min no profissional; menos nas categorias menores.",
+      "score": 3,
+      "tags": ["sessao", "metodologia"]
+    },
+    {
+      "q": "O que é treino analítico, situacional e global?",
+      "a": "Analítico: gesto isolado (ex.: passe em circuitos). Situacional: trecho do jogo com regras (ex.: saída de bola 4x2). Global: jogo mais livre com princípios. Bom treino mistura os três: aprende o gesto, aplica em contexto, confirma no jogo. Evite ficar só no analítico ou só no jogo sem correção.",
+      "score": 3,
+      "tags": ["metodologia"]
+    },
+    {
+      "q": "Como usar jogos reduzidos de forma inteligente?",
+      "a": "Defina o que quer treinar (posse, transição, finalização, pressão) e crie regras que premiem isso. Ajuste número de jogadores, tamanho do campo e toques. Séries curtas e intensas com feedback entre blocos. Varie superioridade e inferioridade numérica. O jogo reduzido é ferramenta, não entretenimento solto.",
+      "score": 3,
+      "tags": ["jogo_reduzido", "metodologia"]
+    },
+    {
+      "q": "Como treinar posse de bola?",
+      "a": "Princípios: circular para atrair, progressão no momento certo, superioridade numérica, linhas de passe e paciência sem esterilidade. Jogos de posse com alvos, rondo, campo dividido em zonas e regras de toques. Corrija ângulos de suporte e velocidade da bola. Posse boa não é só tocar de lado: é criar vantagem.",
+      "score": 3,
+      "tags": ["posse", "principios"]
+    },
+    {
+      "q": "Como treinar transição ofensiva?",
+      "a": "Nos primeiros segundos após recuperar a bola: verticalidade, ocupar espaços livres, poucos passes para chegar à área quando houver vantagem. Treine recuperação + passe longo/ruptura, 5v4 em transição e regras que premiam finalização em poucos segundos. Também ensine quando desacelerar e segurar se não houver vantagem.",
+      "score": 3,
+      "tags": ["transicao", "principios"]
+    },
+    {
+      "q": "Como treinar transição defensiva?",
+      "a": "Reação imediata à perda: pressionar a bola, encaixar no homem próximo, cobrir profundidade e evitar contra-ataque fácil. Treine perda provocada + reação, faltas táticas com critério e retorno em sprint para compactar. Os 5 primeiros segundos após perder a bola decidem muitos gols sofridos.",
+      "score": 3,
+      "tags": ["transicao", "defesa"]
+    },
+    {
+      "q": "Como organizar o bloco defensivo?",
+      "a": "Defina altura (alto, médio, baixo), distância entre linhas e entre setores, e o gatilho de pressão. Compactação horizontal e vertical reduz espaços entre linhas. Treine deslocamento da linha com a bola, cobertura e dobras. Comunicação do zagueiro e do volante é essencial. Bloco baixo não significa passividade: significa escolher onde pressionar.",
+      "score": 3,
+      "tags": ["defesa", "bloco"]
+    },
+    {
+      "q": "Como treinar pressão alta?",
+      "a": "Pressão alta exige gatilhos claros (passe ruim, recepção de costas, lateral), cobertura atrás de quem pressiona e energia coletiva. Treine em campo setorizado, 6v6 a 11v11 com regra de pressionar após perda. Se a pressão for furada, o time sofre nas costas — por isso treine também o plano B (recuo e compactação).",
+      "score": 3,
+      "tags": ["pressao", "tatica"]
+    },
+    {
+      "q": "Como treinar bolas paradas ofensivas?",
+      "a": "Ensaie cobranças, bloqueios legais, variações e o segundo lance. Defina funções: quem ataca o primeiro poste, quem fica de rejeição, quem protege contra-ataque. Grave e corrija. Bola parada rende muitos gols; trate como situação de jogo, não como 5 minutos extras no fim do treino.",
+      "score": 3,
+      "tags": ["bola_parada"]
+    },
+    {
+      "q": "Como defender bolas paradas?",
+      "a": "Escolha marcação individual, zona ou mista. Cada um deve saber seu homem/zona e o rebote. Treine saída após a defesa da bola e cobertura do segundo lance. Ensaios semanais curtos e repetidos funcionam melhor do que um treino longo isolado.",
+      "score": 3,
+      "tags": ["bola_parada", "defesa"]
+    },
+    {
+      "q": "Como prevenir lesões de isquiotibiais?",
+      "a": "Fortalecimento excêntrico (ex.: nordic com progressão), aquecimento com aceleração progressiva, gestão de sprints na semana, mobilidade de quadril e respeito à fadiga. Retorno de lesão só com critérios (força, sprint sem dor, testes funcionais). Picos de sprint após folga longa elevam o risco.",
+      "score": 3,
+      "tags": ["lesao", "isquiotibiais"]
+    },
+    {
+      "q": "Como prevenir lesões de joelho (LCA)?",
+      "a": "Treine aterrissagem, desaceleração, mudança de direção com boa linha do joelho, força de posterior e glúteo, e core. Evite volume excessivo de giros em fadiga. Em mulheres e jovens, atenção especial a programas preventivos. Dor ou instabilidade: avaliação profissional antes de retornar.",
+      "score": 3,
+      "tags": ["lesao", "joelho"]
+    },
+    {
+      "q": "O que fazer em caso de entorse de tornozelo?",
+      "a": "Interrompa o estímulo, siga orientação de saúde (proteção, avaliação, reabilitação). Não ‘ande logo’ se houver dor importante ou instabilidade. Retorno gradual com propriocepção, força e depois mudança de direção. Prevenção: força de panturrilha/pé, calçado adequado e atenção a campos irregulares.",
+      "score": 3,
+      "tags": ["lesao", "tornozelo"]
+    },
+    {
+      "q": "Como trabalhar a carga de treino sem GPS?",
+      "a": "Use percepção de esforço (PSE 1–10), minutos em alta intensidade, bem-estar (sono, dor, humor) e observação. Evite subir volume e intensidade juntos de forma agressiva. Semana a semana, progressões moderadas. Converse com os jogadores: o corpo fala, o ego às vezes mente.",
+      "score": 3,
+      "tags": ["carga", "monitoramento"]
+    },
+    {
+      "q": "Como alimentar um jogador no pré-treino e pós-treino?",
+      "a": "Pré-treino: refeição com carboidrato 1–3 h antes; evite gordura excessiva. Pós-treino: carboidrato + proteína para repor e recuperar; hidratação. Individualize por horário do jogo, calor e preferências. Clubes profissionais devem seguir o nutricionista; amadores podem manter regularidade e comida real de qualidade.",
+      "score": 3,
+      "tags": ["nutricao"]
+    },
+    {
+      "q": "Qual a importância do sono para o jogador?",
+      "a": "Sono é a principal ferramenta de recuperação: 7–9 horas para a maioria. Privação eleva risco de lesão, piora decisão e humor. Em viagens e jogos noturnos, planeje janelas de sono e evite telas pesadas na hora de dormir. Treino brilhante não compensa noite mal dormida crônica.",
+      "score": 3,
+      "tags": ["recuperacao", "sono"]
+    },
+    {
+      "q": "Como trabalhar a parte mental do elenco?",
+      "a": "Metas de processo (não só placar), rotinas pré-jogo, conversas individuais, feedback justo e ambiente de confiança. Em jovens, priorize aprendizado e prazer. Em profissionais, alinhe com a comissão e, se houver, psicólogo do esporte. Pressão existe; o coach ajuda a canalizar, não a negar.",
+      "score": 3,
+      "tags": ["psicologia"]
+    },
+    {
+      "q": "Como dar feedback eficiente no treino?",
+      "a": "Seja específico, curto e acionável: no máximo 1–2 correções por vez. Prefira feedback após a ação ou em pausas curtas. Alterne correção coletiva e individual. Evite gritar só emoção sem informação. Perguntar ‘o que você viu?’ desenvolve autonomia do jogador.",
+      "score": 3,
+      "tags": ["comunicacao", "coach"]
+    },
+    {
+      "q": "Como treinar categorias de base (sub-11 a sub-15)?",
+      "a": "Priorize multilateralidade, coordenação, jogo e princípios simples. Evite especialização extrema cedo demais. Volume e intensidade menores que no profissional. Eduque pais sobre processo. O objetivo é formar jogador e pessoa, não só ganhar o campeonato da semana a qualquer custo.",
+      "score": 3,
+      "tags": ["base", "formacao"]
+    },
+    {
+      "q": "Como treinar sub-17 e sub-20?",
+      "a": "Aumente a complexidade tática, introduza periodização mais clara e mantenha espaço para erro criativo. Cuidado com picos de crescimento e lesões. Prepare para o profissional: rotina, nutrição, recuperação e competitividade, sem matar a inteligência de jogo com excesso de ordem.",
+      "score": 3,
+      "tags": ["base", "sub17", "sub20"]
+    },
+    {
+      "q": "Como analisar o adversário (scouting)?",
+      "a": "Veja padrões de saída de bola, laterais, bolas paradas, jogadores-chave e onde preferem progressão. Resuma em 3–5 pontos acionáveis para o time. Não sobrecarregue com 30 slides. Transforme a análise em tarefa de treino (ex.: pressionar o zagueiro que sai mal).",
+      "score": 3,
+      "tags": ["scouting", "analise"]
+    },
+    {
+      "q": "Como usar análise de vídeo com o elenco?",
+      "a": "Escolha poucos clipes (3–7) por tema. Mostre o problema e a solução. Sessões curtas. Alterne aspectos coletivos e individuais (em particular). Vídeo não é para humilhar: é para aprender. Ligue sempre a um treino prático no campo.",
+      "score": 3,
+      "tags": ["video", "analise"]
+    },
+    {
+      "q": "O que fazer quando está perdendo 0-1 aos 70 minutos?",
+      "a": "Aumente amplitude e profundidade com critério, mude o perfil ofensivo (altura, velocidade), use bancos com função clara e mantenha compactação nas transições para não levar o segundo gol. Comunique 2–3 ideias, não mude todo o sistema de uma vez. Risco calculado, não caos.",
+      "score": 3,
+      "tags": ["gestao_jogo"]
+    },
+    {
+      "q": "O que fazer quando está ganhando 1-0 aos 80 minutos?",
+      "a": "Gerencie o ritmo, fortaleça linhas, escolha bem as faltas e laterais a favor, mantenha concentração em bolas paradas e segundos lances. Substituições podem trazer pernas frescas defensivas. Não ‘estacionar o ônibus’ de forma desesperada se o time não treinou isso: compactar com inteligência.",
+      "score": 3,
+      "tags": ["gestao_jogo"]
+    },
+    {
+      "q": "Como jogar com 10 em campo?",
+      "a": "Compacte, priorize estabilidade, reduza espaços entre linhas e escolha momentos de sair em transição curta. Defina quem fica mais alto como referência. Bolas longas podem ser recurso, não único plano. Energia emocional: calma e solidariedade. Treine isso ocasionalmente para não ser surpresa.",
+      "score": 3,
+      "tags": ["gestao_jogo"]
+    },
+    {
+      "q": "Como enfrentar time com linha alta?",
+      "a": "Explore profundidade e passes nas costas, mobilidade dos atacantes, e timing de ruptura. Laterais e meias podem infiltrar. Cuidado com a bola parada e com a pressão: se perder a bola barato, o adversário já está alto. Treine a primeira linha de passe e o jogo direto como variante.",
+      "score": 3,
+      "tags": ["tatica", "adversario"]
+    },
+    {
+      "q": "Como enfrentar bloco baixo?",
+      "a": "Paciência na circulação, invasões entre linhas, cruzamentos com qualidade, finalizações de meia distância e bolas paradas. Evite só cruzar sem ocupação de área. Use lado a lado para deslocar o bloco e atacar o espaço oposto. Trocas de posição no ataque ajudam a criar 1x1 favoráveis.",
+      "score": 3,
+      "tags": ["tatica", "adversario"]
+    },
+    {
+      "q": "Como treinar finalização com eficiência?",
+      "a": "Varie ângulos, distâncias, primeiro toque e finalização de primeira. Inclua pressão leve e depois real. Trabalhe mira (cantos) e decisão (quando chutar ou passar). Finalize sempre com qualidade, mesmo em fadiga moderada. Grave para corrigir apoio do pé e postura.",
+      "score": 3,
+      "tags": ["finalizacao", "tecnica"]
+    },
+    {
+      "q": "Como treinar passe sob pressão?",
+      "a": "Rondos, superioridade numérica que vira igualdade, e jogos com tempo reduzido para decidir. Ensine perfilar o corpo antes de receber, primeiro toque orientado e passe de segurança quando necessário. Erro de passe sob pressão muitas vezes nasce de má orientação corporal, não só de ‘pé ruim’.",
+      "score": 3,
+      "tags": ["passe", "tecnica"]
+    },
+    {
+      "q": "Como treinar domínio e primeiro toque?",
+      "a": "Serviços variados (chão, aéreo, com efeito), domínio para frente/lado e saída em condução ou passe. Depois, o mesmo sob pressão de um marcador. O primeiro toque decide se sobra tempo para a decisão seguinte. Premie no treino o domínio que já prepara a próxima ação.",
+      "score": 3,
+      "tags": ["dominio", "tecnica"]
+    },
+    {
+      "q": "Como treinar cabeceio ofensivo e defensivo?",
+      "a": "Ofensivo: timing de salto, direção do golpe, ataque ao primeiro e segundo poste. Defensivo: posicionamento, antecipação e rejeição para longe da área. Use cruzamentos reais e disputas 1x1 aéreas. Cuidado com volume excessivo de saltos em atletas jovens.",
+      "score": 3,
+      "tags": ["cabeceio", "tecnica"]
+    },
+    {
+      "q": "Como integrar o goleiro ao jogo de construção?",
+      "a": "Treine saída a 3/4 com o goleiro como homem livre, passes sob pressão e decisão de jogar longo quando o pressing for alto. Integre o goleiro nas fases situacionais com a linha, não só no treino específico isolado. Comunicação de altura da linha e de coberturas é parte do treino.",
+      "score": 3,
+      "tags": ["goleiro", "construcao"]
+    },
+    {
+      "q": "Como fazer um aquecimento eficiente?",
+      "a": "8–15 min: mobilidade de quadril/tornozelo/coluna, ativação muscular, corridas progressivas e toques de bola. Inclua mudanças de direção leves e, se for dia de sprint, acelerações progressivas. Aquecimento não é treino pesado: é preparar o corpo e a atenção para o que vem a seguir.",
+      "score": 3,
+      "tags": ["aquecimento", "sessao"]
+    },
+    {
+      "q": "Como fazer a volta à calma?",
+      "a": "Baixe a intensidade: trote leve, mobilidade, alongamento suave, respiração e 2–3 pontos de aprendizado da sessão. Hidratação e, se possível, nutrição pós-treino. É momento também de observar dores e falar com quem sentiu algo diferente.",
+      "score": 2,
+      "tags": ["recuperacao", "sessao"]
+    },
+    {
+      "q": "Como gerenciar elenco com muitos titulares insatisfeitos?",
+      "a": "Clareza de critérios de seleção, conversas individuais honestas, papéis definidos e ambiente profissional. Não prometa minutos que não pode cumprir. Use dados e comportamento no treino, não só ‘achismo’. Conflitos existem; o que destrói é a falta de transparência e a troca de discurso.",
+      "score": 3,
+      "tags": ["gestao_elenco", "lideranca"]
+    },
+    {
+      "q": "Como preparar o time para jogar fora de casa?",
+      "a": "Simule pressão e campo adversário quando possível, defina plano de gestão de emoção (início de jogo), bolas paradas e foco em 3 princípios. Viagem: sono, hidratação e alimentação. No vestiário visitante, mensagem curta e clara. Evite discursos longos que aumentam ansiedade.",
+      "score": 3,
+      "tags": ["competicao", "visitante"]
+    },
+    {
+      "q": "Qual a diferença entre marcar por zona e individual?",
+      "a": "Individual: cada um marca um homem (responsabilidade clara, risco se for ultrapassado). Zona: marca espaço e quem entra nele (exige comunicação e cobertura). Mista combina as duas. Escolha conforme elenco e situação (bola parada vs jogo corrido). O importante é todos entenderem o mesmo mapa.",
+      "score": 3,
+      "tags": ["marcacao", "tatica"]
+    },
+    {
+      "q": "Como treinar a saída de bola sob pressão?",
+      "a": "Situações 4v3, 5v4, 6v5 na construção, com e sem goleiro. Gatilhos de passe longo se a pressão for máxima. Ensine ângulos de suporte, atrair e jogar no lado fraco. Erros de saída são normais no aprendizado; corrija a decisão, não só o passe ‘errado’ isolado.",
+      "score": 3,
+      "tags": ["saida_de_bola", "construcao"]
+    },
+    {
+      "q": "Como desenvolver o pé não dominante?",
+      "a": "Volume diário pequeno e constante: passes, domínios e finalizações com o pé pior em baixa pressão, depois sob pressão. Regras em jogos reduzidos (‘gol com pé esquerdo vale 2’). Paciência: é adaptação neural e técnica, não mágica de uma sessão.",
+      "score": 3,
+      "tags": ["tecnica", "bilateralidade"]
+    },
+    {
+      "q": "Como treinar em campo ruim ou molhado?",
+      "a": "Reduza giros agressivos, ajuste calçado, priorize passes mais simples e domínio atento. Evite volume alto de mudanças de direção se o piso estiver perigoso. Use a condição como aprendizado de adaptação, não como desculpa para abandonar os princípios — mas nunca à custa de lesão evitável.",
+      "score": 2,
+      "tags": ["estrutura", "campo"]
+    },
+    {
+      "q": "Como trabalhar comunicação em campo?",
+      "a": "Treine comandos curtos: ‘sai’, ‘tempo’, ‘homem’, ‘cobre’, ‘pressione’. Zagueiros e volantes lideram a linha; goleiro organiza a área. Em jogos reduzidos, premie comunicação audível. Comunicação ruim gera dois no mesmo homem e buracos do outro lado.",
+      "score": 3,
+      "tags": ["comunicacao", "tatica"]
+    },
+    {
+      "q": "O que é compactação e por que importa?",
+      "a": "Compactação é manter distâncias curtas entre setores e linhas para reduzir espaços de passe e progressão do adversário. Time espalhado sofre entre linhas e nas costas. Treine deslocamento conjunto com a bola e recuperação de posição após ataques. Compactar não é juntar todos na área sem plano.",
+      "score": 3,
+      "tags": ["compactacao", "defesa"]
+    },
+    {
+      "q": "Como treinar amplitude e profundidade no ataque?",
+      "a": "Amplitude: pontas/laterais bem abertos para esticar a defesa. Profundidade: rupturas nas costas e ataques ao espaço. Jogos com corredores laterais obrigatórios e regras de ‘terceiro homem’ em profundidade. O time precisa dos dois: largura para criar espaços e profundidade para punir a linha alta.",
+      "score": 3,
+      "tags": ["ataque", "principios"]
+    },
+    {
+      "q": "Como fazer pré-temporada eficiente?",
+      "a": "Base física progressiva, mas já com bola e princípios de jogo. Evite só ‘correr solto’ por semanas. Introduza sistemas e padrões cedo, gerencie lesões por excesso de volume e use amistosos como teste, não só como calendário. Pré-temporada boa prepara o microciclo da competição, não só o físico isolado.",
+      "score": 3,
+      "tags": ["pre_temporada"]
+    },
+    {
+      "q": "Como manter o nível no meio da temporada longa?",
+      "a": "Rotação inteligente, monitoramento de fadiga, microciclos adaptados a 1–3 jogos por semana, e momentos de reforço técnico-tático. Cuidado com lesões por acúmulo. Mantenha padrões de jogo vivos mesmo quando o calendário aperta. Comunicação com o elenco sobre papéis e minutos reduz atritos.",
+      "score": 3,
+      "tags": ["temporada", "gestao"]
+    },
+    {
+      "q": "Como treinar o 1x1 defensivo?",
+      "a": "Adie o drible, oriente o atacante para o lado menos perigoso, mantenha distância adequada e escolha o momento do desarme. Treine em corredores e em situações de cobertura (quando ir ao homem e quando esperar). Impulsividade no 1x1 gera faltas e dribles fáceis.",
+      "score": 3,
+      "tags": ["1x1", "defesa"]
+    },
+    {
+      "q": "Como treinar o 1x1 ofensivo?",
+      "a": "Fintas, mudanças de ritmo, uso do corpo e decisão após o drible (cruzar, finalizar, combinar). Treine dos dois lados. Depois, 1x1 com limitação de tempo e espaço. O drible bom cria vantagem numérica; o drible egoísta destrói a posse.",
+      "score": 3,
+      "tags": ["1x1", "ataque"]
+    },
+    {
+      "q": "Qual o papel do treinador no dia do jogo?",
+      "a": "Plano claro, mensagem curta, gestão emocional, observações objetivas no intervalo e decisões de substituição com função. Evite discurso longo e genérico. No banco, mantenha comportamento profissional: os jogadores sentem o nervosismo do coach.",
+      "score": 3,
+      "tags": ["jogo", "lideranca"]
+    },
+    {
+      "q": "Como fazer o intervalo render?",
+      "a": "2–4 pontos objetivos baseados no que aconteceu, ajustes de pessoal ou posicionamento, hidratação e calma. Não tente corrigir o jogo inteiro em 10 minutos. Priorize o que muda o segundo tempo. Ouça também o goleiro e o capitão.",
+      "score": 3,
+      "tags": ["intervalo", "gestao_jogo"]
+    },
+    {
+      "q": "Como desenvolver liderança dentro do campo?",
+      "a": "Identifique líderes por comportamento, não só por hierarquia. Dê responsabilidades (organização da barreira, comunicação da linha), treine comunicação e valorize exemplos no dia a dia. Liderança tóxica (culpar, gritar sem conteúdo) deve ser corrigida cedo.",
+      "score": 3,
+      "tags": ["lideranca", "elenco"]
+    },
+    {
+      "q": "Como treinar mobilidade e prevenção no dia a dia?",
+      "a": "Rotinas curtas de quadril, tornozelo, isquiotibiais e coluna torácica. Podem ser diárias, 8–12 minutos. Mobilidade não substitui força; combina com ela. Jogadores com histórico de lesão devem ter rotina individual priorizada.",
+      "score": 2,
+      "tags": ["mobilidade", "prevencao"]
+    },
+    {
+      "q": "Como adaptar o treino com elenco reduzido?",
+      "a": "Use circuitos técnicos de qualidade, jogos em inferioridade/superioridade, estações e foque em padrões que não dependam de 22 jogadores. Evite matar os mesmos 12 de cansado toda sessão. É oportunidade de treinar versatilidade e comunicação.",
+      "score": 2,
+      "tags": ["elenco_reduzido", "sessao"]
+    },
+    {
+      "q": "Como trabalhar bola parada em pouco tempo de treino?",
+      "a": "Blocos de 10–15 min, 2–3 jogadas ofensivas e 1–2 defensivas por sessão, várias vezes na semana. Repetição espaçada funciona melhor que um treino mensal longo. Defina funções fixas para não reinventar a cada falta.",
+      "score": 2,
+      "tags": ["bola_parada", "tempo"]
+    },
+    {
+      "q": "O que é pressão após perda (counterpress)?",
+      "a": "É pressionar imediatamente após perder a bola para recuperá-la alto ou atrasar o contra-ataque. Exige gatilho, coragem coletiva e cobertura atrás. Se falhar, o time fica exposto. Treine a decisão: quando counterpress e quando recuar para o bloco.",
+      "score": 3,
+      "tags": ["counterpress", "transicao"]
+    },
+    {
+      "q": "Como treinar o terceiro homem?",
+      "a": "Padrões de passe em que A joga em B e C recebe em movimento no espaço criado. Use triângulos, combinações de 3 e jogos com regra de gol só após combinação de três jogadores. O terceiro homem quebra linhas sem precisar driblar sempre.",
+      "score": 3,
+      "tags": ["combinacao", "ataque"]
+    },
+    {
+      "q": "Como avaliar se o treino foi bom?",
+      "a": "Os comportamentos treinados apareceram sob pressão? A intensidade foi adequada ao dia do microciclo? Houve poucos tempos mortos? Os jogadores entenderam os 2–3 pontos-chave? Resultado de rondo ou placar de jogo reduzido importa menos do que a transferência para o jogo real.",
+      "score": 3,
+      "tags": ["avaliacao", "sessao"]
+    },
+    {
+      "q": "Como lidar com a pressão de resultados?",
+      "a": "Foque no processo (padrões de jogo, intensidade, disciplina), mantenha comunicação clara com a direção e o elenco, e não mude o modelo a cada um jogo. Curto prazo exige pragmatismo; médio prazo exige identidade. Proteja o ambiente de treino da histeria externa quando possível.",
+      "score": 3,
+      "tags": ["resultados", "lideranca"]
+    },
+    {
+      "q": "Como treinar finalização de cabeceio em cruzamentos?",
+      "a": "Cruzamentos de ambos os lados, ataques ao primeiro poste, segundo poste e rejeição. Trabalhe o desmarque antes do salto e a direção do golpe (baixo, no canto). Inclua goleiro real. Volume moderado para proteger cervical e coluna em jovens.",
+      "score": 2,
+      "tags": ["cabeca", "finalizacao"]
+    },
+    {
+      "q": "Como organizar o treino de goleiros junto com o time?",
+      "a": "Parte inicial específica com preparador de goleiros; depois integração em situações de cruzamento, 1x1, saída de bola e bola parada com o elenco. Goleiro isolado o tempo todo não aprende a jogar com a linha. Alinhe comandos e altura da defesa.",
+      "score": 3,
+      "tags": ["goleiro", "integracao"]
+    },
+    {
+      "q": "Como usar o rondo corretamente?",
+      "a": "Rondo treina suporte, orientação, passe e pressão. Varie número (3v1, 4v2, 5v2), toques e tamanho do círculo. Não seja só ‘toque por tocar’: peça progressão, mudança de direção da bola e reação à perda. É meio, não fim.",
+      "score": 2,
+      "tags": ["rondo", "posse"]
+    },
+    {
+      "q": "Como treinar a linha defensiva a manter a altura?",
+      "a": "Exercícios de linha com deslocamento coordenado, livings (linha que sobe e desce com a bola), e jogos em que furar a linha vale ponto. Goleiro e zagueiro central comandam. Treine a decisão de linha alta vs média conforme o setor da bola.",
+      "score": 3,
+      "tags": ["linha", "defesa"]
+    },
+    {
+      "q": "Como desenvolver resistência mental no jogo?",
+      "a": "Treinos com cenários de placar, pressão de tempo, inferioridade numérica e fadiga controlada. Rotinas de respiração e foco. Pós-erro: treine o ‘próximo lance’ em vez do drama. Jogadores que se recuperam rápido do erro ganham minutos e jogos.",
+      "score": 3,
+      "tags": ["psicologia", "resiliencia"]
+    },
+    {
+      "q": "Como planejar substituições?",
+      "a": "Antes do jogo, tenha 2–3 planos (se precisa atacar, se precisa segurar, se há cartão/lesão). Cada entrada deve ter uma tarefa. Evite mudanças só emocionais. Comunique ao banco o que pode ser pedido para ganharem tempo de ativação mental.",
+      "score": 3,
+      "tags": ["substituicoes", "gestao_jogo"]
+    },
+    {
+      "q": "Como treinar cruzamento com qualidade?",
+      "a": "Cruzamentos em corrida, parado, no primeiro tempo e atrasado. Varie altura e destino (primeiro poste, segundo, rejeição). Depois, com marcadores e finalizadores. Pé menos dominante também. Cruzamento sem ocupação de área é presente para a defesa.",
+      "score": 2,
+      "tags": ["cruzamento", "tecnica"]
+    },
+    {
+      "q": "Como cuidar de jogadores em retorno de lesão?",
+      "a": "Siga critérios médicos e de performance, não a ansiedade do calendário. Retorno gradual: treino individual → parcial com o grupo → jogos controlados → minutos em partida. Recidiva custa mais do que esperar uma semana. Mantenha o jogador integrado socialmente ao elenco.",
+      "score": 3,
+      "tags": ["lesao", "retorno"]
+    },
+    {
+      "q": "Como criar identidade de jogo no time?",
+      "a": "Escolha 4–6 princípios claros (ex.: pressão após perda, saída limpa, amplitude, agressividade em bola parada). Repita-os em treinos e jogos. Identidade não é formação fixa: é o modo de jogar reconhecível. Seja coerente: o que treina é o que cobra no domingo.",
+      "score": 3,
+      "tags": ["identidade", "modelo"]
+    },
+    {
+      "q": "Como treinar o momento de progressão vs circulação?",
+      "a": "Ensine leitura: se há superioridade ou espaço nas costas, progresse; se o bloco está fechado, circule para deslocar. Jogos com zonas e regras de ‘só pode progredir após X passes’ ou o inverso. O erro comum é forçar o passe vertical sempre ou nunca arriscar.",
+      "score": 3,
+      "tags": ["posse", "decisao"]
+    },
+    {
+      "q": "Como trabalhar com pais na base?",
+      "a": "Reunião de alinhamento no início, canais claros de comunicação, e foco no desenvolvimento de longo prazo. Evite discutir escalação em público. Eduque sobre maturação biológica e especialização precoce. Ambiente tóxico de pais destrói o que o treino constrói.",
+      "score": 2,
+      "tags": ["base", "pais"]
+    },
+    {
+      "q": "Como treinar potência e sprint sem aumentar lesões?",
+      "a": "Dose baixa, alta qualidade, recuperação completa entre sprints, técnica de corrida e progressão. Evite sessões densas de sprint em fadiga ou após força máxima intensa no mesmo dia. Aquecimento específico obrigatório. Monitore dores de isquios e adutores.",
+      "score": 3,
+      "tags": ["potencia", "prevencao"]
+    },
+    {
+      "q": "Como usar dados sem perder o lado humano?",
+      "a": "Dado informa, não substitui o olho do treinador. Use para confirmar fadiga, padrões e tendências. Explique ao jogador o ‘porquê’. Evite ranquear o elenco de forma pública e humilhante. Performance é contexto: minutos, posição, placar e instrução mudam os números.",
+      "score": 2,
+      "tags": ["dados", "lideranca"]
+    },
+    {
+      "q": "Como treinar o primeiro passe após recuperar a bola?",
+      "a": "Situações de recuperação + passe de qualidade (seguro ou vertical). Premie o primeiro passe que mantém a posse ou inicia transição. Muitos times recuperam e devolvem a bola em 2 segundos por decisão ruim. Treine a cabeça antes do pé.",
+      "score": 3,
+      "tags": ["transicao", "passe"]
+    },
+    {
+      "q": "Como organizar a comissão técnica?",
+      "a": "Papéis claros: auxiliar, preparador físico, goleiros, análise, fisiologia/saúde. Reuniões curtas de alinhamento do microciclo. Uma voz tática principal no jogo para não confundir o elenco. Respeito mútuo na frente dos jogadores é inegociável.",
+      "score": 2,
+      "tags": ["comissao", "gestao"]
+    },
+    {
+      "q": "Como treinar finalização em jogos reduzidos?",
+      "a": "Campos pequenos com goleiros, regras de finalização em X segundos, bônus para gol de primeira ou de fora da área, e reposição rápida. Intensidade alta. Corrija escolha de chute vs passe. Finalize a sessão com 5 minutos de qualidade de finalização se a fadiga permitir.",
+      "score": 2,
+      "tags": ["finalizacao", "jogo_reduzido"]
+    },
+    {
+      "q": "Como preparar bola parada para um jogador específico do adversário?",
+      "a": "No scouting, identifique quem ataca o primeiro poste, quem cabeceia melhor e quem cobra. Ajuste marcação (homem nele, apoio, ou mudança de zona). Ensaie no treino com um jogador do elenco imitando o movimento. Detalhe pequeno decide jogo eliminatório.",
+      "score": 2,
+      "tags": ["bola_parada", "scouting"]
+    },
+    {
+      "q": "Como manter a concentração em jogos com placar cômodo?",
+      "a": "Treine cenários de ‘proteger a vantagem’ sem perder agressividade na bola. Ritual de foco a cada parada de bola. Cobrança positiva dos líderes. Muitos gols sofridos aos 85+ vêm de relaxamento, não de tática complexa do adversário.",
+      "score": 2,
+      "tags": ["concentracao", "gestao_jogo"]
+    },
+    {
+      "q": "Como treinar o desarme sem fazer falta?",
+      "a": "Timing, lateralidade, uso do corpo e paciência. Treine antecipação (chegar na bola antes) mais do que ‘entrar duro’. Em jogos reduzidos, punir faltas desnecessárias. Desarme limpo é técnica e decisão; agressividade sem controle vira cartão.",
+      "score": 2,
+      "tags": ["desarme", "defesa"]
+    },
+    {
+      "q": "Como desenvolver visão de jogo?",
+      "a": "Jogos com restrição de toques, campos largos, superioridades e perguntas ao jogador (‘quantos homens livres você viu?’). Vídeo de decisões. Visão se treina com percepção ativa, não só com ‘jogar solto’. Escaneamento antes de receber a bola é hábito treinável.",
+      "score": 3,
+      "tags": ["percepcao", "decisao"]
+    },
+    {
+      "q": "Como ajustar o treino em viagem longa?",
+      "a": "Priorize mobilidade, ativação, sono e hidratação. Sessões curtas e de qualidade. Evite carga excêntrica alta no dia seguinte a embarques longos. Planeje horários de refeição. O jogo pode ser decidido pelo que se fez fora do campo na viagem.",
+      "score": 2,
+      "tags": ["viagem", "recuperacao"]
+    },
+    {
+      "q": "Como treinar o bloqueio de cruzamento e a cobertura?",
+      "a": "Laterais e volantes: quando fechar a linha de cruzamento e quando ir no homem. Zagueiros: cobertura e orientação para a bola. Situações de 2x2 e 3x3 pelo corredor com regra de finalizar após cruzamento. Comunicação ‘fecha’ / ‘cobre’ deve ser automática.",
+      "score": 2,
+      "tags": ["cruzamento", "defesa"]
+    },
+    {
+      "q": "Como criar um plano de jogo simples e eficaz?",
+      "a": "3 princípios ofensivos, 3 defensivos, bolas paradas e 2 ajustes por cenário (se pressão alta / se bloco baixo). Uma página mental para o elenco. Plano complexo demais não sobrevive ao minuto 5. Treine o plano na semana; no jogo, só reforce.",
+      "score": 3,
+      "tags": ["plano_de_jogo"]
+    },
+    {
+      "q": "Como trabalhar a ética de treino no elenco?",
+      "a": "Padrões claros de pontualidade, intensidade e respeito. Cobrança igual para estrelas e reservas. Reconheça quem treina bem, não só quem brilha no jogo. Cultura de treino fraca destrói qualquer tática boa.",
+      "score": 3,
+      "tags": ["cultura", "elenco"]
+    },
+    {
+      "q": "Como treinar a recepção de bola de costas para o gol?",
+      "a": "Proteção com o corpo, domínio orientado, giro e decisão (passe de parede, condução ou finalização). Pressão progressiva do marcador. Atacantes e meias precisam disso sob stress. Ensine a pedir a bola no tempo certo, não só a receber.",
+      "score": 2,
+      "tags": ["dominio", "atacante"]
+    },
+    {
+      "q": "Como usar superioridade numérica no treino?",
+      "a": "4v2, 5v3, 6v4 para ensinar posse e progressão; depois inverta para ensinar defesa em inferioridade. Superioridade cria sucesso e confiança; inferioridade cria competitividade e compactação. Equilibre os dois ao longo da semana.",
+      "score": 2,
+      "tags": ["metodologia", "superioridade"]
+    },
+    {
+      "q": "Como prevenir pubalgia e dores na virilha?",
+      "a": "Força de adutores (ex.: Copenhagen com progressão), mobilidade de quadril, gestão de mudanças de direção e volume de chute/passe em fadiga. Dor persistente na virilha exige avaliação. Não ignore: vira crônico facilmente.",
+      "score": 3,
+      "tags": ["pubalgia", "prevencao"]
+    },
+    {
+      "q": "Como treinar o timing de chegada à área (segunda onda)?",
+      "a": "Meias e laterais: chegada atrasada após o primeiro movimento dos atacantes. Jogos com regra de gol da segunda linha valer mais. Ensaios de bola parada e de cruzamento com ocupação escalonada. Chegar todos no mesmo tempo é fácil de marcar.",
+      "score": 2,
+      "tags": ["ataque", "ocupacao"]
+    },
+    {
+      "q": "Como manter a qualidade técnica em alta intensidade?",
+      "a": "Treine o gesto sob fadiga controlada: passe e finalização após esforços curtos. Se a técnica desmorona, baixe um pouco a intensidade ou o número de jogadores até o padrão voltar; depois suba de novo. Intensidade sem qualidade vira só cansaço.",
+      "score": 3,
+      "tags": ["tecnica", "intensidade"]
+    },
+    {
+      "q": "Como o Soccer90 pode ajudar no treino de apartamento?",
+      "a": "O Soccer90 organiza treinos em pouco espaço (sem bola, com bola, força, agilidade, tático e descanso). Serve para manter base física e hábitos quando não há campo. Não substitui o jogo 11x11, mas sustenta consistência, core, mobilidade e técnica individual em casa.",
+      "score": 2,
+      "tags": ["soccer90", "apartamento"]
+    },
+    {
+      "q": "Como combinar treino de campo com treino em casa?",
+      "a": "Campo: jogos, princípios coletivos e intensidade específica. Casa: mobilidade, core, força leve, técnica de domínio e recuperação. Evite duplicar carga pesada no mesmo dia. Use o app ou sessões curtas em casa nos dias de folga ativa.",
+      "score": 2,
+      "tags": ["soccer90", "periodizacao"]
+    },
+    {
+      "q": "Checklist pré-jogo do treinador?",
+      "a": "Plano de jogo em 1 página mental, bolas paradas ofensivas/defensivas, escalação e banco com funções, ativação, hidratação, mensagem curta e foco em 3 princípios. Confirme lesões e cartões. Tudo o que for complexo demais no dia do jogo já deveria ter sido treinado na semana.",
+      "score": 3,
+      "tags": ["checklist", "pre_jogo"]
+    },
+    {
+      "q": "Checklist pós-jogo do treinador?",
+      "a": "Recuperação dos jogadores, tratamento de dores, nota mental dos 3 acertos e 3 erros, coleta de dados/vídeo se houver, e definição do foco do próximo microciclo. Evite reuniões longas a quente. O aprendizado real vem no dia seguinte, com mais frio e mais vídeo.",
+      "score": 3,
+      "tags": ["checklist", "pos_jogo"]
+    }
+  ]
+}

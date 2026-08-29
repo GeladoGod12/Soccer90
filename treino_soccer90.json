@@ -1,0 +1,248 @@
+{
+  "app": "Soccer90",
+  "version": 1,
+  "description": "Base de treino para a IA Python — importe com: python3 soccer90_ai.py --import treino_soccer90.json",
+  "exportedAt": "2026-08-29T14:00:00Z",
+  "entries": [
+    {
+      "q": "Posso treinar todos os dias?",
+      "a": "Não é ideal treinar pesado todos os dias. Alterne dias de carga com descanso ativo (tipo Descanso no app) 1–2 vezes por semana. O corpo evolui na recuperação. Consistência importa mais do que treinar todos os dias.",
+      "score": 2
+    },
+    {
+      "q": "Preciso de bola para usar o Soccer90?",
+      "a": "Não. Os tipos Sem bola, Força, Agilidade, Tático e Descanso funcionam só com o corpo em cerca de 1,5m × 1,5m. Use o tipo Com bola apenas se tiver uma bola (mesmo de plástico) e cerca de 2m × 2m de espaço.",
+      "score": 2
+    },
+    {
+      "q": "O que fazer se sentir dor no treino?",
+      "a": "Pare o exercício que causa dor, principalmente se for aguda, pontada ou na articulação. Troque o dia para Descanso ou faça só mobilidade leve. Se a dor continuar por 2–3 dias, procure um profissional de saúde. Segurança vem antes do streak.",
+      "score": 2
+    },
+    {
+      "q": "Como ajustar a intensidade do treino?",
+      "a": "A intensidade no Soccer90 segue suas estrelas de qualidade técnica no perfil. Você também pode: fazer menos exercícios, aumentar a pausa entre eles, ou mudar o tipo do dia (ex.: Força para Agilidade). Na segunda metade do plano o app já adiciona mais um exercício.",
+      "score": 2
+    },
+    {
+      "q": "Qual o melhor horário para treinar em casa?",
+      "a": "O melhor horário é o que você consegue manter com consistência. Muitos preferem final da tarde ou noite, quando o corpo está mais aquecido. Evite treino pesado logo ao acordar sem aquecimento e logo após uma refeição grande.",
+      "score": 2
+    },
+    {
+      "q": "Como melhorar minha técnica de futebol em apartamento?",
+      "a": "Use o tipo Com bola (toques, condução em 8, passe na parede), o tipo Tático (decisão e posicionamento) e a simulação de chute no Sem bola. Faça 15–20 minutos com foco total. Qualidade vale mais que quantidade.",
+      "score": 2
+    },
+    {
+      "q": "Quanto espaço preciso para treinar?",
+      "a": "A maioria dos treinos sem bola cabe em cerca de 1,5m × 1,5m (sala, quarto ou corredor curto). Para treinos com bola, o ideal é cerca de 2m × 2m. Empurre um móvel se precisar — 15 minutos já fazem diferença.",
+      "score": 2
+    },
+    {
+      "q": "O que é descanso ativo?",
+      "a": "É o tipo Descanso no Soccer90: movimento leve, mobilidade, alongamento e respiração. Não é ficar parado o dia todo, mas também não é treino pesado. Ajuda a recuperar sem perder o hábito de se movimentar.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer prancha frontal?",
+      "a": "Antebraços no chão, corpo alinhado da cabeça aos calcanhares, não deixe o quadril cair nem subir demais. Segure o tempo indicado respirando de forma controlada. Se for difícil, apoie os joelhos no chão no começo.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer agachamento na parede?",
+      "a": "Costas encostadas na parede, desça até os joelhos ficarem perto de 90 graus e segure. Respira de forma constante. Não deixe os joelhos passarem muito da ponta dos pés. Saia da posição se sentir dor aguda no joelho.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer afundo reverso?",
+      "a": "Em pé, dê um passo longo para trás e abaixe até o joelho de trás quase tocar o chão. Volte e alterne as pernas. Tronco ereto, olhe para frente. Comece com amplitude menor se estiver começando.",
+      "score": 2
+    },
+    {
+      "q": "Sou goleiro, o que devo priorizar?",
+      "a": "Agilidade lateral, explosão de pernas e core. No app, use bastante Agilidade, Força e Sem bola. Trabalhe base baixa, deslocamentos laterais e recuperação rápida da posição.",
+      "score": 2
+    },
+    {
+      "q": "Sou zagueiro, o que treinar?",
+      "a": "Força, deslocamentos laterais e leitura de linha. Priorize Força, Agilidade e Tático no Soccer90. Core forte e boa base ajudam no jogo aéreo e nas divididas.",
+      "score": 2
+    },
+    {
+      "q": "Sou lateral, qual foco do treino?",
+      "a": "Mudança de direção e velocidade em espaços curtos. Priorize Agilidade e Sem bola. Laterais precisam de resistência de ida e volta — no apartamento, faça séries de deslocamento lateral e acelerações curtas.",
+      "score": 2
+    },
+    {
+      "q": "Sou volante, o que é melhor treinar?",
+      "a": "Base forte, core e transição rápida defesa-ataque. Use Força, Tático e Sem bola. Trabalhe estabilidade e mudanças de ritmo em pouco espaço.",
+      "score": 2
+    },
+    {
+      "q": "Sou meia, como treinar em casa?",
+      "a": "Controle, mobilidade e tomada de decisão. Com bola (se tiver), Tático e Agilidade são os melhores tipos. Toques, condução e decisões rápidas (passe, conduza ou chute) ajudam muito.",
+      "score": 2
+    },
+    {
+      "q": "Sou atacante, o que priorizar?",
+      "a": "Explosão, finalização e desmarque. Use Agilidade, Com bola e simulação de chute no Sem bola. Trabalhe mudanças de direção curtas e o movimento completo de finalização mesmo sem bola.",
+      "score": 2
+    },
+    {
+      "q": "Preciso de tênis especial?",
+      "a": "Use um tênis com bom amortecimento e estabilidade. Evite chinelo, meia só ou pé descalço em saltos e mudanças de direção. Não precisa ser chuteira — um tênis de corrida ou treino já resolve em apartamento.",
+      "score": 2
+    },
+    {
+      "q": "Posso treinar em jejum?",
+      "a": "Pode, se o treino for leve e você se sentir bem. Para treinos mais intensos (Força ou Agilidade alta), prefira um lanche leve 1–2 horas antes. Se sentir tontura, pare e se alimente.",
+      "score": 2
+    },
+    {
+      "q": "Posso treinar com dor muscular?",
+      "a": "Dor muscular tardia (DOMS) leve a moderada é comum após treino. Você pode fazer um treino mais leve ou Descanso ativo. Se for dor aguda, pontada ou na articulação, não force esse movimento e reavalie.",
+      "score": 2
+    },
+    {
+      "q": "Quantas vezes por semana devo treinar?",
+      "a": "De 3 a 5 sessões por semana é um bom alvo para a maioria. Inclua pelo menos 1–2 dias de descanso ativo. O plano do Soccer90 (7, 30 ou 90 dias) ajuda a manter a sequência sem exagerar.",
+      "score": 2
+    },
+    {
+      "q": "Criança pode usar o Soccer90?",
+      "a": "O cadastro aceita a partir de 10 anos, mas a supervisão de um adulto é recomendada. Ajuste a intensidade, priorize a técnica e nunca force se houver dor. O foco deve ser diversão e hábito, não carga alta.",
+      "score": 2
+    },
+    {
+      "q": "O que beber durante o treino?",
+      "a": "Água. Beba um pouco antes, goles pequenos durante e depois do treino. Em apartamento o suor pode ser menos perceptível, mas a desidratação cansa igual. Evite refrigerante ou energético no meio do treino.",
+      "score": 2
+    },
+    {
+      "q": "Preciso de aquecimento?",
+      "a": "Sim. Faça 3–5 minutos de marcha no lugar e mobilidade de tornozelo e quadril antes do treino principal. Isso reduz o risco de lesão e melhora o desempenho. O app tenta colocar mobilidade no início quando possível.",
+      "score": 2
+    },
+    {
+      "q": "Como funciona o plano de 7, 30 e 90 dias?",
+      "a": "O tamanho do plano define a duração da progressão no Soccer90. Você conclui os dias em sequência, pode repetir o ciclo ou criar outro perfil com plano maior. O importante é a consistência, não só o número de dias.",
+      "score": 2
+    },
+    {
+      "q": "O que é qualidade técnica no perfil?",
+      "a": "São as estrelas (1 a 5) que você escolhe ao criar o perfil. Elas influenciam a intensidade sugerida dos treinos. Seja honesto: começar mais baixo e evoluir é melhor do que marcar 5 estrelas e se lesionar.",
+      "score": 2
+    },
+    {
+      "q": "Posso treinar em silêncio no apartamento?",
+      "a": "Sim. Os treinos do Soccer90 são pensados para pouco impacto e pouco barulho. Evite pular alto se o piso for barulhento. Marcha no lugar, agachamento, prancha e deslocamentos curtos costumam ser bem discretos.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer toques no lugar com bola?",
+      "a": "Bola no pé, toques alternados com as duas pernas, cabeça erguida. Comece devagar e aumente o ritmo. Se a bola escapar, busque e continue. É um dos melhores exercícios de domínio para espaço pequeno.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer passe na parede?",
+      "a": "Fique a 1–2 metros de uma parede resistente. Passe firme com a parte interna do pé, controle a devolução e repita. Varie pé direito e esquerdo. Ótimo para primeiro toque e precisão em apartamento.",
+      "score": 2
+    },
+    {
+      "q": "O que é o tipo tático no app?",
+      "a": "É treino de decisão e posicionamento: base de jogo, desmarque, pressão simulada, transição e escolhas rápidas (passe, conduza ou chute). Pode ser feito sem bola. Melhora a cabeça de jogo mesmo em casa.",
+      "score": 2
+    },
+    {
+      "q": "Como respirar durante o exercício?",
+      "a": "Expire na fase de esforço (por exemplo, na subida do agachamento) e inspire na fase mais fácil. Não segure a respiração. Na prancha, respire de forma contínua e controlada.",
+      "score": 2
+    },
+    {
+      "q": "Treino à noite atrapalha o sono?",
+      "a": "Depende da pessoa. Se for muito intenso perto da hora de dormir, pode deixar agitado. Prefira terminar pelo menos 45–60 minutos antes de deitar, faça alongamento leve no final e evite telas logo em seguida.",
+      "score": 1
+    },
+    {
+      "q": "Posso repetir o mesmo tipo de treino vários dias?",
+      "a": "Pode, mas o ideal é variar: misture Sem bola, Força, Agilidade e Tático na semana e reserve Descanso. Variar reduz sobrecarga e desenvolve o jogador de forma mais completa.",
+      "score": 2
+    },
+    {
+      "q": "O que fazer se eu perder um dia do plano?",
+      "a": "Não tem problema. Volte no próximo dia disponível sem tentar 'compensar' com treino em dobro. Consistência ao longo das semanas importa mais do que um dia isolado.",
+      "score": 2
+    },
+    {
+      "q": "Como saber se estou evoluindo?",
+      "a": "Observe: treinos que antes eram difíceis ficam mais controlados, o streak sobe, você completa mais dias do plano e a percepção de esforço cai. No perfil você também vê quantos treinos já concluiu.",
+      "score": 2
+    },
+    {
+      "q": "Preciso de colchonete?",
+      "a": "Ajuda em exercícios de chão (prancha, dead bug, ponte de glúteo), mas não é obrigatório. Um tapete ou toalha dobrada já melhora o conforto nos joelhos e cotovelos.",
+      "score": 1
+    },
+    {
+      "q": "Posso treinar doente?",
+      "a": "Se estiver com febre, infecção forte ou muito mal, não treine. Resfriado leve sem febre: prefira só mobilidade ou Descanso. Ouça o corpo; forçar doente atrasa a recuperação.",
+      "score": 2
+    },
+    {
+      "q": "Como fazer simulação de chute?",
+      "a": "Uma perna de apoio estável, movimento completo de chute com a outra perna, sem bola. Mantenha equilíbrio e alterne os lados. Controle o tronco e não 'chute o ar' de qualquer jeito — imite a mecânica real.",
+      "score": 2
+    },
+    {
+      "q": "O que é streak no Soccer90?",
+      "a": "É a sequência de treinos concluídos. Serve de motivação, mas não vale a pena quebrar o corpo só para manter o número. Um dia de Descanso bem feito também conta como cuidado com o plano.",
+      "score": 1
+    },
+    {
+      "q": "Mulheres podem usar o mesmo treino?",
+      "a": "Sim. Os treinos do Soccer90 são baseados em movimento e podem ser feitos por qualquer pessoa. Ajuste a intensidade pelas estrelas do perfil e pelo que o corpo aguentar no dia.",
+      "score": 1
+    },
+    {
+      "q": "Como fazer dead bug?",
+      "a": "Deite de costas, braços para cima e joelhos dobrados. Estenda o braço de um lado e a perna do lado oposto sem tirar a lombar do chão. Volte e alterne. Excelente para core sem impactar a coluna.",
+      "score": 2
+    },
+    {
+      "q": "Piso escorregadio, e agora?",
+      "a": "Treine em área antiderrapante ou use tênis com boa aderência. Evite mudanças de direção rápidas em piso liso. Prefira marcha, prancha, agachamento controlado e mobilidade até ter mais segurança.",
+      "score": 2
+    },
+    {
+      "q": "Quanto tempo dura um treino do app?",
+      "a": "Em geral fica na faixa de cerca de 8 a 20 minutos, dependendo do tipo, da quantidade de exercícios e do seu ritmo com os descansos. É pensado para caber na rotina de quem treina em casa.",
+      "score": 1
+    },
+    {
+      "q": "Posso usar peso ou mochila nos exercícios?",
+      "a": "No começo, foque na execução só com o corpo. Se já tiver boa técnica, uma mochila leve em agachamentos pode progredir a carga — mas sem exagerar e nunca com dor. O app em si não exige equipamentos.",
+      "score": 1
+    },
+    {
+      "q": "Como fazer ponte de glúteo?",
+      "a": "Deite de costas, joelhos dobrados, pés no chão. Eleve o quadril apertando o glúteo no topo e desça controlado. Não force a lombar. Ótimo para posterior de cadeia e estabilidade.",
+      "score": 2
+    },
+    {
+      "q": "Treino de agilidade faz barulho?",
+      "a": "Pode fazer um pouco mais de barulho que prancha ou alongamento. Prefira passos rápidos no lugar e deslocamentos curtos em vez de saltos altos se você mora em apartamento com vizinhos sensíveis.",
+      "score": 1
+    },
+    {
+      "q": "O que comer depois do treino?",
+      "a": "Uma refeição ou lanche com proteína e carboidrato ajuda na recuperação: ovos, iogurte, frango, fruta, pão integral, etc. Não precisa de shake caro. Hidratação também conta.",
+      "score": 1
+    },
+    {
+      "q": "Como usar o app sem internet?",
+      "a": "Depois de carregar o Soccer90 no navegador, boa parte funciona offline (treinos, timer, IA local em JS). A IA em Python só funciona se o servidor estiver rodando no seu PC. Dados ficam salvos no próprio navegador.",
+      "score": 1
+    }
+  ]
+}

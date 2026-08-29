@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#15803d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Soccer90">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Soccer90 - Treino Apartamento</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Inter',sans-serif;background:linear-gradient(165deg,#071507 0%,#0c220c 40%,#123a12 100%);min-height:100vh;color:#fff;overflow-x:hidden;padding-bottom:95px}
+.bg{position:fixed;inset:0;pointer-events:none;z-index:0;background-image:radial-gradient(circle at 10% 15%,rgba(34,197,94,.12) 0%,transparent 40%),radial-gradient(circle at 90% 80%,rgba(251,191,36,.07) 0%,transparent 40%)}
+.wrap{position:relative;z-index:1;max-width:440px;margin:0 auto;padding:14px 14px 20px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding-top:6px}
+.logo{display:flex;align-items:center;gap:8px}
+.logo .i{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,#22c55e,#15803d);display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 4px 14px rgba(34,197,94,.35)}
+.logo .t{font-size:18px;font-weight:800}.logo .t span{color:#fbbf24}
+.btn-out{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.65);padding:8px 13px;border-radius:10px;font-size:12px;font-weight:600;cursor:pointer}
+.prof{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:14px;margin-bottom:14px;display:flex;gap:12px;align-items:center}
+.av{width:50px;height:50px;border-radius:14px;flex-shrink:0;background:linear-gradient(135deg,#22c55e,#166534);display:flex;align-items:center;justify-content:center;font-size:24px}
+.prof h2{font-size:16px;font-weight:700}.prof p{font-size:12px;color:rgba(255,255,255,.55);margin:2px 0 6px}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font-size:10px;font-weight:700;padding:3px 7px;border-radius:6px;background:rgba(34,197,94,.18);color:#86efac}
+.tag.g{background:rgba(251,191,36,.15);color:#fbbf24}
+.prog-box{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:14px;margin-bottom:16px}
+.prog-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.prog-row span{font-size:12px;font-weight:600}.streak{color:#fbbf24;font-size:12px;font-weight:700}
+.bar{height:7px;background:rgba(0,0,0,.35);border-radius:8px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,#22c55e,#fbbf24);border-radius:8px;transition:width .4s}
+.sec-t{font-size:15px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.cal{display:flex;gap:7px;overflow-x:auto;padding-bottom:6px;margin-bottom:14px;scrollbar-width:none}
+.cal::-webkit-scrollbar{display:none}
+.dcard{min-width:58px;padding:10px 6px;text-align:center;flex-shrink:0;background:rgba(0,0,0,.28);border:1.5px solid rgba(255,255,255,.1);border-radius:12px;cursor:pointer;transition:.2s}
+.dcard .n{font-size:17px;font-weight:700;display:block}.dcard .l{font-size:10px;color:rgba(255,255,255,.45)}
+.dcard.on{background:rgba(34,197,94,.22);border-color:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.15)}
+.dcard.ok{background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.4)}
+.dcard.ok .n::after{content:"✓";color:#22c55e;font-size:11px;margin-left:2px}
+.dcard.lock{opacity:.38;pointer-events:none}
+
+/* Type selector */
+.type-sel{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px}
+.type-btn{padding:12px 6px;background:rgba(0,0,0,.28);border:1.5px solid rgba(255,255,255,.1);border-radius:12px;color:rgba(255,255,255,.65);font-size:11px;font-weight:600;text-align:center;cursor:pointer;transition:.2s;line-height:1.3}
+.type-btn .ic{display:block;font-size:18px;margin-bottom:4px}
+.type-btn.on{background:rgba(34,197,94,.2);border-color:#22c55e;color:#fff;box-shadow:0 0 0 3px rgba(34,197,94,.12)}
+.type-btn:active{transform:scale(.97)}
+
+.wcard{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:18px;padding:18px;margin-bottom:14px}
+.whead{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px}
+.wtitle{font-size:17px;font-weight:700}.wmeta{font-size:11px;color:rgba(255,255,255,.5);margin-top:3px}
+.badge{font-size:10px;font-weight:700;padding:4px 9px;border-radius:7px;background:rgba(251,191,36,.15);color:#fbbf24;white-space:nowrap}
+.badge.ok{background:rgba(34,197,94,.2);color:#86efac}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{font-size:11px;font-weight:600;padding:5px 9px;border-radius:8px;background:rgba(0,0,0,.3);color:rgba(255,255,255,.75)}
+
+.player{background:#0a1a0a;border-radius:16px;overflow:hidden;margin-bottom:16px;border:1px solid rgba(255,255,255,.1)}
+.player-screen{position:relative;aspect-ratio:16/9;background:linear-gradient(145deg,#0d2818,#0a1f12);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;text-align:center}
+.player-screen .emoji{font-size:48px;margin-bottom:8px;transition:transform .3s}
+.player-screen .step-num{font-size:11px;font-weight:700;color:#86efac;letter-spacing:1px;margin-bottom:6px}
+.player-screen .step-title{font-size:16px;font-weight:700;margin-bottom:6px;line-height:1.3}
+.player-screen .step-text{font-size:13px;color:rgba(255,255,255,.65);line-height:1.4;max-width:280px}
+.player-progress{height:4px;background:rgba(0,0,0,.4)}
+.player-progress .pfill{height:100%;background:linear-gradient(90deg,#22c55e,#fbbf24);width:0%;transition:width .3s linear}
+.player-controls{display:flex;align-items:center;gap:10px;padding:10px 12px;background:rgba(0,0,0,.35)}
+.pbtn{background:rgba(255,255,255,.1);border:none;color:#fff;width:36px;height:36px;border-radius:50%;font-size:14px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.pbtn.main{background:linear-gradient(135deg,#22c55e,#16a34a);width:42px;height:42px;font-size:16px}
+.pbtn:active{transform:scale(.92)}
+.ptime{font-size:11px;color:rgba(255,255,255,.55);font-variant-numeric:tabular-nums;min-width:70px}
+.pbar-wrap{flex:1;height:4px;background:rgba(255,255,255,.15);border-radius:4px;cursor:pointer;position:relative}
+.pbar-fill{height:100%;background:#22c55e;border-radius:4px;width:0%}
+.pspeed{font-size:11px;font-weight:700;color:rgba(255,255,255,.6);padding:4px 8px;background:rgba(255,255,255,.08);border-radius:6px;border:none;cursor:pointer}
+
+.timer-box{text-align:center;padding:16px 12px;margin-bottom:14px;background:rgba(0,0,0,.3);border-radius:16px;border:1px solid rgba(255,255,255,.08)}
+.timer-label{font-size:12px;color:rgba(255,255,255,.5);margin-bottom:4px}
+.timer-num{font-size:44px;font-weight:800;letter-spacing:2px;font-variant-numeric:tabular-nums}
+.timer-num.work{color:#4ade80}.timer-num.rest{color:#fbbf24}
+.timer-btns{display:flex;gap:10px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+.tbtn{padding:10px 16px;border-radius:12px;border:none;font-weight:700;font-size:13px;cursor:pointer}
+.tbtn.play{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff}
+.tbtn.pause{background:rgba(251,191,36,.2);color:#fbbf24;border:1px solid rgba(251,191,36,.4)}
+.tbtn.skip{background:rgba(255,255,255,.08);color:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.12)}
+.tbtn.dl{background:rgba(59,130,246,.2);color:#93c5fd;border:1px solid rgba(59,130,246,.35)}
+.tbtn:active{transform:scale(.96)}
+
+.ex{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.06);align-items:flex-start}
+.ex:last-of-type{border-bottom:none}
+.ex-n{width:26px;height:26px;border-radius:7px;flex-shrink:0;background:rgba(34,197,94,.2);color:#86efac;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;margin-top:1px}
+.ex-c{flex:1}.ex-name{font-size:14px;font-weight:600}
+.ex-desc{font-size:12px;color:rgba(255,255,255,.5);line-height:1.4;margin-top:2px}
+.ex-time{font-size:11px;color:#fbbf24;font-weight:600;margin-top:3px}
+.ex-actions{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.ex-actions button{font-size:11px;font-weight:600;padding:5px 10px;border-radius:8px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:rgba(255,255,255,.75);cursor:pointer}
+.ex-actions button.vid{border-color:rgba(34,197,94,.4);color:#86efac}
+
+.tip{background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.18);border-radius:12px;padding:12px;margin-top:14px;font-size:12px;color:rgba(255,255,255,.75);line-height:1.45}
+.tip strong{color:#fbbf24}
+.btn-done{width:100%;padding:14px;margin-top:14px;background:linear-gradient(135deg,#22c55e,#16a34a);border:none;border-radius:13px;color:#fff;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 6px 18px rgba(34,197,94,.3)}
+.btn-done.ok{background:rgba(34,197,94,.18);border:1.5px solid #22c55e;box-shadow:none;color:#86efac}
+.btn-done:disabled{opacity:.7;cursor:default}
+
+.rest-card{text-align:center;padding:28px 16px}
+.rest-card .big{font-size:48px;margin-bottom:12px}
+.rest-card h3{font-size:18px;font-weight:700;margin-bottom:8px}
+.rest-card p{font-size:13px;color:rgba(255,255,255,.6);line-height:1.5;margin-bottom:16px}
+
+.bnav{position:fixed;bottom:0;left:0;right:0;z-index:60;background:rgba(7,21,7,.96);backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-around;padding:10px 0 18px}
+.ni{display:flex;flex-direction:column;align-items:center;gap:3px;background:none;border:none;color:rgba(255,255,255,.4);font-size:10px;font-weight:600;cursor:pointer}
+.ni .ic{font-size:20px}.ni.on{color:#22c55e}
+.hidden{display:none!important}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.sbox{background:rgba(0,0,0,.28);border-radius:12px;padding:13px;text-align:center}
+.sbox .v{font-size:18px;font-weight:800;color:#fbbf24}.sbox .l{font-size:10px;color:rgba(255,255,255,.45);margin-top:2px}
+.hist-item{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:13px}
+.hist-item:last-child{border-bottom:none}.hist-ok{color:#86efac;font-weight:600}
+.lib-item{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06);align-items:center}
+.lib-item:last-child{border-bottom:none}
+.lib-icon{width:44px;height:44px;border-radius:12px;background:rgba(34,197,94,.15);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.lib-info{flex:1}.lib-info .n{font-size:13px;font-weight:600}.lib-info .m{font-size:11px;color:rgba(255,255,255,.45);margin-top:2px}
+.lib-btns{display:flex;gap:6px}
+.lib-btns button{font-size:11px;font-weight:600;padding:6px 10px;border-radius:8px;border:none;cursor:pointer}
+.lib-btns .playb{background:rgba(34,197,94,.2);color:#86efac}
+.lib-btns .delb{background:rgba(239,68,68,.15);color:#fca5a5}
+
+.overlay{position:fixed;inset:0;z-index:100;background:rgba(5,15,5,.97);display:none;flex-direction:column;align-items:center;justify-content:center;padding:24px}
+.overlay.show{display:flex}
+.ov-title{font-size:14px;color:rgba(255,255,255,.5);margin-bottom:8px}
+.ov-ex{font-size:22px;font-weight:800;text-align:center;margin-bottom:6px}
+.ov-desc{font-size:14px;color:rgba(255,255,255,.6);text-align:center;max-width:300px;margin-bottom:24px;line-height:1.4}
+.ov-time{font-size:72px;font-weight:800;letter-spacing:2px;margin-bottom:28px}
+.ov-time.work{color:#4ade80}.ov-time.rest{color:#fbbf24}
+.ov-btns{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+
+.auth-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 18px;position:relative;z-index:1}
+.auth-card{background:rgba(255,255,255,.06);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.1);border-radius:22px;padding:28px 22px;width:100%;max-width:400px;box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.auth-card h1{font-size:22px;font-weight:700;text-align:center;margin-bottom:6px}
+.auth-card .sub{font-size:13px;color:rgba(255,255,255,.55);text-align:center;margin-bottom:24px}
+.fg{margin-bottom:14px}.fg label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:rgba(255,255,255,.85)}
+.fg input,.fg select{width:100%;padding:13px 14px;background:rgba(0,0,0,.28);border:1.5px solid rgba(255,255,255,.12);border-radius:12px;color:#fff;font-size:15px;outline:none}
+.fg input:focus,.fg select:focus{border-color:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.15)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.stars{display:flex;gap:6px}.star-btn{flex:1;padding:11px 0;background:rgba(0,0,0,.25);border:1.5px solid rgba(255,255,255,.12);border-radius:10px;color:rgba(255,255,255,.45);font-size:16px;cursor:pointer}
+.star-btn.on{background:rgba(251,191,36,.15);border-color:#fbbf24;color:#fbbf24}
+.plans{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.plan-btn{padding:12px 4px;background:rgba(0,0,0,.25);border:1.5px solid rgba(255,255,255,.12);border-radius:10px;color:rgba(255,255,255,.65);font-size:12px;font-weight:600;text-align:center;cursor:pointer}
+.plan-btn span{display:block;font-size:10px;opacity:.7;margin-top:2px}
+.plan-btn.on{background:rgba(34,197,94,.18);border-color:#22c55e;color:#fff}
+.btn-main{width:100%;padding:15px;background:linear-gradient(135deg,#22c55e,#16a34a);border:none;border-radius:13px;color:#fff;font-size:15px;font-weight:700;cursor:pointer;margin-top:8px;box-shadow:0 6px 18px rgba(34,197,94,.3)}
+.auth-link{text-align:center;margin-top:18px;font-size:13px;color:rgba(255,255,255,.55)}
+.auth-link a{color:#fbbf24;font-weight:700;text-decoration:none}
+.erro{background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.4);color:#fca5a5;padding:11px;border-radius:11px;font-size:13px;text-align:center;margin-bottom:14px;display:none}
+.logo-big{text-align:center;margin-bottom:28px}
+.logo-big .i{width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#22c55e,#15803d);display:inline-flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 8px 24px rgba(34,197,94,.35);margin-bottom:10px}
+.logo-big .t{font-size:28px;font-weight:800}.logo-big .t span{color:#fbbf24}
+.logo-big p{font-size:13px;color:rgba(255,255,255,.5);margin-top:4px}
+
+.screen-toggle{position:fixed;top:10px;right:10px;z-index:200;display:flex;gap:4px;background:rgba(0,0,0,.55);backdrop-filter:blur(8px);border-radius:10px;padding:4px;border:1px solid rgba(255,255,255,.12)}
+.screen-toggle button{padding:7px 12px;border:none;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;background:transparent;color:rgba(255,255,255,.5)}
+.screen-toggle button.on{background:rgba(34,197,94,.25);color:#86efac}
+body.desktop-mode .wrap{max-width:720px;width:100%}
+body.desktop-mode .type-sel{grid-template-columns:repeat(6,1fr)}
+body.desktop-mode .auth-wrap{max-width:720px;margin:0 auto;width:100%}
+body.desktop-mode .auth-card{max-width:100%;width:100%}
+body.desktop-mode .cal{justify-content:flex-start}
+body.desktop-mode .wcard{max-width:100%;width:100%}
+body.desktop-mode .prof{max-width:100%;width:100%}
+body.desktop-mode .prog-box{max-width:100%;width:100%}
+body.desktop-mode .stats{grid-template-columns:repeat(4,1fr)}
+body.desktop-mode .bnav{max-width:720px;width:100%;left:50%;transform:translateX(-50%);border-radius:16px 16px 0 0}
+body.desktop-mode .player{max-width:100%}
+body.desktop-mode .timer-box{max-width:100%}
+
+/* Chat IA + banco de aprendizado */
+.chat-wrap{display:flex;flex-direction:column;height:calc(100vh - 160px);min-height:380px}
+.chat-msgs{flex:1;overflow-y:auto;padding:4px 2px 12px;display:flex;flex-direction:column;gap:10px}
+.chat-bubble{max-width:88%;padding:11px 14px;border-radius:14px;font-size:13px;line-height:1.45;word-break:break-word;white-space:pre-wrap;position:relative}
+.chat-bubble.user{align-self:flex-end;background:rgba(34,197,94,.22);border:1px solid rgba(34,197,94,.35);color:#fff;border-bottom-right-radius:4px}
+.chat-bubble.bot{align-self:flex-start;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.9);border-bottom-left-radius:4px}
+.chat-bubble .src{display:block;font-size:10px;color:rgba(255,255,255,.4);margin-top:6px}
+.chat-bubble .rate{display:flex;gap:6px;margin-top:8px}
+.chat-bubble .rate button{font-size:11px;padding:4px 8px;border-radius:8px;border:1px solid rgba(255,255,255,.15);background:rgba(0,0,0,.25);color:rgba(255,255,255,.7);cursor:pointer}
+.chat-bubble .rate button.on-up{background:rgba(34,197,94,.25);color:#86efac;border-color:#22c55e}
+.chat-bubble .rate button.on-dn{background:rgba(239,68,68,.2);color:#fca5a5;border-color:rgba(239,68,68,.4)}
+.chat-input-row{display:flex;gap:8px;padding-top:10px;border-top:1px solid rgba(255,255,255,.08)}
+.chat-input-row input{flex:1;padding:12px 14px;background:rgba(0,0,0,.3);border:1.5px solid rgba(255,255,255,.12);border-radius:12px;color:#fff;font-size:14px;outline:none}
+.chat-input-row input:focus{border-color:#22c55e}
+.chat-input-row button{padding:12px 16px;background:linear-gradient(135deg,#22c55e,#16a34a);border:none;border-radius:12px;color:#fff;font-weight:700;font-size:14px;cursor:pointer;white-space:nowrap}
+.chat-input-row button:disabled{opacity:.55;cursor:not-allowed}
+.chat-quick{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chat-quick button{font-size:11px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:rgba(255,255,255,.75);cursor:pointer}
+.chat-typing{align-self:flex-start;padding:10px 14px;font-size:12px;color:rgba(255,255,255,.45)}
+.bank-bar{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:rgba(255,255,255,.45);margin-bottom:8px;padding:6px 8px;background:rgba(0,0,0,.2);border-radius:8px}
+.bank-bar button{font-size:11px;padding:4px 10px;border-radius:6px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);color:#86efac;cursor:pointer}
+
+</style>
+</head>
+<body>
+
+<div class="screen-toggle">
+  <button type="button" id="btnMobile" class="on" onclick="setScreen('mobile')">📱 Celular</button>
+  <button type="button" id="btnDesktop" onclick="setScreen('desktop')">🖥️ PC</button>
+</div>
+
+<div class="bg"></div>
+
+<div id="screenLogin" class="auth-wrap hidden">
+  <div class="logo-big"><div class="i">⚽</div><div class="t">Soccer<span>90</span></div><p>Treino em casa. Sem bola.</p></div>
+  <div class="auth-card">
+    <h1>Entrar</h1>
+    <p class="sub">Digite o nome completo do perfil</p>
+    <div class="erro" id="loginErro"></div>
+    <div class="fg"><label>Nome completo</label><input type="text" id="loginNome" placeholder="Seu nome completo"></div>
+    <button class="btn-main" onclick="doLogin()">Entrar no Soccer90</button>
+    <div class="auth-link">Não tem conta? <a href="#" onclick="showScreen('criar')">Criar perfil</a></div>
+  </div>
+</div>
+
+<div id="screenCriar" class="auth-wrap hidden">
+  <div class="logo-big"><div class="i">⚽</div><div class="t">Soccer<span>90</span></div><p>Crie seu perfil de atleta</p></div>
+  <div class="auth-card">
+    <h1>Criar Perfil</h1>
+    <p class="sub">Dados para treinos personalizados</p>
+    <div class="fg"><label>Nome completo</label><input type="text" id="cNome" placeholder="Seu nome completo"></div>
+    <div class="row2">
+      <div class="fg"><label>Idade</label><input type="number" id="cIdade" placeholder="18" min="10" max="50"></div>
+      <div class="fg"><label>Posição</label>
+        <select id="cPos">
+          <option value="">Escolha</option>
+          <option value="goleiro">Goleiro</option>
+          <option value="zagueiro">Zagueiro</option>
+          <option value="lateral">Lateral</option>
+          <option value="volante">Volante</option>
+          <option value="meia">Meia</option>
+          <option value="atacante">Atacante</option>
+        </select>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="fg"><label>Altura (cm)</label><input type="number" id="cAlt" placeholder="175"></div>
+      <div class="fg"><label>Peso (kg)</label><input type="number" id="cPeso" placeholder="70"></div>
+    </div>
+    <div class="fg"><label>Qualidade técnica</label>
+      <div class="stars" id="cStars">
+        <button type="button" class="star-btn" data-v="1">★</button>
+        <button type="button" class="star-btn" data-v="2">★★</button>
+        <button type="button" class="star-btn" data-v="3">★★★</button>
+        <button type="button" class="star-btn" data-v="4">★★★★</button>
+        <button type="button" class="star-btn" data-v="5">★★★★★</button>
+      </div>
+    </div>
+    <div class="fg"><label>Tamanho do treino</label>
+      <div class="plans" id="cPlans">
+        <button type="button" class="plan-btn" data-v="7">7 dias<span>Iniciante</span></button>
+        <button type="button" class="plan-btn" data-v="30">30 dias<span>Intermediário</span></button>
+        <button type="button" class="plan-btn" data-v="90">90 dias<span>Avançado</span></button>
+      </div>
+    </div>
+    <button class="btn-main" onclick="doCriar()">Criar meu perfil ⚽</button>
+    <div class="auth-link">Já tem conta? <a href="#" onclick="showScreen('login')">Fazer login</a></div>
+  </div>
+</div>
+
+<div id="screenApp" class="hidden">
+  <div class="wrap">
+    <div class="top">
+      <div class="logo"><div class="i">⚽</div><div class="t">Soccer<span>90</span></div></div>
+      <button class="btn-out" onclick="logout()">Sair</button>
+    </div>
+    <div class="prof">
+      <div class="av">🏠</div>
+      <div><h2 id="uName">—</h2><p id="uMeta">—</p><div class="tags" id="uTags"></div></div>
+    </div>
+    <div class="prog-box">
+      <div class="prog-row"><span id="progTxt">Progresso</span><span class="streak" id="streakTxt">🔥 0</span></div>
+      <div class="bar"><div class="fill" id="progFill" style="width:0%"></div></div>
+    </div>
+
+    <div id="tabTreino">
+      <div class="sec-t">📅 Dias do plano</div>
+      <div class="cal" id="cal"></div>
+
+      <div class="sec-t">🎯 Tipo de treino</div>
+      <div class="type-sel" id="typeSel">
+        <button class="type-btn on" data-type="sem_bola" onclick="setType('sem_bola')"><span class="ic">🏠</span>Físico<br>sem bola</button>
+        <button class="type-btn" data-type="com_bola" onclick="setType('com_bola')"><span class="ic">⚽</span>Físico<br>com bola</button>
+        <button class="type-btn" data-type="tatico" onclick="setType('tatico')"><span class="ic">🧠</span>Tático</button>
+        <button class="type-btn" data-type="forca" onclick="setType('forca')"><span class="ic">💪</span>Força</button>
+        <button class="type-btn" data-type="agilidade" onclick="setType('agilidade')"><span class="ic">⚡</span>Agilidade</button>
+        <button class="type-btn" data-type="descanso" onclick="setType('descanso')"><span class="ic">😴</span>Descanso</button>
+      </div>
+
+      <div class="sec-t">🔥 Treino do dia</div>
+      <div class="wcard" id="wcard"></div>
+    </div>
+
+    <div id="tabLib" class="hidden">
+      <div class="sec-t">📥 Vídeos salvos offline</div>
+      <div class="wcard" id="libCard"></div>
+    </div>
+    <div id="tabHist" class="hidden">
+      <div class="sec-t">📊 Histórico</div>
+      <div class="wcard" id="histCard"></div>
+    </div>
+    <div id="tabPerfil" class="hidden">
+      <div class="sec-t">👤 Meu perfil</div>
+      <div class="wcard"><div class="stats" id="stats"></div>
+        <button class="btn-done" style="margin-top:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.75);box-shadow:none" onclick="logout()">Sair da conta</button>
+        <button class="btn-done" style="margin-top:10px;background:rgba(239,68,68,.18);border:1px solid rgba(239,68,68,.35);color:#fca5a5;box-shadow:none" onclick="apagarConta()">Apagar conta permanentemente</button>
+        <p style="margin-top:10px;font-size:11px;color:rgba(255,255,255,.4);line-height:1.4;text-align:center">Apagar remove este perfil e o progresso dele deste aparelho. Não dá para desfazer.</p>
+      </div>
+    </div>
+    <div id="tabDuvidas" class="hidden">
+      <div class="sec-t">🤖 Treinador IA</div>
+      <div class="wcard" style="padding:14px">
+        <div class="bank-bar">
+          <span id="bankStats">Banco: 0 aprendizados</span>
+          <span>
+            <button type="button" onclick="exportLearningBank()">Exportar</button>
+            <button type="button" onclick="clearLearningBank()" style="color:#fca5a5;margin-left:4px">Limpar</button>
+          </span>
+        </div>
+        <div class="chat-wrap">
+          <div class="chat-quick" id="chatQuick">
+            <button type="button" onclick="askQuick('Como está meu treino de hoje?')">Treino de hoje</button>
+            <button type="button" onclick="askQuick('Qual exercício é melhor para a minha posição?')">Minha posição</button>
+            <button type="button" onclick="askQuick('Posso treinar todos os dias?')">Todo dia?</button>
+            <button type="button" onclick="askQuick('O que fazer se sentir dor?')">Dor</button>
+            <button type="button" onclick="askQuick('Como melhorar minha técnica em casa?')">Técnica</button>
+          </div>
+          <div class="chat-msgs" id="chatMsgs"></div>
+          <div class="chat-input-row">
+            <input type="text" id="chatInput" placeholder="Pergunte ao treinador Soccer90..." maxlength="500" onkeydown="if(event.key==='Enter')sendChat()">
+            <button type="button" id="chatSendBtn" onclick="sendChat()">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bnav">
+    <button class="ni on" data-tab="treino" onclick="goTab('treino')"><span class="ic">🏋️</span>Treino</button>
+    <button class="ni" data-tab="lib" onclick="goTab('lib')"><span class="ic">🎬</span>Vídeos</button>
+    <button class="ni" data-tab="hist" onclick="goTab('hist')"><span class="ic">📊</span>Histórico</button>
+    <button class="ni" data-tab="duvidas" onclick="goTab('duvidas')"><span class="ic">🤖</span>IA</button>
+    <button class="ni" data-tab="perfil" onclick="goTab('perfil')"><span class="ic">👤</span>Perfil</button>
+  </div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="ov-title" id="ovPhase">EXERCÍCIO</div>
+  <div class="ov-ex" id="ovName">—</div>
+  <div class="ov-desc" id="ovDesc">—</div>
+  <div class="ov-time work" id="ovTime">00:00</div>
+  <div class="ov-btns">
+    <button class="tbtn pause" onclick="toggleTimer()">Pausar</button>
+    <button class="tbtn skip" onclick="skipPhase()">Pular</button>
+    <button class="tbtn skip" onclick="closeOverlay()">Fechar</button>
+  </div>
+</div>
+
+<script>
+let user=null,diaSel=1,total=7,done=[],streak=0,cQual=0,cTreino=0;
+let currentTreino=null, tipoAtual='sem_bola';
+let dayTypes=JSON.parse(localStorage.getItem('soccer90_day_types')||'{}');
+let offlineLib=JSON.parse(localStorage.getItem('soccer90_offline_videos')||'[]');
+let playerSteps=[],playerIdx=0,playerPlaying=false,playerTimer=null,playerSpeed=1;
+const STEP_MS=4000;
+let timerInterval=null,timerRemaining=0,timerRunning=false,currentExIndex=0,phase='work';
+const REST=12;
+
+function showScreen(name){
+  ['screenLogin','screenCriar','screenApp'].forEach(id=>document.getElementById(id).classList.add('hidden'));
+  if(name==='login')document.getElementById('screenLogin').classList.remove('hidden');
+  if(name==='criar')document.getElementById('screenCriar').classList.remove('hidden');
+  if(name==='app')document.getElementById('screenApp').classList.remove('hidden');
+}
+document.querySelectorAll('#cStars .star-btn').forEach(b=>{b.onclick=()=>{document.querySelectorAll('#cStars .star-btn').forEach(x=>x.classList.remove('on'));b.classList.add('on');cQual=+b.dataset.v;};});
+document.querySelectorAll('#cPlans .plan-btn').forEach(b=>{b.onclick=()=>{document.querySelectorAll('#cPlans .plan-btn').forEach(x=>x.classList.remove('on'));b.classList.add('on');cTreino=+b.dataset.v;};});
+
+function doCriar(){
+  const nome=document.getElementById('cNome').value.trim();
+  const idade=+document.getElementById('cIdade').value;
+  const pos=document.getElementById('cPos').value;
+  const alt=+document.getElementById('cAlt').value;
+  const peso=+document.getElementById('cPeso').value;
+  if(!nome||!idade||!pos||!alt||!peso||!cQual||!cTreino){alert('Preencha todos os campos');return;}
+  let perfis=JSON.parse(localStorage.getItem('soccer90_perfis')||'[]');
+  if(perfis.some(p=>p.nome.toLowerCase()===nome.toLowerCase())){alert('Já existe perfil com este nome.');return;}
+  const novo={nome,idade,posicao:pos,altura:alt,peso,qualidadeTecnica:cQual,tamanhoTreino:cTreino,dataCriacao:new Date().toISOString(),diaAtual:1,treinosConcluidos:[],streak:0};
+  perfis.push(novo);localStorage.setItem('soccer90_perfis',JSON.stringify(perfis));
+  alert('Perfil criado! Faça login com o mesmo nome.');showScreen('login');document.getElementById('loginNome').value=nome;
+}
+function doLogin(){
+  const nome=document.getElementById('loginNome').value.trim();
+  const erro=document.getElementById('loginErro');
+  if(!nome){erro.style.display='block';erro.textContent='Digite o nome';return;}
+  const perfis=JSON.parse(localStorage.getItem('soccer90_perfis')||'[]');
+  const found=perfis.find(p=>p.nome.toLowerCase()===nome.toLowerCase());
+  if(!found){erro.style.display='block';erro.textContent='Perfil não encontrado.';return;}
+  erro.style.display='none';user=found;
+  localStorage.setItem('soccer90_logado','true');localStorage.setItem('soccer90_usuario_atual',JSON.stringify(user));
+  initApp();
+}
+function logout(){localStorage.removeItem('soccer90_logado');localStorage.removeItem('soccer90_usuario_atual');user=null;showScreen('login');}
+function apagarConta(){
+  if(!user){logout();return;}
+  const nome=user.nome;
+  const ok1=confirm('Apagar a conta "'+nome+'"?\n\nIsso remove o perfil e o progresso deste aparelho. Não dá para desfazer.');
+  if(!ok1)return;
+  const ok2=confirm('Confirma apagar permanentemente "'+nome+'"?');
+  if(!ok2)return;
+  let perfis=JSON.parse(localStorage.getItem('soccer90_perfis')||'[]');
+  perfis=perfis.filter(p=>p.nome.toLowerCase()!==nome.toLowerCase());
+  localStorage.setItem('soccer90_perfis',JSON.stringify(perfis));
+  localStorage.removeItem('soccer90_logado');
+  localStorage.removeItem('soccer90_usuario_atual');
+  // limpa dados de treino/chat deste aparelho (opcional mas evita sobras)
+  try{
+    localStorage.removeItem('soccer90_day_types');
+    localStorage.removeItem('soccer90_chat');
+    // mantém learning bank global do aparelho; descomente se quiser zerar também:
+    // localStorage.removeItem('soccer90_learning_bank');
+  }catch(e){}
+  user=null;done=[];streak=0;dayTypes={};
+  alert('Conta apagada.');
+  showScreen('login');
+}
+
+/* TYPE SELECTOR */
+function setType(t){
+  tipoAtual=t;
+  document.querySelectorAll('.type-btn').forEach(b=>b.classList.toggle('on',b.dataset.type===t));
+  dayTypes[diaSel]=t;
+  localStorage.setItem('soccer90_day_types',JSON.stringify(dayTypes));
+  renderWorkout();
+}
+
+/* EXERCISE BANKS */
+const BANCO={
+  sem_bola:{
+    titulo:'Físico sem bola',tip:'Ideal para apartamento. Só o corpo, pouco espaço.',
+    items:[
+      {nome:'Mobilidade de tornozelo',desc:'Círculos com os pés',tempo:50,emoji:'🦵',steps:['Levante um joelho','Faça círculos com o pé','Troque o lado']},
+      {nome:'Marcha no lugar',desc:'Joelhos elevados',tempo:50,emoji:'🚶',steps:['No mesmo lugar','Eleve os joelhos','Balance os braços']},
+      {nome:'Agachamento na parede',desc:'Isometria a 90°',tempo:40,emoji:'🧱',steps:['Costas na parede','Desça até 90°','Segure respirando']},
+      {nome:'Afundo reverso',desc:'Passo para trás alternado',tempo:45,emoji:'🦵',steps:['Passo longo para trás','Joelho quase no chão','Volte e alterne']},
+      {nome:'Prancha frontal',desc:'Corpo reto nos antebraços',tempo:35,emoji:'🧘',steps:['Antebraços no chão','Corpo alinhado','Não deixe cair o quadril']},
+      {nome:'Passos laterais',desc:'Deslocamento curto e rápido',tempo:40,emoji:'↔️',steps:['Base baixa','Passos laterais','Sem cruzar as pernas']},
+      {nome:'Dead bug',desc:'Braço e perna opostos',tempo:40,emoji:'🐛',steps:['Deite de costas','Estenda braço + perna oposta','Alterne']},
+      {nome:'Simulação de chute',desc:'Movimento completo sem bola',tempo:40,emoji:'⚽',steps:['Uma perna de apoio','Movimento de chute','Equilíbrio. Alterne']},
+      {nome:'Alongamento posterior',desc:'Perna estendida',tempo:40,emoji:'🧘',steps:['Perna à frente','Incline o tronco','20s cada lado']},
+      {nome:'Respiração',desc:'Inspire 4s expire 6s',tempo:45,emoji:'🌬️',steps:['Mão na barriga','Inspire 4s','Expire 6s']}
+    ]
+  },
+  com_bola:{
+    titulo:'Físico com bola',tip:'Use uma bola (mesmo de plástico/borracha). Espaço mínimo 2x2m.',
+    items:[
+      {nome:'Toques no lugar',desc:'Domínio com ambas as pernas',tempo:60,emoji:'⚽',steps:['Bola no pé','Toques alternados','Cabeça erguida']},
+      {nome:'Condução em 8',desc:'Conduza em formato de oito',tempo:50,emoji:'♾️',steps:['Marque 2 pontos no chão','Conduza em 8','Troque de pé']},
+      {nome:'Passe na parede',desc:'Passe e receba na parede',tempo:60,emoji:'🧱',steps:['1-2m da parede','Passe firme','Controle e devolva']},
+      {nome:'Controle orientado',desc:'Receba e vire o corpo',tempo:50,emoji:'🔄',steps:['Passe na parede','Controle com sola/interior','Vire 180°']},
+      {nome:'Finalização na parede',desc:'Chute preciso na parede',tempo:50,emoji:'🎯',steps:['3-5m de distância','Chute com precisão','Ambas as pernas']},
+      {nome:'Drible estacionário',desc:'Fintas no lugar',tempo:45,emoji:'✨',steps:['Bola nos pés','Corte seco','Troca de direção']},
+      {nome:'Domínio aéreo baixo',desc:'Bola no peito/coxa (suave)',tempo:40,emoji:'📤',steps:['Jogue a bola para cima','Controle no peito ou coxa','Não deixe quicar']},
+      {nome:'Alongamento + bola',desc:'Mobilidade com bola nas mãos',tempo:40,emoji:'🧘',steps:['Bola nas mãos','Gire o tronco','Alongue pernas']}
+    ]
+  },
+  tatico:{
+    titulo:'Tático (mental + movimento)',tip:'Treino de decisão e posicionamento. Sem bola ou com bola opcional.',
+    items:[
+      {nome:'Posicionamento em base',desc:'Base baixa, visão de campo',tempo:45,emoji:'👀',steps:['Base de jogo','Olhe para os lados','Mantenha 45s']},
+      {nome:'Desmarque curto',desc:'2-3 passos de desmarque e volte',tempo:50,emoji:'➡️',steps:['Parta da posição','2-3 passos em ângulo','Volte à posição']},
+      {nome:'Leitura de linha',desc:'Imagine a linha defensiva e ajuste',tempo:40,emoji:'📏',steps:['Visualize a linha','Avance e recue','Mantenha compactação']},
+      {nome:'Pressão simulada',desc:'Aproxime rápido e contenha',tempo:45,emoji:'🛡️',steps:['Avance 2-3m rápido','Reduza a velocidade','Contenha o "adversário"']},
+      {nome:'Cobertura imaginária',desc:'Cubra o espaço do companheiro',tempo:40,emoji:'🤝',steps:['Posição de cobertura','Ajuste ângulo','Comunique (fale alto)']},
+      {nome:'Transição rápida',desc:'Defesa → ataque em 3s',tempo:50,emoji:'⚡',steps:['Posição defensiva','Gire e acelere','Ocupe espaço ofensivo']},
+      {nome:'Tomada de decisão',desc:'3 opções: passe, conduza ou chute (simule)',tempo:45,emoji:'🧠',steps:['Receba imaginário','Escolha em 1s','Execute o movimento']},
+      {nome:'Respiração tática',desc:'Recupere e visualize a jogada',tempo:40,emoji:'🌬️',steps:['Respire fundo','Revise as decisões','Prepare o próximo']}
+    ]
+  },
+  forca:{
+    titulo:'Força (corpo todo)',tip:'Força funcional para futebol. Apartamento friendly.',
+    items:[
+      {nome:'Agachamento livre',desc:'Agache controlado',tempo:45,emoji:'🏋️',steps:['Pés na largura dos ombros','Desça até 90°','Suba empurrando o chão']},
+      {nome:'Afundo caminhando (curto)',desc:'Afundos no lugar/curto',tempo:50,emoji:'🦵',steps:['Passo à frente','Joelho a 90°','Alterne']},
+      {nome:'Ponte de glúteo',desc:'Elevação de quadril',tempo:40,emoji:'⬆️',steps:['Deite, joelhos dobrados','Eleve o quadril','Aperte no topo']},
+      {nome:'Prancha + elevação',desc:'Prancha e eleva um braço/perna',tempo:35,emoji:'🧘',steps:['Prancha frontal','Eleve um braço 5s','Troque']},
+      {nome:'Elevação de panturrilha',desc:'Na ponta dos pés',tempo:40,emoji:'🦶',steps:['Pés paralelos','Suba na ponta','Desça controlado']},
+      {nome:'Superman',desc:'Deitado, eleva braços e pernas',tempo:35,emoji:'🦸',steps:['Deite de barriga','Eleve braços e pernas','Segure 3s']},
+      {nome:'Agachamento isométrico',desc:'Segure na posição baixa',tempo:40,emoji:'🧱',steps:['Agache a 90°','Segure o tempo','Respire']},
+      {nome:'Alongamento de força',desc:'Mobilidade pós-força',tempo:40,emoji:'🧘',steps:['Posterior de coxa','Quadril','Ombros']}
+    ]
+  },
+  agilidade:{
+    titulo:'Agilidade e velocidade',tip:'Mudanças de direção e explosão em pouco espaço.',
+    items:[
+      {nome:'Skipping alto',desc:'Joelhos altos no lugar',tempo:35,emoji:'🏃',steps:['Ritmo rápido','Joelhos altos','Braços ativos']},
+      {nome:'Passos laterais rápidos',desc:'Lateral em 1-1,5m',tempo:40,emoji:'↔️',steps:['Base baixa','Passos rápidos','Ida e volta']},
+      {nome:'Mudança 1-2 passos',desc:'2 passos cada lado',tempo:40,emoji:'⚡',steps:['Centralizado','2 passos direita','2 esquerda']},
+      {nome:'Joelho alto + toque',desc:'Joelho e mão no chão',tempo:35,emoji:'👆',steps:['Joelho alto','Toque o chão','Alterne rápido']},
+      {nome:'Shuffle + sprint curto',desc:'Lateral e acelere 2m',tempo:40,emoji:'🚀',steps:['Shuffle lateral','Acelere 2 passos','Pare e volte']},
+      {nome:'Giro 180° + aceleração',desc:'Gire e acelere',tempo:35,emoji:'🔄',steps:['Gire 180°','Acelere 2-3 passos','Repita']},
+      {nome:'Pés rápidos no lugar',desc:'Contato rápido com o chão',tempo:30,emoji:'👟',steps:['Pés no lugar','Toques bem rápidos','Tronco estável']},
+      {nome:'Desaceleração controlada',desc:'Acelere e freie em 1 passo',tempo:35,emoji:'🛑',steps:['Acelere 2m','Freie em 1 passo','Mantenha equilíbrio']}
+    ]
+  },
+  descanso:{
+    titulo:'Dia de descanso ativo',tip:'Recuperação. Movimento leve + mobilidade. Não force.',
+    items:[
+      {nome:'Caminhada no lugar',desc:'Ritmo bem leve',tempo:60,emoji:'🚶',steps:['Passos suaves','Respire fundo','5-10 minutos no total']},
+      {nome:'Mobilidade de quadril',desc:'Círculos e aberturas',tempo:50,emoji:'🔄',steps:['Círculos com o quadril','Abertura de joelhos','Sem forçar']},
+      {nome:'Alongamento global',desc:'Pernas, costas, ombros',tempo:60,emoji:'🧘',steps:['Posterior','Anterior de coxa','Costas e peito']},
+      {nome:'Respiração profunda',desc:'4s inspira, 6s expira',tempo:60,emoji:'🌬️',steps:['Sentado ou deitado','Inspire pelo nariz','Expire pela boca']},
+      {nome:'Rotação de tronco suave',desc:'Giros lentos',tempo:40,emoji:'↩️',steps:['Pés fixos','Gire devagar','Ambos os lados']},
+      {nome:'Relaxamento final',desc:'Fique parado e respire',tempo:60,emoji:'😌',steps:['Feche os olhos','Respire naturalmente','Solte a tensão']}
+    ]
+  }
+};
+
+function seededRandom(seed){ let s=(seed>>>0)||1; return function(){ s=(Math.imul(s,1664525)+1013904223)>>>0; return s/4294967296; }; }
+function shuffleSeeded(arr,seed){ const a=arr.slice(); const rand=seededRandom(seed); for(let i=a.length-1;i>0;i--){ const j=Math.floor(rand()*(i+1)); const t=a[i];a[i]=a[j];a[j]=t; } return a; }
+function isWarmup(ex){ return /mobilidade|marcha|caminhada|respiração|alongamento|rotação|relaxamento/.test((ex.nome||'').toLowerCase()); }
+function isCooldown(ex){ return /alongamento|respiração|relaxamento|mobilidade/.test((ex.nome||'').toLowerCase()); }
+function gerarTreino(dia,p,tipo){
+  const bank=BANCO[tipo]||BANCO.sem_bola;
+  const q=p.qualidadeTecnica||3;
+  const totalDias=p.tamanhoTreino||7;
+  const intens=tipo==='descanso'?'Leve':(q>=4?'Alta':q>=3?'Média-Alta':'Média');
+  const items=bank.items;
+  let n=tipo==='descanso'?items.length:(q>=4?8:q>=3?7:6);
+  if(tipo!=='descanso'&&dia>totalDias*0.5&&n<items.length)n++;
+  n=Math.min(n,items.length);
+  const tipoSeed=tipo.split('').reduce((a,c)=>a+c.charCodeAt(0),0);
+  const seed=dia*7919+tipoSeed*97+q*13+(p.posicao||'').length*7;
+  let candidatos=shuffleSeeded(items,seed);
+  if(dia>1){
+    const prevSet=new Set(shuffleSeeded(items,(dia-1)*7919+tipoSeed*97+q*13+(p.posicao||'').length*7).slice(0,n).map(e=>e.nome));
+    candidatos=candidatos.slice().sort((a,b)=>(prevSet.has(a.nome)?1:0)-(prevSet.has(b.nome)?1:0));
+  }
+  let unique=candidatos.slice(0,n);
+  if(tipo!=='descanso'&&unique.length>=4){
+    const warm=unique.find(isWarmup), cool=unique.filter(e=>e!==warm).find(isCooldown);
+    const meio=unique.filter(e=>e!==warm&&e!==cool);
+    const ordered=[]; if(warm)ordered.push(warm); ordered.push(...meio); if(cool)ordered.push(cool);
+    if(ordered.length===unique.length)unique=ordered;
+  }
+  const dur=Math.round(unique.reduce((s,e)=>s+e.tempo+10,0)/60);
+  return{titulo:bank.titulo+(tipo!=='descanso'?' — '+p.posicao:''),tip:bank.tip,intens,tipo,dia,exercicios:unique,duracao:dur+' min',espaco:tipo==='com_bola'?'2m × 2m':'1,5m × 1,5m'};
+}
+
+/* PLAYER */
+function buildPlayerHTML(steps,title){
+  return '<div class="player" id="demoPlayer"><div class="player-screen" id="pScreen">'+
+    '<div class="emoji" id="pEmoji">▶️</div><div class="step-num" id="pNum">PRONTO</div>'+
+    '<div class="step-title" id="pTitle">'+title+'</div>'+
+    '<div class="step-text" id="pText">Toque em Play para ver a demonstração</div></div>'+
+    '<div class="player-progress"><div class="pfill" id="pProg"></div></div>'+
+    '<div class="player-controls">'+
+    '<button class="pbtn" onclick="playerPrev()">⏮</button>'+
+    '<button class="pbtn main" id="pPlayBtn" onclick="playerToggle()">▶</button>'+
+    '<button class="pbtn" onclick="playerNext()">⏭</button>'+
+    '<div class="pbar-wrap" onclick="playerSeek(event)"><div class="pbar-fill" id="pBar"></div></div>'+
+    '<span class="ptime" id="pTime">0/0</span>'+
+    '<button class="pspeed" id="pSpeedBtn" onclick="playerCycleSpeed()">1x</button></div></div>';
+}
+function loadPlayer(ex){
+  playerSteps=(ex.steps||[]).map((s,i)=>({text:s,emoji:ex.emoji||'⚽',title:ex.nome,num:i+1}));
+  playerIdx=0;playerPlaying=false;clearInterval(playerTimer);
+  const btn=document.getElementById('pPlayBtn');if(btn)btn.textContent='▶';
+  renderPlayerFrame();
+}
+function renderPlayerFrame(){
+  if(!playerSteps.length)return;
+  const s=playerSteps[playerIdx]||playerSteps[0];
+  const em=document.getElementById('pEmoji');if(em){em.textContent=s.emoji;em.style.transform='scale(1.15)';setTimeout(()=>{if(em)em.style.transform='scale(1)';},200);}
+  const n=document.getElementById('pNum');if(n)n.textContent='PASSO '+s.num+' DE '+playerSteps.length;
+  const t=document.getElementById('pTitle');if(t)t.textContent=s.title;
+  const tx=document.getElementById('pText');if(tx)tx.textContent=s.text;
+  const pct=((playerIdx+1)/playerSteps.length)*100;
+  const pf=document.getElementById('pProg');if(pf)pf.style.width=pct+'%';
+  const pb=document.getElementById('pBar');if(pb)pb.style.width=pct+'%';
+  const pt=document.getElementById('pTime');if(pt)pt.textContent=(playerIdx+1)+'/'+playerSteps.length;
+}
+function playerToggle(){
+  if(!playerSteps.length)return;
+  playerPlaying=!playerPlaying;
+  const btn=document.getElementById('pPlayBtn');if(btn)btn.textContent=playerPlaying?'⏸':'▶';
+  if(playerPlaying){renderPlayerFrame();clearInterval(playerTimer);playerTimer=setInterval(()=>{
+    if(playerIdx<playerSteps.length-1){playerIdx++;renderPlayerFrame();}
+    else{playerPlaying=false;if(btn)btn.textContent='▶';clearInterval(playerTimer);}
+  },STEP_MS/playerSpeed);}else clearInterval(playerTimer);
+}
+function playerNext(){if(playerIdx<playerSteps.length-1){playerIdx++;renderPlayerFrame();}}
+function playerPrev(){if(playerIdx>0){playerIdx--;renderPlayerFrame();}}
+function playerSeek(e){const r=e.currentTarget.getBoundingClientRect();const pct=(e.clientX-r.left)/r.width;playerIdx=Math.min(playerSteps.length-1,Math.max(0,Math.floor(pct*playerSteps.length)));renderPlayerFrame();}
+function playerCycleSpeed(){playerSpeed=playerSpeed===1?1.5:playerSpeed===1.5?2:1;const b=document.getElementById('pSpeedBtn');if(b)b.textContent=playerSpeed+'x';if(playerPlaying){clearInterval(playerTimer);playerPlaying=false;playerToggle();}}
+
+/* OFFLINE LIB */
+function saveOffline(ex,dia){
+  const id=(ex.nome+'_d'+dia).replace(/\s/g,'_');
+  if(offlineLib.some(v=>v.id===id)){alert('Já está salvo offline!');return;}
+  offlineLib.push({id,nome:ex.nome,desc:ex.desc,emoji:ex.emoji||'⚽',steps:ex.steps,tempo:ex.tempo,dia,savedAt:new Date().toISOString()});
+  localStorage.setItem('soccer90_offline_videos',JSON.stringify(offlineLib));
+  alert('Salvo offline! Veja na aba Vídeos.');
+}
+function deleteOffline(id){offlineLib=offlineLib.filter(v=>v.id!==id);localStorage.setItem('soccer90_offline_videos',JSON.stringify(offlineLib));renderLib();}
+function playOffline(id){
+  const v=offlineLib.find(x=>x.id===id);if(!v)return;
+  goTab('treino');
+  setTimeout(()=>{
+    const card=document.getElementById('wcard');if(!card)return;
+    const existing=document.getElementById('demoPlayer');if(existing)existing.remove();
+    const div=document.createElement('div');div.innerHTML=buildPlayerHTML(v.steps,v.nome);
+    card.insertBefore(div.firstChild,card.firstChild);
+    loadPlayer({nome:v.nome,desc:v.desc,emoji:v.emoji,steps:v.steps,tempo:v.tempo});
+    playerToggle();
+  },100);
+}
+function renderLib(){
+  const card=document.getElementById('libCard');
+  if(!offlineLib.length){card.innerHTML='<p style="text-align:center;color:rgba(255,255,255,.5);font-size:13px;padding:24px 0">Nenhum vídeo salvo.<br>Toque em <strong style="color:#86efac">Salvar offline</strong> nos exercícios.</p>';return;}
+  let html='';offlineLib.forEach(v=>{
+    html+='<div class="lib-item"><div class="lib-icon">'+v.emoji+'</div><div class="lib-info"><div class="n">'+v.nome+'</div><div class="m">Dia '+v.dia+' • '+v.tempo+'s</div></div>'+
+      '<div class="lib-btns"><button class="playb" onclick="playOffline(\''+v.id+'\')">▶</button><button class="delb" onclick="deleteOffline(\''+v.id+'\')">✕</button></div></div>';
+  });card.innerHTML=html;
+}
+
+/* TIMER */
+function formatTime(s){const m=Math.floor(s/60),sec=s%60;return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');}
+function beep(){try{const ctx=new(window.AudioContext||window.webkitAudioContext)();const o=ctx.createOscillator(),g=ctx.createGain();o.connect(g);g.connect(ctx.destination);o.frequency.value=phase==='rest'?520:680;g.gain.value=.08;o.start();setTimeout(()=>{o.stop();ctx.close();},120);}catch(e){}}
+function startTimerForExercise(idx){
+  if(!currentTreino||!currentTreino.exercicios.length)return;
+  currentExIndex=idx;phase='work';timerRemaining=currentTreino.exercicios[idx].tempo;timerRunning=true;
+  updateTimerUI();openOverlay();clearInterval(timerInterval);timerInterval=setInterval(tick,1000);
+}
+function tick(){
+  if(!timerRunning)return;timerRemaining--;
+  if(timerRemaining<=0){
+    beep();
+    if(phase==='work'){phase='rest';timerRemaining=REST;updateTimerUI();}
+    else{
+      if(currentExIndex<currentTreino.exercicios.length-1){currentExIndex++;phase='work';timerRemaining=currentTreino.exercicios[currentExIndex].tempo;updateTimerUI();}
+      else{clearInterval(timerInterval);timerRunning=false;
+        document.getElementById('ovPhase').textContent='TREINO FINALIZADO';
+        document.getElementById('ovName').textContent='Parabéns! ⚽';
+        document.getElementById('ovDesc').textContent='Você completou todos os exercícios.';
+        document.getElementById('ovTime').textContent='✓';document.getElementById('ovTime').className='ov-time work';
+      }
+    }
+  }else updateTimerUI();
+}
+function updateTimerUI(){
+  const ex=currentTreino&&currentTreino.exercicios[currentExIndex];
+  const ts=formatTime(Math.max(0,timerRemaining));
+  const mini=document.getElementById('miniTimer');if(mini){mini.textContent=ts;mini.className='timer-num '+(phase==='work'?'work':'rest');}
+  const ml=document.getElementById('miniLabel');if(ml)ml.textContent=phase==='work'?'Exercício':'Descanso';
+  document.getElementById('ovPhase').textContent=phase==='work'?'EXERCÍCIO':'DESCANSO';
+  document.getElementById('ovName').textContent=ex?ex.nome:'—';
+  document.getElementById('ovDesc').textContent=phase==='work'&&ex?ex.desc:'Prepare-se';
+  document.getElementById('ovTime').textContent=ts;
+  document.getElementById('ovTime').className='ov-time '+(phase==='work'?'work':'rest');
+}
+function toggleTimer(){timerRunning=!timerRunning;const b=document.querySelector('#overlay .tbtn.pause');if(b)b.textContent=timerRunning?'Pausar':'Continuar';}
+function skipPhase(){timerRemaining=0;tick();}
+function openOverlay(){document.getElementById('overlay').classList.add('show');}
+function closeOverlay(){document.getElementById('overlay').classList.remove('show');}
+
+/* RENDER */
+function initApp(){
+  diaSel=user.diaAtual||1;total=user.tamanhoTreino||7;done=user.treinosConcluidos||[];streak=user.streak||0;
+  tipoAtual=dayTypes[diaSel]||'sem_bola';
+  showScreen('app');renderProfile();renderProgress();renderCal();syncTypeButtons();renderWorkout();
+}
+function syncTypeButtons(){
+  document.querySelectorAll('.type-btn').forEach(b=>b.classList.toggle('on',b.dataset.type===tipoAtual));
+}
+function renderProfile(){
+  document.getElementById('uName').textContent=user.nome;
+  document.getElementById('uMeta').textContent=user.idade+' anos • '+user.posicao+' • '+user.altura+'cm / '+user.peso+'kg';
+  document.getElementById('uTags').innerHTML='<span class="tag">'+user.tamanhoTreino+' dias</span><span class="tag g">'+'★'.repeat(user.qualidadeTecnica)+'</span><span class="tag">Apartamento</span>';
+}
+function renderProgress(){
+  const pct=Math.min(100,Math.round((done.length/total)*100));
+  document.getElementById('progTxt').textContent='Dia '+(user.diaAtual||1)+' de '+total+' • '+done.length+' feitos';
+  document.getElementById('progFill').style.width=pct+'%';
+  document.getElementById('streakTxt').textContent='🔥 '+streak;
+}
+function renderCal(){
+  const el=document.getElementById('cal');el.innerHTML='';
+  for(let d=1;d<=total;d++){
+    const c=document.createElement('div');c.className='dcard';
+    if(d===diaSel)c.classList.add('on');if(done.includes(d))c.classList.add('ok');
+    if(d>(user.diaAtual||1)&&!done.includes(d))c.classList.add('lock');
+    c.innerHTML='<span class="n">'+d+'</span><span class="l">Dia</span>';
+    c.onclick=(function(day){return function(){
+      if(day>(user.diaAtual||1)&&!done.includes(day))return;
+      diaSel=day;tipoAtual=dayTypes[day]||'sem_bola';
+      syncTypeButtons();renderCal();renderWorkout();
+    };})(d);
+    el.appendChild(c);
+  }
+  const a=el.querySelector('.dcard.on');if(a)a.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
+}
+function renderWorkout(){
+  currentTreino=gerarTreino(diaSel,user,tipoAtual);
+  const ja=done.includes(diaSel),t=currentTreino;
+
+  if(tipoAtual==='descanso'){
+    document.getElementById('wcard').innerHTML=
+      '<div class="rest-card"><div class="big">😴</div><h3>'+t.titulo+'</h3>'+
+      '<p>'+t.tip+'</p>'+
+      '<div class="chips" style="justify-content:center"><span class="chip">Recuperação</span><span class="chip">'+t.duracao+'</span></div></div>'+
+      t.exercicios.map((ex,i)=>'<div class="ex"><div class="ex-n">'+(i+1)+'</div><div class="ex-c">'+
+        '<div class="ex-name">'+ex.nome+'</div><div class="ex-desc">'+ex.desc+'</div>'+
+        '<div class="ex-time">⏱ '+ex.tempo+'s</div></div></div>').join('')+
+      '<div class="tip"><strong>💡</strong> '+t.tip+'</div>'+
+      '<button class="btn-done '+(ja?'ok':'')+'" onclick="concluir()" '+(ja?'disabled':'')+'>'+(ja?'✓ Descanso registrado':'Registrar descanso')+'</button>';
+    return;
+  }
+
+  let exHtml='';
+  t.exercicios.forEach((ex,i)=>{
+    exHtml+='<div class="ex"><div class="ex-n">'+(i+1)+'</div><div class="ex-c">'+
+      '<div class="ex-name">'+ex.nome+'</div><div class="ex-desc">'+ex.desc+'</div>'+
+      '<div class="ex-time">⏱ '+ex.tempo+'s</div>'+
+      '<div class="ex-actions">'+
+        '<button class="vid" onclick="playExDemo('+i+')">▶ Ver demonstração</button>'+
+        '<button onclick="saveOffline(currentTreino.exercicios['+i+'],'+diaSel+')">📥 Salvar offline</button>'+
+      '</div></div></div>';
+  });
+  document.getElementById('wcard').innerHTML=
+    '<div class="whead"><div><div class="wtitle">'+t.titulo+'</div>'+
+    '<div class="wmeta">Dia '+diaSel+' • '+t.duracao+' • '+t.espaco+'</div></div>'+
+    '<span class="badge '+(ja?'ok':'')+'">'+(ja?'Concluído':t.intens)+'</span></div>'+
+    '<div class="chips"><span class="chip">'+tipoLabel(tipoAtual)+'</span><span class="chip">📍 '+t.espaco+'</span></div>'+
+    buildPlayerHTML([],'Demonstração')+
+    '<div class="timer-box"><div class="timer-label" id="miniLabel">Pronto</div>'+
+    '<div class="timer-num" id="miniTimer">--:--</div><div class="timer-btns">'+
+    '<button class="tbtn play" onclick="startTimerForExercise(0)">▶ Iniciar treino</button>'+
+    '<button class="tbtn dl" onclick="saveAllOffline()">📥 Salvar offline</button></div></div>'+
+    exHtml+
+    '<div class="tip"><strong>💡 Dica:</strong> '+t.tip+'</div>'+
+    '<button class="btn-done '+(ja?'ok':'')+'" onclick="concluir()" '+(ja?'disabled':'')+'>'+(ja?'✓ Treino concluído':'Marcar como concluído')+'</button>';
+}
+function tipoLabel(t){
+  return {sem_bola:'🏠 Sem bola',com_bola:'⚽ Com bola',tatico:'🧠 Tático',forca:'💪 Força',agilidade:'⚡ Agilidade',descanso:'😴 Descanso'}[t]||t;
+}
+function playExDemo(i){
+  const ex=currentTreino.exercicios[i];loadPlayer(ex);
+  const s=document.getElementById('pScreen');if(s)s.scrollIntoView({behavior:'smooth',block:'center'});
+  playerToggle();
+}
+function saveAllOffline(){
+  if(!currentTreino)return;let added=0;
+  currentTreino.exercicios.forEach(ex=>{
+    const id=(ex.nome+'_d'+diaSel).replace(/\s/g,'_');
+    if(!offlineLib.some(v=>v.id===id)){offlineLib.push({id,nome:ex.nome,desc:ex.desc,emoji:ex.emoji||'⚽',steps:ex.steps,tempo:ex.tempo,dia:diaSel,savedAt:new Date().toISOString()});added++;}
+  });
+  localStorage.setItem('soccer90_offline_videos',JSON.stringify(offlineLib));
+  alert(added>0?added+' salvos offline!':'Já estavam salvos.');
+}
+function renderHist(){
+  const card=document.getElementById('histCard');
+  if(!done.length){card.innerHTML='<p style="text-align:center;color:rgba(255,255,255,.5);font-size:14px;padding:20px 0">Nenhum treino concluído.</p>';return;}
+  let html='';done.slice().sort((a,b)=>b-a).forEach(d=>{
+    const tipo=dayTypes[d]||'—';
+    html+='<div class="hist-item"><span>Dia '+d+' <small style="color:rgba(255,255,255,.4)">('+tipoLabel(tipo)+')</small></span><span class="hist-ok">✓</span></div>';
+  });
+  html+='<div style="margin-top:14px;font-size:12px;color:rgba(255,255,255,.45);text-align:center">Total: '+done.length+' de '+total+'</div>';
+  card.innerHTML=html;
+}
+function renderStats(){
+  document.getElementById('stats').innerHTML=
+    '<div class="sbox"><div class="v">'+user.idade+'</div><div class="l">Idade</div></div>'+
+    '<div class="sbox"><div class="v">'+user.posicao+'</div><div class="l">Posição</div></div>'+
+    '<div class="sbox"><div class="v">'+user.altura+'cm</div><div class="l">Altura</div></div>'+
+    '<div class="sbox"><div class="v">'+user.peso+'kg</div><div class="l">Peso</div></div>'+
+    '<div class="sbox"><div class="v">'+'★'.repeat(user.qualidadeTecnica)+'</div><div class="l">Técnica</div></div>'+
+    '<div class="sbox"><div class="v">'+user.tamanhoTreino+'</div><div class="l">Plano</div></div>'+
+    '<div class="sbox"><div class="v">'+done.length+'</div><div class="l">Feitos</div></div>'+
+    '<div class="sbox"><div class="v">'+streak+'</div><div class="l">Streak</div></div>';
+}
+function salvarUser(){
+  localStorage.setItem('soccer90_usuario_atual',JSON.stringify(user));
+  let perfis=JSON.parse(localStorage.getItem('soccer90_perfis')||'[]');
+  const i=perfis.findIndex(p=>p.nome.toLowerCase()===user.nome.toLowerCase());
+  if(i!==-1){perfis[i]=user;localStorage.setItem('soccer90_perfis',JSON.stringify(perfis));}
+}
+function concluir(){
+  if(done.includes(diaSel))return;
+  done.push(diaSel);user.treinosConcluidos=done;streak=(streak||0)+1;user.streak=streak;
+  if(diaSel===(user.diaAtual||1)&&user.diaAtual<total)user.diaAtual=(user.diaAtual||1)+1;
+  dayTypes[diaSel]=tipoAtual;localStorage.setItem('soccer90_day_types',JSON.stringify(dayTypes));
+  salvarUser();renderProgress();renderCal();renderWorkout();
+  alert(tipoAtual==='descanso'?'Descanso registrado! 😴':'Treino concluído! 🔥');
+}
+function goTab(tab){
+  document.querySelectorAll('.ni').forEach(n=>n.classList.remove('on'));
+  document.querySelector('.ni[data-tab="'+tab+'"]').classList.add('on');
+  ['tabTreino','tabLib','tabHist','tabPerfil','tabDuvidas'].forEach(id=>document.getElementById(id).classList.add('hidden'));
+  if(tab==='treino')document.getElementById('tabTreino').classList.remove('hidden');
+  if(tab==='lib'){document.getElementById('tabLib').classList.remove('hidden');renderLib();}
+  if(tab==='hist'){document.getElementById('tabHist').classList.remove('hidden');renderHist();}
+  if(tab==='perfil'){document.getElementById('tabPerfil').classList.remove('hidden');renderStats();}
+  if(tab==='duvidas'){document.getElementById('tabDuvidas').classList.remove('hidden');initChat();}
+}
+
+/* ========== TREINADOR IA + BANCO DE APRENDIZADO ==========
+   Online (GitHub Pages): IA JS local.
+   PC com Python: python3 soccer90_ai.py --server
+*/
+const AI_CHAT_ENDPOINT = (function(){
+  var h = location.hostname;
+  if(h === 'localhost' || h === '127.0.0.1' || location.protocol === 'file:'){
+    return 'http://127.0.0.1:8765/chat';
+  }
+  return ''; // produção / GitHub Pages
+})();
+
+let chatHistory = JSON.parse(localStorage.getItem('soccer90_chat') || '[]');
+let learningBank = JSON.parse(localStorage.getItem('soccer90_learning_bank') || '[]');
+let chatBusy = false;
+let lastUserQuestion = '';
+
+function saveLearningBank(){
+  localStorage.setItem('soccer90_learning_bank', JSON.stringify(learningBank));
+  updateBankStats();
+}
+function updateBankStats(){
+  const el = document.getElementById('bankStats');
+  if(!el) return;
+  const good = learningBank.filter(x => x.score > 0).length;
+  el.textContent = 'Banco: ' + learningBank.length + ' aprendizados · ' + good + ' positivos';
+}
+function tokenize(s){
+  return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\w\s]/g,' ').split(/\s+/).filter(w => w.length > 2);
+}
+function similarity(a, b){
+  const ta = new Set(tokenize(a)), tb = new Set(tokenize(b));
+  if(!ta.size || !tb.size) return 0;
+  let inter = 0;
+  ta.forEach(w => { if(tb.has(w)) inter++; });
+  return inter / Math.max(ta.size, tb.size);
+}
+function findBestLearning(question){
+  let best = null, bestScore = 0.25;
+  learningBank.forEach(entry => {
+    const sim = similarity(question, entry.q);
+    const boost = (entry.score || 0) * 0.08 + Math.min((entry.uses || 0) * 0.02, 0.2);
+    const total = sim + boost;
+    if(total > bestScore){ bestScore = total; best = entry; }
+  });
+  return best;
+}
+function learnFromExchange(question, answer, scoreDelta){
+  if(!question || !answer) return;
+  const qNorm = question.trim().toLowerCase();
+  let entry = learningBank.find(e => e.q.toLowerCase() === qNorm || similarity(e.q, question) > 0.7);
+  if(entry){
+    entry.uses = (entry.uses || 0) + 1;
+    entry.score = (entry.score || 0) + (scoreDelta || 0);
+    if(scoreDelta > 0) entry.a = answer; // reforça resposta boa
+    entry.updatedAt = Date.now();
+    entry.words = tokenize(question + ' ' + answer);
+  } else {
+    learningBank.push({
+      id: 'L' + Date.now(),
+      q: question.trim(),
+      a: answer,
+      score: scoreDelta || 0,
+      uses: 1,
+      words: tokenize(question + ' ' + answer),
+      createdAt: Date.now(),
+      updatedAt: Date.now()
+    });
+  }
+  // limita tamanho do banco
+  if(learningBank.length > 200){
+    learningBank.sort((a,b) => (b.score + b.uses) - (a.score + a.uses));
+    learningBank = learningBank.slice(0, 150);
+  }
+  saveLearningBank();
+}
+function rateAnswer(idx, up){
+  const msg = chatHistory[idx];
+  if(!msg || msg.role !== 'bot') return;
+  const delta = up ? 1 : -1;
+  msg.rated = up ? 'up' : 'dn';
+  localStorage.setItem('soccer90_chat', JSON.stringify(chatHistory));
+  // encontra a pergunta anterior do usuário
+  let q = lastUserQuestion;
+  for(let i = idx - 1; i >= 0; i--){
+    if(chatHistory[i].role === 'user'){ q = chatHistory[i].text; break; }
+  }
+  learnFromExchange(q, msg.text, delta);
+  renderChatMsgs();
+  const tip = up ? 'Obrigado! Vou lembrar dessa resposta.' : 'Anotado. Vou melhorar.';
+  // feedback leve sem poluir muito
+  console.log('[Soccer90 learn]', tip, q);
+}
+function exportLearningBank(){
+  // Formato pronto para fine-tune futuro (OpenAI / Groq / etc.)
+  const fineTune = learningBank
+    .filter(e => (e.score || 0) >= 0)
+    .map(e => ({
+      messages: [
+        { role: 'system', content: 'Você é o treinador oficial do Soccer90, app de treino de futebol para apartamento. Responda em português do Brasil, de forma curta e prática.' },
+        { role: 'user', content: e.q },
+        { role: 'assistant', content: e.a }
+      ],
+      meta: { score: e.score || 0, uses: e.uses || 0, words: e.words || [] }
+    }));
+  const payload = {
+    app: 'Soccer90',
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    total: learningBank.length,
+    positive: learningBank.filter(e => (e.score || 0) > 0).length,
+    entries: learningBank,
+    fineTuneFormat: fineTune
+  };
+  const data = JSON.stringify(payload, null, 2);
+  const blob = new Blob([data], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'soccer90-learning-bank.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  alert('Banco exportado: ' + learningBank.length + ' aprendizados.\nInclui formato fineTuneFormat pronto para treinar um modelo no futuro.');
+}
+function clearLearningBank(){
+  if(!confirm('Apagar todo o banco de aprendizado deste dispositivo?')) return;
+  learningBank = [];
+  saveLearningBank();
+  alert('Banco limpo.');
+}
+
+function buildExerciseKnowledge(){
+  const lines = [];
+  Object.keys(BANCO).forEach(tipo => {
+    const b = BANCO[tipo];
+    lines.push('## ' + b.titulo);
+    b.items.forEach(ex => lines.push('- ' + ex.nome + ': ' + ex.desc + ' (' + ex.tempo + 's)'));
+  });
+  return lines.join('\n');
+}
+function buildLearningContext(question){
+  // top respostas parecidas do banco (poucas, para não estourar prompt)
+  const scored = learningBank
+    .map(e => ({ e, s: similarity(question, e.q) + (e.score || 0) * 0.1 }))
+    .filter(x => x.s > 0.2)
+    .sort((a,b) => b.s - a.s)
+    .slice(0, 5);
+  if(!scored.length) return '';
+  return '\n\nAPRENDIZADOS DOS USUÁRIOS (use se forem relevantes):\n' +
+    scored.map(x => 'P: ' + x.e.q + '\nR: ' + x.e.a).join('\n---\n');
+}
+function buildSoccer90SystemPrompt(profile, treinoAtual, question){
+  return `Você é o TREINADOR OFICIAL do Soccer90 (treino de futebol em apartamento).
+Fale em português do Brasil, de forma curta, prática e motivadora.
+Segurança: se houver dor, oriente parar e procurar profissional.
+Conheça os exercícios do app:
+${buildExerciseKnowledge()}
+Perfil: ${JSON.stringify(profile || {})}
+Treino atual: ${JSON.stringify(treinoAtual ? { dia: treinoAtual.dia, tipo: treinoAtual.tipo, titulo: treinoAtual.titulo, exercicios: (treinoAtual.exercicios||[]).map(e=>e.nome) } : null)}
+${buildLearningContext(question || '')}`;
+}
+
+function initChat(){
+  updateBankStats();
+  renderChatMsgs();
+  if(!chatHistory.length){
+    const nome = user ? user.nome.split(' ')[0] : 'atleta';
+    addChatBubble('bot', 'Eaí, ' + nome + '! ⚽ Sou o Treinador local do Soccer90.\nFunciono 100% no seu celular — sem internet e sem API.\nConheço os exercícios, seu plano e aprendo com 👍/👎 nas respostas.');
+  }
+}
+function renderChatMsgs(){
+  const box = document.getElementById('chatMsgs');
+  if(!box) return;
+  box.innerHTML = '';
+  chatHistory.forEach((m, idx) => {
+    const d = document.createElement('div');
+    d.className = 'chat-bubble ' + m.role;
+    d.textContent = m.text;
+    if(m.role === 'bot'){
+      if(m.src){ const s=document.createElement('span'); s.className='src'; s.textContent=m.src; d.appendChild(s); }
+      const rate = document.createElement('div');
+      rate.className = 'rate';
+      rate.innerHTML = '<button type="button" class="'+(m.rated==='up'?'on-up':'')+'" onclick="rateAnswer('+idx+',true)">👍 Útil</button>'+
+        '<button type="button" class="'+(m.rated==='dn'?'on-dn':'')+'" onclick="rateAnswer('+idx+',false)">👎 Melhorar</button>';
+      d.appendChild(rate);
+    }
+    box.appendChild(d);
+  });
+  box.scrollTop = box.scrollHeight;
+}
+function addChatBubble(role, text, src){
+  chatHistory.push({ role, text, src: src || null, at: Date.now() });
+  if(chatHistory.length > 60) chatHistory = chatHistory.slice(-60);
+  localStorage.setItem('soccer90_chat', JSON.stringify(chatHistory));
+  renderChatMsgs();
+}
+function askQuick(q){
+  const el = document.getElementById('chatInput');
+  if(el) el.value = q;
+  sendChat();
+}
+async function sendChat(){
+  const input = document.getElementById('chatInput');
+  const btn = document.getElementById('chatSendBtn');
+  const text = (input && input.value || '').trim();
+  if(!text || chatBusy) return;
+  lastUserQuestion = text;
+  addChatBubble('user', text);
+  if(input) input.value = '';
+  chatBusy = true;
+  if(btn) btn.disabled = true;
+  const box = document.getElementById('chatMsgs');
+  const typing = document.createElement('div');
+  typing.className = 'chat-typing'; typing.id = 'chatTyping'; typing.textContent = 'Treinador pensando...';
+  if(box){ box.appendChild(typing); box.scrollTop = box.scrollHeight; }
+  try {
+    const reply = await callChatAPI(text);
+    const t = document.getElementById('chatTyping'); if(t) t.remove();
+    addChatBubble('bot', reply.text, reply.src);
+    // aprende automaticamente (score neutro); 👍/👎 ajusta depois
+    learnFromExchange(text, reply.text, 0);
+  } catch(err){
+    const t = document.getElementById('chatTyping'); if(t) t.remove();
+    const local = localSmartReply(text);
+    addChatBubble('bot', local, 'treinador local');
+    learnFromExchange(text, local, 0);
+  } finally {
+    chatBusy = false;
+    if(btn) btn.disabled = false;
+  }
+}
+async function callChatAPI(userText){
+  const learned = findBestLearning(userText);
+  // 1) Aprendizado local bem avaliado
+  if(learned && (learned.score || 0) >= 1 && similarity(userText, learned.q) > 0.42){
+    learned.uses = (learned.uses || 0) + 1;
+    saveLearningBank();
+    return { text: learned.a, src: 'aprendizado · Soccer90' };
+  }
+
+  // 2) Servidor Python local (se estiver rodando)
+  if(AI_CHAT_ENDPOINT){
+    try {
+      const profile = user ? {
+        nome: user.nome, idade: user.idade, posicao: user.posicao,
+        qualidadeTecnica: user.qualidadeTecnica, planoDias: user.tamanhoTreino,
+        diaAtual: user.diaAtual, streak: user.streak || 0
+      } : null;
+      const treino = currentTreino ? {
+        dia: currentTreino.dia, tipo: currentTreino.tipo, titulo: currentTreino.titulo,
+        intens: currentTreino.intens, duracao: currentTreino.duracao, tip: currentTreino.tip,
+        exercicios: (currentTreino.exercicios || []).map(e => ({ nome: e.nome, tempo: e.tempo }))
+      } : null;
+
+      const res = await fetch(AI_CHAT_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: userText, profile, treino })
+      });
+      if(res.ok){
+        const data = await res.json();
+        const text = data.reply || data.message || data.content;
+        if(text){
+          return { text, src: data.src || 'python local', model: data.model };
+        }
+      }
+    } catch(e){
+      // Python não está rodando → cai no JS local
+      console.log('[Soccer90] Python offline, usando IA JS local');
+    }
+  }
+
+  // 3) Memória parcial
+  if(learned && similarity(userText, learned.q) > 0.5){
+    learned.uses = (learned.uses || 0) + 1;
+    saveLearningBank();
+    return { text: learned.a, src: 'memória local' };
+  }
+
+  // 4) Regras JS locais
+  return { text: localSmartReply(userText), src: 'treinador local · Soccer90' };
+}
+
+function localSmartReply(q){
+  const t = q.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  const nome = user ? user.nome.split(' ')[0] : 'atleta';
+  const pos = user ? user.posicao : 'jogador';
+  const stars = user ? user.qualidadeTecnica : 3;
+  const plano = user ? user.tamanhoTreino : 7;
+  const feitos = user ? (user.treinosConcluidos || []).length : 0;
+  const streak = user ? (user.streak || 0) : 0;
+
+  // 1) Aprendizado
+  const learned = findBestLearning(q);
+  if(learned && similarity(q, learned.q) > 0.38) return learned.a;
+
+  // 2) Treino de hoje / progresso
+  if(/treino de hoje|meu treino|o que fazer hoje|treino atual/.test(t)){
+    if(!currentTreino) return nome + ', selecione um dia no calendário para eu montar o treino.';
+    const lista = (currentTreino.exercicios || []).map((e,i) => (i+1) + '. ' + e.nome + ' (' + e.tempo + 's)').join('\n');
+    return nome + ', treino de hoje (dia ' + diaSel + '):\n\n' + currentTreino.titulo + '\nIntensidade: ' + currentTreino.intens + ' · ' + currentTreino.duracao + '\nEspaço: ' + currentTreino.espaco + '\n\n' + lista + '\n\n💡 ' + currentTreino.tip;
+  }
+  if(/progresso|quantos treinos|streak|sequencia|sequência/.test(t)){
+    return nome + ', seu progresso:\n• Plano: ' + plano + ' dias\n• Concluídos: ' + feitos + '\n• Streak: 🔥 ' + streak + '\n• Dia atual: ' + (user ? user.diaAtual : 1) + '\n\nConsistência > perfeição. Um treino por dia já muda o jogo.';
+  }
+
+  // 3) Posição
+  if(/posicao|posição|para mim|minha posicao|minha posição|sou goleiro|sou zagueiro|sou lateral|sou volante|sou meia|sou atacante/.test(t)){
+    const dicas = {
+      goleiro: 'Agilidade lateral, explosão de pernas e core. No app: Agilidade + Força + Sem bola. Trabalhe queda e recuperação de base.',
+      zagueiro: 'Força, deslocamentos laterais e leitura de linha. Tipos: Força, Agilidade e Tático.',
+      lateral: 'Mudança de direção e velocidade em espaços curtos. Priorize Agilidade e Sem bola.',
+      volante: 'Base forte, core e transição rápida. Força + Tático + Sem bola.',
+      meia: 'Controle, mobilidade e decisão. Com bola (se tiver) + Tático + Agilidade.',
+      atacante: 'Finalização, explosão e desmarque. Agilidade + Com bola + simulação de chute no Sem bola.'
+    };
+    return nome + ', como ' + pos + ':\n' + (dicas[pos] || 'Varie Força, Agilidade e Tático na semana.') + '\n\nQualidade técnica: ' + '★'.repeat(stars) + '. Na 2ª metade do plano o app já aumenta a carga.';
+  }
+
+  // 4) Regras gerais
+  if(/todo dia|todos os dias|diario|diário|frequencia|frequência/.test(t))
+    return 'Não treine pesado todos os dias, ' + nome + '.\nAlterne carga com “Descanso” 1–2x por semana. O corpo evolui na recuperação. Streak importa, mas descanso inteligente também.';
+  if(/bola|preciso de bola|sem bola|tenho bola/.test(t))
+    return 'Não precisa de bola. Os tipos Sem bola, Força, Agilidade, Tático e Descanso funcionam só com o corpo em ~1,5m × 1,5m.\nUse “Com bola” só se tiver uma bola (mesmo de plástico/borracha) e ~2m × 2m.';
+  if(/dor|lesao|lesão|machuquei|doi|doendo/.test(t))
+    return 'Pare o exercício que causa dor (principalmente se for aguda ou articular).\nTroque o dia para Descanso ou só mobilidade leve. Se a dor continuar 2–3 dias, procure um profissional de saúde.\nSegurança > streak.';
+  if(/intensidade|mais dificil|mais difícil|mais facil|mais fácil|ajuste|cansado|leve demais/.test(t))
+    return 'A intensidade segue suas estrelas de qualidade técnica (' + '★'.repeat(stars) + ').\nVocê pode: fazer menos exercícios, aumentar a pausa, ou mudar o tipo do dia (ex.: Força → Agilidade).\nNa 2ª metade do plano o app adiciona +1 exercício automaticamente.';
+  if(/tecnica|técnica|melhorar|evoluir|drible|passe|chute|dominio|domínio/.test(t))
+    return 'Em casa a técnica melhora com:\n1. Com bola — toques, condução em 8, passe na parede\n2. Tático — decisão e posicionamento\n3. Sem bola — simulação de chute e base\n\n15–20 min focados valem mais que 40 min distraído. Qualidade > quantidade.';
+  if(/horario|horário|quando treinar|manha|manhã|noite|tarde/.test(t))
+    return 'O melhor horário é o que você mantém todo dia.\nMuitos preferem final da tarde/noite (corpo mais aquecido). Evite treino pesado logo ao acordar sem aquecimento e logo após refeição grande.';
+  if(/agua|água|hidrat|beber/.test(t))
+    return 'Beba água antes, durante (goles pequenos) e depois. Em apartamento o suor pode ser menos perceptível, mas a desidratação cansa igual.';
+  if(/aquecimento|warmup|alongar antes|mobilidade/.test(t))
+    return 'Sim: 3–5 min de marcha no lugar + mobilidade de tornozelo/quadril antes do principal. Reduz lesão e melhora o desempenho. O app tenta colocar mobilidade no início do treino.';
+  if(/plano|7 dias|30 dias|90 dias|quanto tempo|ciclo/.test(t))
+    return 'Seu plano atual é de ' + plano + ' dias. Isso define a progressão.\nVocê pode repetir o ciclo ou criar outro perfil com plano maior. O importante é a consistência, não só o número.';
+  if(/tipos de treino|que tipos|modos|categorias/.test(t))
+    return 'Tipos no Soccer90:\n🏠 Sem bola — físico só com o corpo\n⚽ Com bola — domínio, condução, finalização\n🧠 Tático — decisão e posicionamento\n💪 Força — força funcional\n⚡ Agilidade — mudanças de direção\n😴 Descanso — recuperação ativa';
+  if(/espaco|espaço|apartamento|quarto|sala|cabe no/.test(t))
+    return 'A maioria dos treinos precisa de ~1,5m × 1,5m. Com bola, o ideal é ~2m × 2m.\nDá para treinar em sala, quarto ou corredor curto. Empurre o sofá se precisar — 15 min já valem.';
+
+  // 5) Busca exercício pelo nome / palavras
+  let bestEx = null, bestTipo = null, bestHit = 0;
+  for(const tk of Object.keys(BANCO)){
+    for(const ex of BANCO[tk].items){
+      const nomeEx = ex.nome.toLowerCase();
+      let hit = 0;
+      if(t.includes(nomeEx)) hit = 10;
+      else {
+        nomeEx.split(' ').forEach(w => { if(w.length > 3 && t.includes(w)) hit++; });
+        (ex.desc || '').toLowerCase().split(' ').forEach(w => { if(w.length > 4 && t.includes(w)) hit += 0.3; });
+      }
+      if(hit > bestHit){ bestHit = hit; bestEx = ex; bestTipo = tk; }
+    }
+  }
+  if(bestEx && bestHit >= 1){
+    return bestEx.nome + ' · ' + BANCO[bestTipo].titulo + '\n\n' + bestEx.desc + '\nTempo: ' + bestEx.tempo + 's\n\nComo fazer:\n' +
+      (bestEx.steps || []).map((s,i) => (i+1) + '. ' + s).join('\n') +
+      '\n\nNo futebol isso ajuda controle de corpo, base e prevenção de lesão.';
+  }
+
+  // 6) Fallback útil
+  return 'Sou o treinador local do Soccer90, ' + nome + '.\n\nPosso falar sobre:\n• Seu treino de hoje e progresso\n• Sua posição (' + pos + ')\n• Qualquer exercício do app (como fazer)\n• Dor, intensidade, técnica, horário, espaço\n\nMarque 👍 nas respostas boas — eu aprendo e uso de novo nas próximas perguntas.';
+}
+
+function setScreen(mode){
+  localStorage.setItem('soccer90_screen',mode);
+  document.body.classList.toggle('desktop-mode',mode==='desktop');
+  var bm=document.getElementById('btnMobile'),bd=document.getElementById('btnDesktop');
+  if(bm)bm.classList.toggle('on',mode==='mobile');
+  if(bd)bd.classList.toggle('on',mode==='desktop');
+}
+(function(){var mode=localStorage.getItem('soccer90_screen')||'mobile';setScreen(mode);})();
+
+(function(){
+  if(localStorage.getItem('soccer90_logado')==='true'){
+    user=JSON.parse(localStorage.getItem('soccer90_usuario_atual')||'null');
+    if(user){initApp();return;}
+  }
+  showScreen('login');
+})();
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('./sw.js').catch(function (e) {
+      console.log('SW register fail', e);
+    });
+  });
+}
+</script>
+
+</body>
+</html>
