@@ -5,6 +5,7 @@
 
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#15803d">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -130,6 +131,23 @@ body{font-family:'Inter',sans-serif;background:linear-gradient(165deg,#071507 0%
 .lib-btns button{font-size:11px;font-weight:600;padding:6px 10px;border-radius:8px;border:none;cursor:pointer}
 .lib-btns .playb{background:rgba(34,197,94,.2);color:#86efac}
 .lib-btns .delb{background:rgba(239,68,68,.15);color:#fca5a5}
+
+.music-box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:14px;margin-bottom:14px}
+.music-box .mh{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.music-box .mh .t{font-size:14px;font-weight:700}
+.music-box .mh .hint{font-size:11px;color:rgba(255,255,255,.4)}
+.music-row{display:flex;gap:8px;margin-bottom:10px}
+.music-row input{flex:1;background:rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:10px 12px;color:#fff;font-size:13px;font-family:inherit;outline:none}
+.music-row input:focus{border-color:rgba(34,197,94,.5)}
+.music-row button{border:none;border-radius:10px;padding:10px 14px;font-size:12px;font-weight:700;cursor:pointer;white-space:nowrap}
+.music-row .playm{background:linear-gradient(135deg,#22c55e,#15803d);color:#fff}
+.music-row .stopm{background:rgba(239,68,68,.2);color:#fca5a5}
+.music-frame{display:none;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.1);aspect-ratio:16/9;background:#000}
+.music-frame.on{display:block}
+.music-frame iframe{width:100%;height:100%;border:0;display:block}
+.music-err{display:none;font-size:12px;color:#fca5a5;margin-top:8px}
+.music-err.on{display:block}
+.music-note{font-size:11px;color:rgba(255,255,255,.4);margin-top:8px;line-height:1.4}
 
 .overlay{position:fixed;inset:0;z-index:100;background:rgba(5,15,5,.97);display:none;flex-direction:column;align-items:center;justify-content:center;padding:24px}
 .overlay.show{display:flex}
@@ -300,6 +318,19 @@ body.desktop-mode .timer-box{max-width:100%}
 
       <div class="sec-t">🔥 Treino do dia</div>
       <div class="wcard" id="wcard"></div>
+
+      <div class="sec-t">🎵 Música (YouTube)</div>
+      <div class="music-box">
+        <div class="mh"><span class="t">Tocar durante o treino</span><span class="hint">cole o link</span></div>
+        <div class="music-row">
+          <input type="url" id="ytLink" placeholder="https://youtube.com/watch?v=... ou youtu.be/..." autocomplete="off">
+          <button type="button" class="playm" onclick="playYoutubeMusic()">▶ Tocar</button>
+          <button type="button" class="stopm" onclick="stopYoutubeMusic()">⏹</button>
+        </div>
+        <div class="music-frame" id="ytFrame"></div>
+        <div class="music-err" id="ytErr">Link inválido. Use um link do YouTube (vídeo, short ou Music).</div>
+        <p class="music-note">Cole o link e aperte Tocar. Se o som não iniciar, use play no player. O link fica salvo neste aparelho. Em arquivo local (file://) o YouTube pode bloquear o embed — use o site no GitHub Pages ou localhost.</p>
+      </div>
     </div>
 
     <div id="tabLib" class="hidden">
@@ -410,6 +441,62 @@ function doLogin(){
   initApp();
 }
 function logout(){localStorage.removeItem('soccer90_logado');localStorage.removeItem('soccer90_usuario_atual');user=null;showScreen('login');}
+
+/* ===== YouTube música no treino ===== */
+function extractYoutubeId(url){
+  if(!url) return null;
+  url = String(url).trim();
+  var patterns = [
+    /(?:youtube\.com\/watch\?[^#]*v=|youtube\.com\/embed\/|youtube\.com\/shorts\/|youtu\.be\/|music\.youtube\.com\/watch\?[^#]*v=)([A-Za-z0-9_-]{11})/,
+    /^([A-Za-z0-9_-]{11})$/
+  ];
+  for(var i=0;i<patterns.length;i++){
+    var m = url.match(patterns[i]);
+    if(m && m[1]) return m[1];
+  }
+  try{
+    var u = new URL(url);
+    if(u.searchParams.get('v') && /^[A-Za-z0-9_-]{11}$/.test(u.searchParams.get('v')))
+      return u.searchParams.get('v');
+  }catch(e){}
+  return null;
+}
+function playYoutubeMusic(){
+  var input = document.getElementById('ytLink');
+  var frame = document.getElementById('ytFrame');
+  var err = document.getElementById('ytErr');
+  if(!input || !frame) return;
+  var id = extractYoutubeId(input.value);
+  if(!id){
+    if(err) err.classList.add('on');
+    frame.classList.remove('on');
+    frame.innerHTML = '';
+    return;
+  }
+  if(err) err.classList.remove('on');
+  localStorage.setItem('soccer90_yt_music', input.value.trim());
+  // nocookie + referrerpolicy evita erro 153 (Video player configuration error)
+  var src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0&modestbranding=1&playsinline=1';
+  frame.innerHTML =
+    '<iframe src="'+src+'" '+
+    'referrerpolicy="strict-origin-when-cross-origin" '+
+    'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '+
+    'allowfullscreen title="Música YouTube"></iframe>'+
+    '<p class="music-note" style="padding:8px 4px 0">Se aparecer erro 153, <a href="https://www.youtube.com/watch?v='+id+'" target="_blank" rel="noopener" style="color:#86efac">abra no YouTube</a> (nova aba) e deixe tocando enquanto treina.</p>';
+  frame.classList.add('on');
+}
+function stopYoutubeMusic(){
+  var frame = document.getElementById('ytFrame');
+  if(frame){ frame.innerHTML = ''; frame.classList.remove('on'); }
+  var err = document.getElementById('ytErr');
+  if(err) err.classList.remove('on');
+}
+function restoreYoutubeMusic(){
+  var saved = localStorage.getItem('soccer90_yt_music');
+  var input = document.getElementById('ytLink');
+  if(saved && input) input.value = saved;
+}
+
 function apagarConta(){
   if(!user){logout();return;}
   const nome=user.nome;
@@ -678,6 +765,7 @@ function initApp(){
   diaSel=user.diaAtual||1;total=user.tamanhoTreino||7;done=user.treinosConcluidos||[];streak=user.streak||0;
   tipoAtual=dayTypes[diaSel]||'sem_bola';
   showScreen('app');renderProfile();renderProgress();renderCal();syncTypeButtons();renderWorkout();
+  restoreYoutubeMusic();
 }
 function syncTypeButtons(){
   document.querySelectorAll('.type-btn').forEach(b=>b.classList.toggle('on',b.dataset.type===tipoAtual));
